@@ -26,19 +26,32 @@ class Batteries(models.Model):
 class Module(models.Model):
     power_module_name = models.CharField(max_length=40)
     battery_module_name = models.CharField(max_length=40)
+    # Unit kWh
     battery_module_energy = models.FloatField(blank=True, null=True, default=0.1)
+    # Unit kWh
     battery_usable_energy = models.FloatField(blank=True, null=True, default=0.1)
+    # Unit kW
     max_output_power = models.FloatField(blank=True, null=True, default=0.1)
+    # Unit kW
     peak_output_power = models.FloatField(blank=True, null=True, default=0.1)
+    # Unit V
     nominal_voltage = models.IntegerField(blank=True,null=True,default=0)
+    # Unit V
     operating_voltage_range = models.IntegerField(validators=[MinValueValidator(0),MaxValueValidator(1000)])
     communication = models.CharField(blank=True, null=True, max_length=40)
+    # Unit mm
     power_module_dimension = models.CharField(blank=True, null=True, max_length=40)
+    # Unit kg
     power_module_weight = models.FloatField(blank=True, null=True, default=1.0)
+    # Unit mm
     battery_module_dimension = models.CharField(blank=True, null=True, max_length=40)
+    # Unit kg
     battery_module_weight = models.FloatField(blank=True, null=True, default=1.0)
+    # Unit C
     operating_temperature = models.FloatField(validators=[MinValueValidator(-20.0),MaxValueValidator(60.0)])
+    # Unit m
     max_operating_altitude = models.IntegerField(blank=True, null=True, default=1)
+    # Unit dB
     noise_emission = models.FloatField(blank=True, null=True, default=1.0)
     cell_technology = models.CharField(blank=True, null=True, max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
