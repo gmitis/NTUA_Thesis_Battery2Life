@@ -60,3 +60,41 @@ class Module(models.Model):
 
     def __str__(self):
         return self.battery_module_name
+    
+
+class Cell (models.Model):
+    cell_name = models.CharField(max_length=40)
+    # Unit Ah
+    nominal_capacity = models.IntegerField(blank=True, null=True, default=1)
+    # Unit Wh
+    nominal_energy = models.IntegerField(blank=True, null=True, default=1)
+    cell_chemistry = models.CharField(blank=True, null=True, max_length=40)
+    nominal_cycles = models.IntegerField(blank=True, null=True, default=1)
+    # Unit Wh/kg
+    gravimetric_energy_density = models.IntegerField(blank=True, null=True, default=1)
+    # Unit Wh/l
+    volumetric_energy_density = models.IntegerField(blank=True, null=True, default=1)
+    # (ex LFP71173207)
+    industry_standard = models.CharField(blank=True, null=True, max_length=40)
+    # Unit V
+    nominal_voltage = models.FloatField(blank=True, null=True, default=1.0)
+    # Unit V
+    operating_voltage = models.FloatField(validators=[MinValueValidator(0.0),MaxValueValidator(10.0)])
+    # Unit Megaohm
+    ac_resistance = models.FloatField(blank=True, null=True, default=0.1)
+    # Unit % / month
+    max_self_discharge_rate = models.FloatField(blank=True, null=True, default=1.0)
+    # Unit %
+    nominal_SOC_at_delivery = models.FloatField(blank=True, null=True, default=1.0)
+    # Unit mm (ex 174,7 x 71,65 x 207,11 mm)
+    cell_dimension = models.CharField(blank=True, null=True, max_length=40)
+    # Unit kg
+    cell_weight = models.FloatField(blank=True, null=True, default=1.0)
+    # Unit C
+    cell_charging_temperature = models.FloatField(validators=[MinValueValidator(0.0),MaxValueValidator(60.0)])
+    # Unit C
+    cell_discharging_temperature = models.FloatField(validators=[MinValueValidator(-30.0),MaxValueValidator(60.0)])
+    module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name="cells")
+
+    def __str__(self):
+        return self.cell_name
