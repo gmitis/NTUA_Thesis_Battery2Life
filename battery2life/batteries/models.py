@@ -14,7 +14,6 @@ class Address(models.Model):
     def __str__(self) -> str:
         return f"{self.city} {self.street} {self.number}"
 
-
 class Dimensions(models.Model):
     # all metrics in mm
     height = models.DecimalField(max_digits=4, decimal_places=2, null=True)
@@ -23,12 +22,16 @@ class Dimensions(models.Model):
 
     def __str__(self) -> str:
         return f"height:{self.height} width:{self.width} length:{self.length}"
+    
+class Chemical(models.Model):
+    hazardus = models.BooleanField(default=False)
+    chemical_name = models.CharField(max_length=255)
 
 
 class Manufacturer(models.Model):
     name = models.CharField(max_length=255)
     email = models.CharField(max_length=100, blank=True, null=True)
-    address = models.OneToOneField(Address, on_delete=models.PROTECT)
+    address = models.ForeignKey(Address,  null= True, on_delete=models.PROTECT)
 
     def __str__(self):
         return self.name
@@ -42,7 +45,7 @@ class Battery(models.Model):
     original_power_capability = models.IntegerField(blank=True, null=True, default=0)  # Watts
     manufacture_date = models.DateField()
     manufacturer = models.ForeignKey(Manufacturer, on_delete=models.CASCADE, related_name="batteries", unique=True)
-    battery_dimensions = models.OneToOneField(Dimensions, on_delete=models.PROTECT)
+    battery_dimensions = models.ForeignKey(Dimensions, null=True, on_delete=models.PROTECT, unique=True)
 
     class Meta:
         verbose_name_plural = "Batteries"
@@ -64,12 +67,9 @@ class Module(models.Model):
     # Unit kW
     peak_output_power = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=0.1)
     # Unit V
-    nominal_voltage = models.IntegerField(max_digits=4, decimal_places=2, blank=True, null=True, default=0)
+    nominal_voltage = models.IntegerField(blank=True, null=True, default=0)
     # Unit V
-    operating_voltage_range = models.IntegerField(
-        max_digits=4,
-        decimal_places=2,
-        validators=[MinValueValidator(0), MaxValueValidator(1000)],)
+    operating_voltage_range = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(1000)],)
     communication = models.CharField(blank=True, null=True, max_length=255
     )
         # Unit kg
@@ -89,8 +89,8 @@ class Module(models.Model):
     cell_technology = models.CharField(blank=True, null=True, max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    battery_module_dimension = models.OneToOneField(Dimensions, on_delete=models.PROTECT)
-    power_module_dimension = models.OneToOneField(Dimensions, on_delete=models.PROTECT)
+    battery_module_dimension = models.ForeignKey(Dimensions, null=True, on_delete=models.PROTECT, unique=True, related_name='battery_module_dimension')
+    power_module_dimension = models.ForeignKey(Dimensions, null=True, on_delete=models.PROTECT, unique=True, related_name='power_module_dimension')
     battery = models.ForeignKey(Battery, on_delete=models.CASCADE, related_name="modules")
 
     class Meta:
@@ -106,7 +106,6 @@ class Cell(models.Model):
     nominal_capacity = models.IntegerField(blank=True, null=True, default=1)
     # Unit Wh
     nominal_energy = models.IntegerField(blank=True, null=True, default=1)
-    cell_chemistry = models.CharField(blank=True, null=True, max_length=255)
     nominal_cycles = models.IntegerField(blank=True, null=True, default=1)
     # Unit Wh/kg
     gravimetric_energy_density = models.IntegerField(blank=True, null=True, default=1)
@@ -115,7 +114,7 @@ class Cell(models.Model):
     # (ex LFP71173207)
     industry_standard = models.CharField(blank=True, null=True, max_length=255)
     # Unit V
-    nominal_voltage = models.DecimalField(blank=True, null=True, default=1.0)
+    nominal_voltage = models.DecimalField(max_digits=6, decimal_places=2, blank=True, null=True, default=1.0)
     # Unit V
     operating_voltage = models.DecimalField(
         max_digits=20, 
@@ -148,7 +147,8 @@ class Cell(models.Model):
         decimal_places=2,
         validators=[MinValueValidator(-30.0), MaxValueValidator(60.0)],
     )
-    cell_dimension = models.OneToOneField(Dimensions, on_delete=models.PROTECT)
+    cell_dimension = models.ForeignKey(Dimensions, null=True, unique=True, on_delete=models.PROTECT)
+    cell_chemistry = models.ManyToManyField(Chemical, null=True, blank=True, related_name='cells')
     module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name="cells")
 
     class Meta:
