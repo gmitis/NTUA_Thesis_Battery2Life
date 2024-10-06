@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Manufacturer, Batteries
+from .models import Manufacturer, Battery
 
 admin.site.register(Manufacturer)
-admin.site.register(Batteries)
+admin.site.register(Battery)
