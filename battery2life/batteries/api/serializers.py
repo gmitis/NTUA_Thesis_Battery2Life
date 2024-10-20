@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from batteries.models import Manufacturer, Batteries, Module, Cell
+from batteries.models import Manufacturer, Battery, Module, Cell
+
 
 class ManufacturerSerializer(serializers.ModelSerializer):
 
@@ -11,14 +12,16 @@ class ManufacturerSerializer(serializers.ModelSerializer):
 class BatteriesSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = Batteries
+        model = Battery
         fields = "__all__"
+
 
 class ModuleSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Module
         fields = "__all__"
+
 
 class CellSerializer(serializers.ModelSerializer):
 

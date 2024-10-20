@@ -4,15 +4,21 @@ from rest_framework import viewsets
 from rest_framework import mixins
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
-from batteries.models import Manufacturer, Batteries, Module, Cell
-from batteries.api.serializers import (ManufacturerSerializer, 
-                                       BatteriesSerializer, 
-                                       ModuleSerializer, 
-                                       CellSerializer)
+from batteries.models import Manufacturer, Battery, Module, Cell
+from batteries.api.serializers import (
+    ManufacturerSerializer,
+    BatteriesSerializer,
+    ModuleSerializer,
+    CellSerializer,
+)
 
 
-class ManufacturerViewSet(mixins.UpdateModelMixin, mixins.ListModelMixin,
-                          mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class ManufacturerViewSet(
+    mixins.UpdateModelMixin,
+    mixins.ListModelMixin,
+    mixins.RetrieveModelMixin,
+    viewsets.GenericViewSet,
+):
     queryset = Manufacturer.objects.all()
     serializer_class = ManufacturerSerializer
     permission_classes = [IsAuthenticated]
@@ -20,14 +26,16 @@ class ManufacturerViewSet(mixins.UpdateModelMixin, mixins.ListModelMixin,
 
 
 class BatteriesViewSet(ModelViewSet):
-    queryset = Batteries.objects.all()
+    queryset = Battery.objects.all()
     serializer_class = BatteriesSerializer
     permission_classes = [IsAuthenticated]
+
 
 class ModuleViewSet(ModelViewSet):
     queryset = Module.objects.all()
     serializer_class = ModuleSerializer
     permission_classes = [IsAuthenticated]
+
 
 class CellViewSet(ModelViewSet):
     queryset = Cell.objects.all()
