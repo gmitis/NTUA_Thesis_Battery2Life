@@ -28,3 +28,7 @@ Step 3.a: Run The App
  ```
  docker-compose down 
  ```
+
+ ## API Documentation
+ Run the steps mentioned above, run the app and then visit:
+ > localhost:8000/api/schema/swagger-ui/
