@@ -11,9 +11,10 @@ from batteries.api.serializers import (
     ModuleSerializer,
     CellSerializer,
 )
-
+from ..mixins import LoggingMixin
 
 class ManufacturerViewSet(
+    LoggingMixin,
     mixins.UpdateModelMixin,
     mixins.ListModelMixin,
     mixins.RetrieveModelMixin,
@@ -25,19 +26,19 @@ class ManufacturerViewSet(
     authentication_classes = [JWTAuthentication]
 
 
-class BatteriesViewSet(ModelViewSet):
+class BatteriesViewSet(LoggingMixin, ModelViewSet):
     queryset = Battery.objects.all()
     serializer_class = BatteriesSerializer
     permission_classes = [IsAuthenticated]
 
 
-class ModuleViewSet(ModelViewSet):
+class ModuleViewSet(LoggingMixin, ModelViewSet):
     queryset = Module.objects.all()
     serializer_class = ModuleSerializer
     permission_classes = [IsAuthenticated]
 
 
-class CellViewSet(ModelViewSet):
+class CellViewSet(LoggingMixin, ModelViewSet):
     queryset = Cell.objects.all()
     serializer_class = CellSerializer
     permission_classes = [IsAuthenticated]

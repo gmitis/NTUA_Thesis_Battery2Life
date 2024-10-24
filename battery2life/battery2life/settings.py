@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY", default="bar")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(os.environ.get("DEBUG", default=0))
+DEBUG = bool(os.environ.get("DEBUG", default=1))
 
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOST", default='localhost').split(" ")
 
@@ -155,3 +155,61 @@ SPECTACULAR_SETTINGS = {
     'SERVE_INCLUDE_SCHEMA': False,
     # OTHER SETTINGS
 }
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False, 
+    
+    "formatters": {
+        "verbose": {
+            "format": "{asctime}-({levelname})-{module} | {message}",
+            "style": "{"
+        },
+        
+        "simple": {
+            "format": "{levelname} {asctime} {message}",
+            "style": "{"
+        }
+    },
+    
+    "filters": {
+        "require_debug_true": {
+            "()": "django.utils.log.RequireDebugTrue"
+        },
+    },
+    
+    "handlers": {
+        "file": {
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": os.path.join(BASE_DIR, 'log.txt'),
+            "formatter": "verbose",
+        },
+        
+        "console": {
+            "level": "DEBUG",
+            "filters": ["require_debug_true"],
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+        },
+        
+        "mail_admins": {
+            "level": "ERROR",
+            "class": "django.utils.log.AdminEmailHandler",
+        }
+    },
+    
+    "loggers": {
+        "utils": {
+            "handlers": ['file', 'console'],
+            "level": os.environ.get("DJANGO_LOG_LEVEL", "INFO"),
+            "propagate": False            
+        },
+        
+        "": {
+            "handlers": ["console"],
+            "level": "WARNING"
+        },
+    }
+}
+

@@ -71,7 +71,7 @@ class Materials(models.Model):
 class Manufacturer(models.Model):
     name = models.CharField(max_length=255)
     email = models.CharField(max_length=100, blank=True, null=True)
-    address = models.ForeignKey(Address,  null= True, on_delete=models.PROTECT)
+    address = models.ForeignKey(Address,  blank=True, null= True, on_delete=models.PROTECT)
 
     def __str__(self):
         return self.name
@@ -113,6 +113,7 @@ class Battery(models.Model):
     battery_dimensions = models.OneToOneField(
         Dimensions, 
         on_delete=models.PROTECT, 
+        blank=True,
         null=True, 
     )
 

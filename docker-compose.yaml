@@ -3,13 +3,16 @@ name: battery2life
 services:
   api:
     build: ./battery2life
+    container_name: api
     command: python manage.py runserver 0.0.0.0:8000
     ports:
       - 8000:8000
     volumes:
       - ./battery2life:/usr/src/app
+      - ./battery2life/log.txt:/usr/src/app/log.txt
     env_file:
       - ./battery2life/.env.dev
+    restart: unless-stopped
 
 volumes:
   api:
