@@ -5,6 +5,7 @@ services:
     build: ./battery2life
     container_name: api
     command: python manage.py runserver 0.0.0.0:8000
+    restart: unless-stopped
     ports:
       - 8000:8000
     volumes:
@@ -12,11 +13,11 @@ services:
       - ./battery2life/log.txt:/usr/src/app/log.txt
     env_file:
       - ./battery2life/.env.dev
-    restart: unless-stopped
 
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
+    restart: unless-stopped
     ports:
       - "1883:1883"
       - "9001:9001"
@@ -24,12 +25,30 @@ services:
       - ./mosquitto/config:/mosquitto/config:rw
       - ./mosquitto/data:/mosquitto/data:rw
       - ./mosquitto/log:/mosquitto/log:rw
-    restart: unless-stopped
+    networks:
+      - mosquitto
 
+  mosquitto-client:
+    build: ./mosquitto-client
+    container_name: mosquitto-client
+    # restart: unless-stopped
+    environment:
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+      - MQTT_KEEPALIVE=60
+      - MQTT_USER=user1
+      - MQTT_PASSWORD=user1
+    volumes:
+      - ./mosquitto-client/log.txt:/usr/src/mosquitto-client/log.txt
+    networks:
+      - mosquitto
+    command: [ "python3",  "mosquitto_client.py" ]
+    
 volumes:
   api:
   mosquitto:
 
 networks:
-  default:
-    name: mqtt-network
+  mosquitto:
+    name: mosquitto
+    driver: bridge
