@@ -5,6 +5,7 @@
 *notes*
 
 ### Django ###
+mosquitto/data
 *log.txt*
 *.log
 *.pot

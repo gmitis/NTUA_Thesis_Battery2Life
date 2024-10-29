@@ -20,7 +20,7 @@ logger.addHandler(file_handler)
 
 logging.basicConfig(
     level=logging.DEBUG,
-    format='%(asctime)s-%(levelname)s: %(message)s' ,
+    format='%(asctime)s - %(levelname)s: %(message)s' ,
     handlers=[
         logging.FileHandler('./log.txt'),
         logging.StreamHandler()

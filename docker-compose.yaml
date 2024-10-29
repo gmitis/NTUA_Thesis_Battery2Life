@@ -6,6 +6,8 @@ services:
     container_name: api
     command: python manage.py runserver 0.0.0.0:8000
     restart: unless-stopped
+    depends_on: 
+      - db
     ports:
       - 8000:8000
     volumes:
@@ -13,11 +15,16 @@ services:
       - ./battery2life/log.txt:/usr/src/app/log.txt
     env_file:
       - ./battery2life/.env.dev
+    networks:
+      - db 
+
 
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
     restart: unless-stopped
+    depends_on: 
+      - db
     ports:
       - "1883:1883"
       - "9001:9001"
@@ -28,10 +35,13 @@ services:
     networks:
       - mosquitto
 
+
   mosquitto-client:
     build: ./mosquitto-client
     container_name: mosquitto-client
-    # restart: unless-stopped
+    restart: unless-stopped
+    depends_on:
+      - mosquitto
     environment:
       - MQTT_BROKER=mosquitto
       - MQTT_PORT=1883
@@ -42,7 +52,24 @@ services:
       - ./mosquitto-client/log.txt:/usr/src/mosquitto-client/log.txt
     networks:
       - mosquitto
+      - db
     command: [ "python3",  "mosquitto_client.py" ]
+
+
+  db:
+    image: postgres:17.0
+    container_name: db
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/usr/src/data
+    env_file:
+      - ./battery2life/.env.dev
+    networks:
+      - mosquitto
+      - db 
+
     
 volumes:
   api:
@@ -51,4 +78,7 @@ volumes:
 networks:
   mosquitto:
     name: mosquitto
+    driver: bridge
+  db :
+    name: db 
     driver: bridge
