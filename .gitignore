@@ -3,9 +3,9 @@
 
 # miscellaneous
 *notes*
+mosquitto/data
 
 ### Django ###
-mosquitto/data
 *log.txt*
 *.log
 *.pot

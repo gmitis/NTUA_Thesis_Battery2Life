@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# create necessary log files, essential before startup cause we map them with docker volumes
+touch mosquitto-client/log.txt
+
+touch battery2life/log.txt
+
+# create env file then add the variables
+touch battery2life/.env.dev 

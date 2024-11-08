@@ -14,11 +14,17 @@ Step 2: Navigate to the branch you need
 
 ```bash
 git branch -a 
-git branch remotes/origin/[BranchName] 
-git checkout [BranchName] 
+git checkout -b [BranchName] origin/[BranchName] 
 ```
 
-Step 3.a: Run The App
+Step 3: Add necessary files
+```bash
+./create_necessary_files.sh
+# add necessary variables in the battery2life/.env.dev
+```
+
+
+Step 4.a: Run The App
 
  ``` bash
  docker-compose build
@@ -27,7 +33,7 @@ Step 3.a: Run The App
  docker-compose logs -f #check for errors
  ```
 
- Step 3.b: Stop The App
+ Step 4.b: Stop The App
 
  ```bash
  docker-compose down 
