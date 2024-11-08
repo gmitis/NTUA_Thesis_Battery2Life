@@ -12,7 +12,7 @@ services:
       - 8000:8000
     volumes:
       - ./battery2life:/usr/src/app
-      - ./battery2life/log.txt:/usr/src/app/log.txt
+      - ./battery2life/app.log:/usr/src/app/app.log
     env_file:
       - ./battery2life/.env.dev
     networks:
@@ -49,7 +49,7 @@ services:
       - MQTT_USER=user1
       - MQTT_PASSWORD=user1
     volumes:
-      - ./mosquitto-client/log.txt:/usr/src/mosquitto-client/log.txt
+      - ./mosquitto-client/mosquitto-client.log:/usr/src/mosquitto-client/mosquitto-client.log
     networks:
       - mosquitto
       - db

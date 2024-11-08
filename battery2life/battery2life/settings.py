@@ -183,7 +183,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": os.path.join(BASE_DIR, 'log.txt'),
+            "filename": os.path.join(BASE_DIR, 'app.log'),
             "formatter": "verbose",
         },
         
