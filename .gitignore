@@ -6,8 +6,6 @@
 mosquitto/data
 
 ### Django ###
-*log.txt*
-*.log
 *.pot
 *.pyc
 __pycache__/
@@ -137,7 +135,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env*
 .venv
 env/
 venv/
