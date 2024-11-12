@@ -15,6 +15,10 @@ services:
       - ./battery2life/app.log:/usr/src/app/app.log
     env_file:
       - ./battery2life/.env.dev
+    environment:
+      - DJANGO_SUPERUSER_USERNAME=admin0
+      - DJANGO_SUPERUSER_EMAIL=admin0@admin.com
+      - DJANGO_SUPERUSER_PASSWORD=admin0
     networks:
       - db 
 

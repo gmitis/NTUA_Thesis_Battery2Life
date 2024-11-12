@@ -11,7 +11,7 @@ from batteries.api.serializers import (
     ModuleSerializer,
     CellSerializer,
 )
-from ..mixins import LoggingMixin
+from batteries.mixins import LoggingMixin
 
 class ManufacturerViewSet(
     LoggingMixin,

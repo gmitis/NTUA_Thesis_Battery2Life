@@ -3,7 +3,8 @@
 
 # miscellaneous
 *notes*
-mosquitto/data
+*mosquitto.db
+*.log
 
 ### Django ###
 *.pot
