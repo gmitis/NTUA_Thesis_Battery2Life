@@ -46,7 +46,7 @@ Step 1: run the app as mentioned above
 Step 2: install a mosquitto client in the terminal
 > sudo apt update && sudo apt install mosquitto-clients
 
-Step 3: open a terminal window, paste the following and see if you can read the message in the terminal you have started the app or mosquitto/log.txt file 
+Step 3: open a terminal window, paste the following and see if you can read the message in the terminal you have started the app or mosquitto/mosquitto-client.log file 
 > mosquitto_pub -t 'hello/topic' -m 'henlo wrold' -u user1 -P user1
 
 
