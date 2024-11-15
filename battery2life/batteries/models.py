@@ -1,8 +1,3 @@
-
-# todo: add SafetyFeatures extinguising_agent choices  
-# todo(optional): add envirnmental, manufacturing fields/models
-# todo(optional): add Battery.recycling_info Recycling(critical_raw_materials, safety_measures, dismantling_info(processes), info_prevention_management)
-
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
@@ -237,3 +232,43 @@ class Cell(models.Model):
         return self.cell_name
 
 
+# Pillar1 stakeholder slave cell structure
+class CellSlave(models.Model):
+    cell_id = models.PositiveBigIntegerField(primary_key=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    
+    def __str__(self) -> str:
+        return f'Slave Cell: {self.cell_id}'
+
+
+# Cell measurements - synchronous
+class Measurement(models.Model):
+    voltage = models.FloatField()
+    temperature = models.FloatField()
+    current = models.FloatField()
+    sot = models.FloatField()
+    phase = models.FloatField()
+    soc = models.FloatField()
+    taken_at = models.DateTimeField(auto_now_add=True)
+    cell_id = models.ForeignKey(CellSlave, on_delete=models.CASCADE, related_name='measurements')
+    
+    def __str__(self) -> str:
+        return self.cell_id
+    
+
+# Equivalent Impedance Spectroscopy measurements - asynchronous
+class EIS(models.Model):
+    status = models.CharField(max_length=255)
+    event_id = models.CharField(max_length=255)
+    frequency = models.FloatField()
+    amplitude = models.FloatField()
+    phase = models.FloatField()
+    current_offset = models.FloatField()
+    v_start = models.FloatField()
+    v_end = models.FloatField()
+    temperature = models.FloatField(validators=[MinValueValidator(-273.15), MaxValueValidator(5600.0)])
+    cell_id = models.ForeignKey(CellSlave, on_delete=models.CASCADE, related_name='eis')
+
+    def __str__(self):
+        return self.cell_id
+    
