@@ -4,8 +4,9 @@ from rest_framework import viewsets
 from rest_framework import mixins
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
-from batteries.models import Manufacturer, Battery, Module, Cell
+from batteries.models import EIS, Manufacturer, Battery, Module, Cell
 from batteries.api.serializers import (
+    EISSerializer,
     ManufacturerSerializer,
     BatteriesSerializer,
     ModuleSerializer,
@@ -42,3 +43,13 @@ class CellViewSet(LoggingMixin, ModelViewSet):
     queryset = Cell.objects.all()
     serializer_class = CellSerializer
     permission_classes = [IsAuthenticated]
+
+
+class EISViewSet(LoggingMixin, ModelViewSet):
+    queryset = EIS.objects.all()
+    serializer_class = EISSerializer
+    permission_classes = [IsAuthenticated]
+
+
+class MeasumentViewSet():
+    pass

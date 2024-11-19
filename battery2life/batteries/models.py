@@ -1,3 +1,4 @@
+import datetime
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
@@ -174,71 +175,71 @@ class Module(models.Model):
         return self.battery_module_name
 
 
-class Cell(models.Model):
-    cell_name = models.CharField(max_length=255)
-    # Unit Ah
-    nominal_capacity = models.IntegerField(blank=True, null=True, default=1)
-    # Unit Wh
-    nominal_energy = models.IntegerField(blank=True, null=True, default=1)
-    nominal_cycles = models.IntegerField(blank=True, null=True, default=1)
-    # Unit Wh/kg
-    gravimetric_energy_density = models.IntegerField(blank=True, null=True, default=1)
-    # Unit Wh/l
-    volumetric_energy_density = models.IntegerField(blank=True, null=True, default=1)
-    # (ex LFP71173207)
-    industry_standard = models.CharField(blank=True, null=True, max_length=255)
-    # Unit V
-    nominal_voltage = models.DecimalField(max_digits=6, decimal_places=2, blank=True, null=True, default=1.0)
-    # Unit V
-    operating_voltage = models.DecimalField(
-        max_digits=20, 
-        decimal_places=2, 
-        validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
-    )
-    # Unit Megaohm
-    ac_resistance = models.DecimalField(
-        max_digits=20, 
-        decimal_places=2, 
-        blank=True, 
-        null=True, 
-        default=0.1
-    )
-    # Unit % / month
-    max_self_discharge_rate = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
-    # Unit %
-    nominal_SOC_at_delivery = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
-    # Unit kg
-    cell_weight = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
-    # Unit C
-    cell_charging_temperature = models.DecimalField(
-        max_digits=20,
-        decimal_places=2,
-        validators=[MinValueValidator(0.0), MaxValueValidator(60.0)],
-    )
-    # Unit C
-    cell_discharging_temperature = models.DecimalField(
-        max_digits=20,
-        decimal_places=2,
-        validators=[MinValueValidator(-30.0), MaxValueValidator(60.0)],
-    )
-    cell_dimension = models.OneToOneField(Dimensions, null=True, on_delete=models.PROTECT)
-    cell_chemistry = models.ManyToManyField(Chemical, blank=True, related_name='cells')
-    module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name="cells")
+# class Cell(models.Model):
+#     cell_name = models.CharField(max_length=255)
+#     # Unit Ah
+#     nominal_capacity = models.IntegerField(blank=True, null=True, default=1)
+#     # Unit Wh
+#     nominal_energy = models.IntegerField(blank=True, null=True, default=1)
+#     nominal_cycles = models.IntegerField(blank=True, null=True, default=1)
+#     # Unit Wh/kg
+#     gravimetric_energy_density = models.IntegerField(blank=True, null=True, default=1)
+#     # Unit Wh/l
+#     volumetric_energy_density = models.IntegerField(blank=True, null=True, default=1)
+#     # (ex LFP71173207)
+#     industry_standard = models.CharField(blank=True, null=True, max_length=255)
+#     # Unit V
+#     nominal_voltage = models.DecimalField(max_digits=6, decimal_places=2, blank=True, null=True, default=1.0)
+#     # Unit V
+#     operating_voltage = models.DecimalField(
+#         max_digits=20, 
+#         decimal_places=2, 
+#         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
+#     )
+#     # Unit Megaohm
+#     ac_resistance = models.DecimalField(
+#         max_digits=20, 
+#         decimal_places=2, 
+#         blank=True, 
+#         null=True, 
+#         default=0.1
+#     )
+#     # Unit % / month
+#     max_self_discharge_rate = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
+#     # Unit %
+#     nominal_SOC_at_delivery = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
+#     # Unit kg
+#     cell_weight = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
+#     # Unit C
+#     cell_charging_temperature = models.DecimalField(
+#         max_digits=20,
+#         decimal_places=2,
+#         validators=[MinValueValidator(0.0), MaxValueValidator(60.0)],
+#     )
+#     # Unit C
+#     cell_discharging_temperature = models.DecimalField(
+#         max_digits=20,
+#         decimal_places=2,
+#         validators=[MinValueValidator(-30.0), MaxValueValidator(60.0)],
+#     )
+#     cell_dimension = models.OneToOneField(Dimensions, null=True, on_delete=models.PROTECT)
+#     cell_chemistry = models.ManyToManyField(Chemical, blank=True, related_name='cells')
+#     module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name="cells")
 
-    class Meta:
-        verbose_name_plural = "Cells"
+#     class Meta:
+#         verbose_name_plural = "Cells"
 
-    def __str__(self):
-        return self.cell_name
+#     def __str__(self):
+#         return self.cell_name
 
 
 # Pillar1 stakeholder slave cell structure
-class CellSlave(models.Model):
-    cell_id = models.PositiveBigIntegerField(primary_key=True)
+
+class Cell(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     
     def __str__(self) -> str:
-        return f'Slave Cell: {self.cell_id}'
+        return f'Slave Cell: {self.id}'
 
 
 # Cell measurements - synchronous
@@ -249,8 +250,8 @@ class Measurement(models.Model):
     sot = models.FloatField()
     phase = models.FloatField()
     soc = models.FloatField()
-    taken_at = models.DateTimeField(auto_now_add=True)
-    cell_id = models.ForeignKey(CellSlave, on_delete=models.CASCADE, related_name='measurements')
+    added_at = models.DateTimeField(auto_now_add=True)
+    cell_id = models.ForeignKey(Cell, on_delete=models.CASCADE, related_name='measurements')
     
     def __str__(self) -> str:
         return self.cell_id
@@ -260,14 +261,15 @@ class Measurement(models.Model):
 class EIS(models.Model):
     status = models.CharField(max_length=255)
     event_id = models.CharField(max_length=255)
-    frequency = models.FloatField()
-    amplitude = models.FloatField()
+    frequency = models.FloatField(validators=[MinValueValidator(0)])
+    amplitude = models.FloatField(validators=[MinValueValidator(0)])
     phase = models.FloatField()
     current_offset = models.FloatField()
     v_start = models.FloatField()
     v_end = models.FloatField()
     temperature = models.FloatField(validators=[MinValueValidator(-273.15), MaxValueValidator(5600.0)])
-    cell_id = models.ForeignKey(CellSlave, on_delete=models.CASCADE, related_name='eis')
+    added_at =models.DateTimeField(auto_now_add=True)
+    cell_id = models.ForeignKey(Cell, on_delete=models.CASCADE, related_name='eis')
 
     def __str__(self):
         return self.cell_id
