@@ -236,10 +236,11 @@ class Module(models.Model):
 # Pillar1 stakeholder slave cell structure
 
 class Cell(models.Model):
+    cell_id = models.PositiveBigIntegerField(primary_key=True)
     created_at = models.DateTimeField(auto_now_add=True)
     
     def __str__(self) -> str:
-        return f'Slave Cell: {self.id}'
+        return f'Slave Cell: {self.cell_id}'
 
 
 # Cell measurements - synchronous
@@ -251,7 +252,7 @@ class Measurement(models.Model):
     phase = models.FloatField()
     soc = models.FloatField()
     added_at = models.DateTimeField(auto_now_add=True)
-    cell_id = models.ForeignKey(Cell, on_delete=models.CASCADE, related_name='measurements')
+    cell_id = models.ForeignKey(Cell, to_field='cell_id', on_delete=models.CASCADE, related_name='measurements')
     
     def __str__(self) -> str:
         return self.cell_id
@@ -269,7 +270,7 @@ class EIS(models.Model):
     v_end = models.FloatField()
     temperature = models.FloatField(validators=[MinValueValidator(-273.15), MaxValueValidator(5600.0)])
     added_at =models.DateTimeField(auto_now_add=True)
-    cell_id = models.ForeignKey(Cell, on_delete=models.CASCADE, related_name='eis')
+    cell_id = models.ForeignKey(Cell, to_field='cell_id', on_delete=models.CASCADE, related_name='eis')
 
     def __str__(self):
         return self.cell_id

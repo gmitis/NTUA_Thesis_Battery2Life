@@ -23,6 +23,17 @@ class ModuleSerializer(serializers.ModelSerializer):
         fields = "__all__"
         
 
+class AddCellSerializer(serializers.Serializer):
+    cell_id = serializers.ListField(child=serializers.IntegerField(), allow_empty=False)
+
+    def validate_cell_ids(self, value):
+        # validate for duplicates
+        if len(value) != len(set(value)):
+            raise serializers.ValidationError("Please remove duplicate ids from your request")
+        if len(value) != len(list(filter(lambda x:x>=0, value))):
+            raise serializers.ValidationError("All ids must be positive integer numbers")
+        return value
+
 
 class CellSerializer(serializers.ModelSerializer):
 

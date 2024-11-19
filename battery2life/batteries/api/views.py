@@ -1,11 +1,13 @@
+from rest_framework.response import Response
 from rest_framework import generics
 from rest_framework.viewsets import ModelViewSet
-from rest_framework import viewsets
+from rest_framework import viewsets, status
 from rest_framework import mixins
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from batteries.models import EIS, Manufacturer, Battery, Module, Cell
 from batteries.api.serializers import (
+    AddCellSerializer,
     EISSerializer,
     ManufacturerSerializer,
     BatteriesSerializer,
@@ -44,6 +46,14 @@ class CellViewSet(LoggingMixin, ModelViewSet):
     serializer_class = CellSerializer
     permission_classes = [IsAuthenticated]
 
+    def create(self, request, *args, **kwargs):
+        serializer = AddCellSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        cell_ids = serializer.validated_data.get('cell_id')
+        for id in cell_ids:
+            Cell.objects.create(cell_id=id)
+        return Response(serializer.data, status=status.HTTP_200_OK)    
+    
 
 class EISViewSet(LoggingMixin, ModelViewSet):
     queryset = EIS.objects.all()

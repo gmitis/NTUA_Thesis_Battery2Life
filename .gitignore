@@ -5,6 +5,7 @@
 *notes*
 *mosquitto.db
 *.log
+.vscode
 
 ### Django ###
 *.pot
