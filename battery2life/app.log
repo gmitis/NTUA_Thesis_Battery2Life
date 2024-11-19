@@ -164,3 +164,205 @@
 2024-11-19 13:57:50,310-(INFO)-utils | Response Status: 200
 2024-11-19 13:57:56,032-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
 2024-11-19 13:57:56,032-(INFO)-utils | Response Status: 200
+2024-11-19 14:19:50,083-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 14:19:50,084-(INFO)-utils | Response Status: 200
+2024-11-19 14:19:57,143-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/16/
+2024-11-19 14:19:57,144-(INFO)-utils | Response Status: 200
+2024-11-19 14:20:01,640-(INFO)-utils | Request Method: DELETE | Request Resource: /api/cells/16/
+2024-11-19 14:20:01,641-(INFO)-utils | Response Status: 204
+2024-11-19 14:20:05,550-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 14:20:05,551-(INFO)-utils | Response Status: 200
+2024-11-19 14:20:16,488-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 14:20:16,488-(INFO)-utils | Response Status: 200
+2024-11-19 14:29:00,990-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 14:29:00,991-(INFO)-utils | Response Status: 200
+2024-11-19 14:29:27,599-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 14:29:27,599-(INFO)-utils | Response Status: 200
+2024-11-19 14:30:58,772-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 14:30:58,773-(INFO)-utils | Response Status: 200
+2024-11-19 14:31:13,720-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 14:31:13,721-(INFO)-utils | Response Status: 200
+2024-11-19 14:32:28,325-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 14:32:28,326-(INFO)-utils | Response Status: 200
+2024-11-19 14:32:53,650-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-11-19 14:32:53,650-(INFO)-utils | Response Status: 200
+2024-11-19 14:34:24,997-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 14:34:24,998-(INFO)-utils | Response Status: 200
+2024-11-19 14:35:03,461-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 14:35:03,461-(INFO)-utils | Response Status: 400
+2024-11-19 14:36:14,765-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 14:36:14,766-(INFO)-utils | Response Status: 400
+2024-11-19 14:40:24,974-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 14:40:24,975-(INFO)-utils | Response Status: 200
+2024-11-19 14:41:19,267-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 14:41:19,268-(INFO)-utils | Response Status: 200
+2024-11-19 14:41:32,700-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 14:41:32,700-(INFO)-utils | Response Status: 200
+2024-11-19 14:46:06,530-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 14:46:06,530-(INFO)-utils | Response Status: 200
+2024-11-19 15:08:42,156-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-11-19 15:08:42,157-(INFO)-utils | Response Status: 200
+2024-11-19 15:08:45,387-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:08:45,389-(INFO)-utils | Response Status: 200
+2024-11-19 15:10:04,872-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:10:04,872-(INFO)-utils | Response Status: 200
+2024-11-19 15:10:25,850-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:10:25,850-(INFO)-utils | Response Status: 200
+2024-11-19 15:10:32,470-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 15:10:32,470-(INFO)-utils | Response Status: 200
+2024-11-19 15:10:35,621-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:10:35,622-(INFO)-utils | Response Status: 200
+2024-11-19 15:10:38,772-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:10:38,773-(INFO)-utils | Response Status: 200
+2024-11-19 15:11:40,940-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:11:40,941-(INFO)-utils | Response Status: 200
+2024-11-19 15:11:49,682-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:11:49,683-(INFO)-utils | Response Status: 200
+2024-11-19 15:12:24,999-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:12:24,999-(INFO)-utils | Response Status: 200
+2024-11-19 15:12:38,864-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:12:38,864-(INFO)-utils | Response Status: 200
+2024-11-19 15:13:06,090-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:13:06,090-(INFO)-utils | Response Status: 200
+2024-11-19 15:13:43,906-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:13:43,907-(INFO)-utils | Response Status: 200
+2024-11-19 15:21:38,587-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:21:38,587-(INFO)-utils | Response Status: 200
+2024-11-19 15:21:47,776-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:21:47,776-(INFO)-utils | Response Status: 400
+2024-11-19 15:23:02,581-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:23:02,582-(INFO)-utils | Response Status: 400
+2024-11-19 15:23:49,082-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:23:49,083-(INFO)-utils | Response Status: 400
+2024-11-19 15:24:31,390-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:24:31,391-(INFO)-utils | Response Status: 200
+2024-11-19 15:25:00,661-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:25:00,661-(INFO)-utils | Response Status: 200
+2024-11-19 15:25:05,475-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:25:05,475-(INFO)-utils | Response Status: 400
+2024-11-19 15:27:16,803-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:27:16,804-(INFO)-utils | Response Status: 200
+2024-11-19 15:27:27,602-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:27:27,603-(INFO)-utils | Response Status: 200
+2024-11-19 15:27:44,999-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:27:45,000-(INFO)-utils | Response Status: 200
+2024-11-19 15:28:13,119-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:28:13,119-(INFO)-utils | Response Status: 200
+2024-11-19 15:28:22,046-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:28:22,046-(INFO)-utils | Response Status: 400
+2024-11-19 15:31:07,404-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:31:07,404-(INFO)-utils | Response Status: 200
+2024-11-19 15:31:28,543-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:31:28,543-(INFO)-utils | Response Status: 400
+2024-11-19 15:31:42,117-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:31:42,117-(INFO)-utils | Response Status: 200
+2024-11-19 15:31:45,488-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:31:45,489-(INFO)-utils | Response Status: 200
+2024-11-19 15:32:00,219-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:32:00,220-(INFO)-utils | Response Status: 400
+2024-11-19 15:32:16,114-(INFO)-utils | Request Method: POST | Request Resource: /api/eis/
+2024-11-19 15:32:16,114-(INFO)-utils | Response Status: 400
+2024-11-19 15:32:30,659-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:32:30,660-(INFO)-utils | Response Status: 200
+2024-11-19 15:32:42,383-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:32:42,383-(INFO)-utils | Response Status: 400
+2024-11-19 15:33:41,853-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:33:41,854-(INFO)-utils | Response Status: 400
+2024-11-19 15:33:59,870-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:33:59,871-(INFO)-utils | Response Status: 400
+2024-11-19 15:37:09,313-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:37:09,313-(INFO)-utils | Response Status: 200
+2024-11-19 15:38:26,295-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:38:26,295-(INFO)-utils | Response Status: 200
+2024-11-19 15:38:35,637-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 15:38:35,637-(INFO)-utils | Response Status: 200
+2024-11-19 15:38:38,287-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 15:38:38,288-(INFO)-utils | Response Status: 200
+2024-11-19 15:38:58,603-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/1/
+2024-11-19 15:38:58,603-(INFO)-utils | Response Status: 200
+2024-11-19 15:39:57,546-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:39:57,546-(INFO)-utils | Response Status: 200
+2024-11-19 15:42:43,009-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:42:43,009-(INFO)-utils | Response Status: 403
+2024-11-19 15:42:50,651-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:42:50,652-(INFO)-utils | Response Status: 200
+2024-11-19 15:44:42,528-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:44:42,529-(INFO)-utils | Response Status: 200
+2024-11-19 15:44:44,312-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:44:44,313-(INFO)-utils | Response Status: 200
+2024-11-19 15:45:01,287-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 15:45:01,288-(INFO)-utils | Response Status: 200
+2024-11-19 15:45:07,077-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:45:07,078-(INFO)-utils | Response Status: 200
+2024-11-19 15:47:36,139-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:47:36,139-(INFO)-utils | Response Status: 200
+2024-11-19 15:49:10,716-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:49:10,717-(INFO)-utils | Response Status: 200
+2024-11-19 15:50:06,221-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:50:06,222-(INFO)-utils | Response Status: 200
+2024-11-19 15:53:44,140-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:53:44,141-(INFO)-utils | Response Status: 200
+2024-11-19 15:55:25,527-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:55:25,527-(INFO)-utils | Response Status: 200
+2024-11-19 15:55:51,582-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 15:55:51,582-(INFO)-utils | Response Status: 200
+2024-11-19 15:55:59,517-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:55:59,518-(INFO)-utils | Response Status: 200
+2024-11-19 15:57:19,686-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 15:57:19,687-(INFO)-utils | Response Status: 400
+2024-11-19 15:57:28,706-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:57:28,708-(INFO)-utils | Response Status: 200
+2024-11-19 15:59:42,450-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 15:59:42,451-(INFO)-utils | Response Status: 200
+2024-11-19 16:00:38,886-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:00:38,887-(INFO)-utils | Response Status: 200
+2024-11-19 16:01:37,907-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:01:37,907-(INFO)-utils | Response Status: 200
+2024-11-19 16:02:07,306-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:02:07,306-(INFO)-utils | Response Status: 200
+2024-11-19 16:02:39,413-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 16:02:39,414-(INFO)-utils | Response Status: 200
+2024-11-19 16:02:42,323-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:02:42,324-(INFO)-utils | Response Status: 200
+2024-11-19 16:03:08,705-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:03:08,706-(INFO)-utils | Response Status: 403
+2024-11-19 16:03:15,258-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:03:15,259-(INFO)-utils | Response Status: 200
+2024-11-19 16:03:27,712-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 16:03:27,713-(INFO)-utils | Response Status: 200
+2024-11-19 16:03:29,915-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:03:29,916-(INFO)-utils | Response Status: 200
+2024-11-19 16:03:39,855-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 16:03:39,856-(INFO)-utils | Response Status: 200
+2024-11-19 16:03:42,417-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:03:42,418-(INFO)-utils | Response Status: 200
+2024-11-19 16:05:15,520-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:05:15,521-(INFO)-utils | Response Status: 200
+2024-11-19 16:05:25,196-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-11-19 16:05:25,196-(INFO)-utils | Response Status: 200
+2024-11-19 16:05:29,676-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-11-19 16:05:29,677-(INFO)-utils | Response Status: 200
+2024-11-19 16:06:10,595-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-11-19 16:06:10,597-(INFO)-utils | Response Status: 200
+2024-11-19 16:06:26,364-(INFO)-utils | Request Method: POST | Request Resource: /api/eis/
+2024-11-19 16:06:26,364-(INFO)-utils | Response Status: 400
+2024-11-19 16:06:42,645-(INFO)-utils | Request Method: POST | Request Resource: /api/eis/
+2024-11-19 16:06:42,646-(INFO)-utils | Response Status: 201
+2024-11-19 16:06:47,920-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-11-19 16:06:47,920-(INFO)-utils | Response Status: 200
+2024-11-19 16:06:52,591-(INFO)-utils | Request Method: POST | Request Resource: /api/eis/
+2024-11-19 16:06:52,592-(INFO)-utils | Response Status: 201
+2024-11-19 16:07:03,676-(INFO)-utils | Request Method: POST | Request Resource: /api/eis/
+2024-11-19 16:07:03,677-(INFO)-utils | Response Status: 400
+2024-11-19 16:07:14,697-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 16:07:14,698-(INFO)-utils | Response Status: 200
+2024-11-19 16:07:31,919-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-11-19 16:07:31,919-(INFO)-utils | Response Status: 200
+2024-11-19 16:07:44,174-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/42/
+2024-11-19 16:07:44,175-(INFO)-utils | Response Status: 404
+2024-11-19 16:07:52,412-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-11-19 16:07:52,413-(INFO)-utils | Response Status: 200
+2024-11-19 16:07:59,142-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-11-19 16:07:59,143-(INFO)-utils | Response Status: 200
+2024-11-19 16:08:02,096-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-11-19 16:08:02,096-(INFO)-utils | Response Status: 200

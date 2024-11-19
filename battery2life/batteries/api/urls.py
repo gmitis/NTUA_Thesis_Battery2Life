@@ -1,7 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from batteries.api.views import (ManufacturerViewSet, 
-                                 BatteriesViewSet, 
+                                 BatteriesViewSet, MeasurementViewSet, 
                                  ModuleViewSet,
                                  CellViewSet,
                                  EISViewSet
@@ -9,6 +9,7 @@ from batteries.api.views import (ManufacturerViewSet,
 
 router = DefaultRouter()
 router.register(r"manufacturers", ManufacturerViewSet)
+router.register(r"measurements", MeasurementViewSet)
 router.register(r"batteries", BatteriesViewSet)
 router.register(r"modules", ModuleViewSet)
 router.register(r"cells", CellViewSet)

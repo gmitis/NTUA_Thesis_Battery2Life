@@ -27,11 +27,65 @@ class AddCellSerializer(serializers.Serializer):
     cell_id = serializers.ListField(child=serializers.IntegerField(), allow_empty=False)
 
     def validate_cell_ids(self, value):
-        # validate for duplicates
+        # validate for duplicates, negative numebrs
         if len(value) != len(set(value)):
             raise serializers.ValidationError("Please remove duplicate ids from your request")
         if len(value) != len(list(filter(lambda x:x>=0, value))):
             raise serializers.ValidationError("All ids must be positive integer numbers")
+        return value
+
+
+class AddMeasurementSerializer(serializers.Serializer):
+    cell_ids = serializers.ListField(
+        child=serializers.IntegerField(), 
+        min_length=4, 
+        max_length=4
+    )
+
+    voltage = serializers.ListField(
+        child=serializers.FloatField(), 
+        min_length=4, 
+        max_length=4
+    )
+
+    temperature = serializers.ListField(
+        child=serializers.FloatField(), 
+        min_length=4, 
+        max_length=4
+    )
+
+    current = serializers.ListField(
+        child=serializers.FloatField(), 
+        min_length=4, 
+        max_length=4
+    )
+
+    sot = serializers.ListField(
+        child=serializers.FloatField(), 
+        min_length=4, 
+        max_length=4
+    )
+
+    phase = serializers.ListField(
+        child=serializers.FloatField(), 
+        min_length=4, 
+        max_length=4
+    )
+
+    soc = serializers.ListField(
+        child=serializers.FloatField(), 
+        min_length=4, 
+        max_length=4
+    )
+
+    def validate_cell_ids(self, value):
+        queryset = Cell.objects.values_list('cell_id')
+        registered_ids = [item[0] for item in queryset]
+        for candidate_id in value:
+            if candidate_id < 0:
+                raise serializers.ValidationError("cell_id field must be a positive integer number")
+            if candidate_id not in registered_ids:
+                raise serializers.ValidationError(f"Cell instance with cell_id: {candidate_id} must already exist, please create Cell instance")
         return value
 
 
@@ -46,6 +100,11 @@ class EISSerializer(serializers.ModelSerializer):
     class Meta:
         model = EIS
         fields = "__all__"
-
+    
+    
+    
 class MeasurementsSerializer(serializers.ModelSerializer):
-    pass
+    
+    class Meta:
+        model = Measurement
+        fields = '__all__'
