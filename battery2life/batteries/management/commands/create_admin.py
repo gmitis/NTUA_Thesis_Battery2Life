@@ -4,7 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-
+# create admin command to run on initializing of dockercontainer for creating a backend superuser
 class Command(BaseCommand):
     help = 'Create an admin user if non exists'
 

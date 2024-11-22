@@ -1,11 +1,13 @@
-name: battery2life
-
 services:
   api:
     build: ./battery2life
     container_name: api
-    command: python manage.py runserver 0.0.0.0:8000
-    restart: unless-stopped
+    command: >
+      sh -c " python manage.py makemigrations &&
+              python manage.py migrate &&
+              python manage.py create_admin &&
+              python manage.py runserver 0.0.0.0:8000 
+      "
     depends_on: 
       - db
     ports:
@@ -14,19 +16,30 @@ services:
       - ./battery2life:/usr/src/app
       - ./battery2life/app.log:/usr/src/app/app.log
     env_file:
-      - ./battery2life/.env.dev
-    environment:
-      - DJANGO_SUPERUSER_USERNAME=admin0
-      - DJANGO_SUPERUSER_EMAIL=admin0@admin.com
-      - DJANGO_SUPERUSER_PASSWORD=admin0
+      - ./.env.dev
     networks:
-      - db 
+      - db
+    
+
+  db:
+    image: postgres:17.0
+    container_name: db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=b2l
+    networks:
+      - db
 
 
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
-    restart: unless-stopped
     depends_on: 
       - db
     ports:
@@ -43,7 +56,6 @@ services:
   mosquitto-client:
     build: ./mosquitto-client
     container_name: mosquitto-client
-    restart: unless-stopped
     depends_on:
       - mosquitto
     environment:
@@ -56,33 +68,17 @@ services:
       - ./mosquitto-client/mosquitto-client.log:/usr/src/mosquitto-client/mosquitto-client.log
     networks:
       - mosquitto
-      - db
     command: [ "python3",  "mosquitto_client.py" ]
-
-
-  db:
-    image: postgres:17.0
-    container_name: db
-    restart: unless-stopped
-    ports:
-      - "5432:5432"
-    volumes:
-      - ./data:/usr/src/data
-    env_file:
-      - ./battery2life/.env.dev
-    networks:
-      - mosquitto
-      - db 
 
     
 volumes:
-  api:
+  battery2life:
+  pgdata: 
+  mosquitto-client:
   mosquitto:
 
 networks:
   mosquitto:
-    name: mosquitto
     driver: bridge
-  db :
-    name: db 
+  db:
     driver: bridge
