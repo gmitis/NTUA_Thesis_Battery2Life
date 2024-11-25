@@ -30,6 +30,7 @@ DEBUG = bool(os.environ.get("DEBUG", default=1))
 
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOST", default='localhost').split(" ")
 
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
 
@@ -43,6 +44,7 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'rest_framework',
     'rest_framework_simplejwt',
+    'corsheaders',
     'batteries'
 ]
 
@@ -54,6 +56,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'battery2life.urls'
