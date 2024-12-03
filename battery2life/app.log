@@ -114,3 +114,9 @@
 2024-12-03 11:35:06,272-(INFO)-utils | Response Status: 204
 2024-12-03 11:40:33,040-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
 2024-12-03 11:40:33,041-(INFO)-utils | Response Status: 200
+2024-12-03 12:09:20,937-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 12:09:20,940-(INFO)-utils | Response Status: 200
+2024-12-03 12:09:37,199-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 12:09:37,200-(INFO)-utils | Response Status: 201
+2024-12-03 12:09:42,570-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 12:09:42,571-(INFO)-utils | Response Status: 200
