@@ -200,3 +200,103 @@
 2024-12-03 12:42:43,731-(INFO)-utils | Response Status: 404
 2024-12-03 12:42:49,325-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
 2024-12-03 12:42:49,326-(INFO)-utils | Response Status: 200
+2024-12-03 12:51:41,835-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 12:51:41,836-(INFO)-utils | Response Status: 200
+2024-12-03 12:55:32,115-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-12-03 12:55:32,116-(INFO)-utils | Response Status: 200
+2024-12-03 12:55:33,229-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-12-03 12:55:33,230-(INFO)-utils | Response Status: 200
+2024-12-03 12:57:29,075-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-12-03 12:57:29,076-(INFO)-utils | Response Status: 200
+2024-12-03 12:57:47,124-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-12-03 12:57:47,124-(INFO)-utils | Response Status: 400
+2024-12-03 12:58:11,258-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-12-03 12:58:11,259-(INFO)-utils | Response Status: 400
+2024-12-03 12:58:33,912-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-12-03 12:58:33,926-(INFO)-utils | Response Status: 400
+2024-12-03 12:59:02,573-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-12-03 12:59:02,574-(INFO)-utils | Response Status: 400
+2024-12-03 12:59:07,470-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-12-03 12:59:07,471-(INFO)-utils | Response Status: 400
+2024-12-03 12:59:12,412-(INFO)-utils | Request Method: POST | Request Resource: /api/cells/
+2024-12-03 12:59:12,413-(INFO)-utils | Response Status: 201
+2024-12-03 12:59:21,549-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/6/
+2024-12-03 12:59:21,554-(INFO)-utils | Response Status: 200
+2024-12-03 12:59:26,291-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/7/
+2024-12-03 12:59:26,292-(INFO)-utils | Response Status: 404
+2024-12-03 12:59:30,917-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/-7/
+2024-12-03 12:59:30,918-(INFO)-utils | Response Status: 404
+2024-12-03 12:59:31,241-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/-7/
+2024-12-03 12:59:31,242-(INFO)-utils | Response Status: 404
+2024-12-03 12:59:56,105-(INFO)-utils | Request Method: PUT | Request Resource: /api/cells/6/
+2024-12-03 12:59:56,106-(INFO)-utils | Response Status: 200
+2024-12-03 13:00:28,034-(INFO)-utils | Request Method: PATCH | Request Resource: /api/cells/6/
+2024-12-03 13:00:28,035-(INFO)-utils | Response Status: 200
+2024-12-03 13:00:37,076-(INFO)-utils | Request Method: DELETE | Request Resource: /api/cells/6/
+2024-12-03 13:00:37,077-(INFO)-utils | Response Status: 204
+2024-12-03 13:00:42,111-(INFO)-utils | Request Method: DELETE | Request Resource: /api/cells/65/
+2024-12-03 13:00:42,112-(INFO)-utils | Response Status: 404
+2024-12-03 13:00:53,842-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-12-03 13:00:53,843-(INFO)-utils | Response Status: 200
+2024-12-03 13:01:07,861-(INFO)-utils | Request Method: GET | Request Resource: /api/manufacturers/
+2024-12-03 13:01:07,862-(INFO)-utils | Response Status: 401
+2024-12-03 13:01:16,542-(INFO)-utils | Request Method: GET | Request Resource: /api/manufacturers/
+2024-12-03 13:01:16,544-(INFO)-utils | Response Status: 401
+2024-12-03 13:04:06,257-(INFO)-utils | Request Method: GET | Request Resource: /api/manufacturers/
+2024-12-03 13:04:06,258-(INFO)-utils | Response Status: 200
+2024-12-03 13:05:51,381-(INFO)-utils | Request Method: GET | Request Resource: /api/manufacturers/
+2024-12-03 13:05:51,381-(INFO)-utils | Response Status: 200
+2024-12-03 13:06:14,131-(INFO)-utils | Request Method: PUT | Request Resource: /api/manufacturers/1/
+2024-12-03 13:06:14,131-(INFO)-utils | Response Status: 200
+2024-12-03 13:06:28,236-(INFO)-utils | Request Method: PUT | Request Resource: /api/manufacturers/2/
+2024-12-03 13:06:28,237-(INFO)-utils | Response Status: 404
+2024-12-03 13:06:35,709-(INFO)-utils | Request Method: GET | Request Resource: /api/manufacturers/1/
+2024-12-03 13:06:35,710-(INFO)-utils | Response Status: 200
+2024-12-03 13:07:19,942-(INFO)-utils | Request Method: PATCH | Request Resource: /api/manufacturers/1/
+2024-12-03 13:07:19,943-(INFO)-utils | Response Status: 200
+2024-12-03 13:07:28,087-(INFO)-utils | Request Method: PATCH | Request Resource: /api/manufacturers/1/
+2024-12-03 13:07:28,088-(INFO)-utils | Response Status: 200
+2024-12-03 13:07:32,305-(INFO)-utils | Request Method: GET | Request Resource: /api/manufacturers/
+2024-12-03 13:07:32,306-(INFO)-utils | Response Status: 200
+2024-12-03 13:07:40,659-(INFO)-utils | Request Method: GET | Request Resource: /api/modules/
+2024-12-03 13:07:40,659-(INFO)-utils | Response Status: 200
+2024-12-03 13:07:54,009-(INFO)-utils | Request Method: POST | Request Resource: /api/modules/
+2024-12-03 13:07:54,010-(INFO)-utils | Response Status: 400
+2024-12-03 13:08:14,151-(INFO)-utils | Request Method: POST | Request Resource: /api/modules/
+2024-12-03 13:08:14,152-(INFO)-utils | Response Status: 201
+2024-12-03 13:08:20,231-(INFO)-utils | Request Method: POST | Request Resource: /api/modules/
+2024-12-03 13:08:20,232-(INFO)-utils | Response Status: 201
+2024-12-03 13:08:25,346-(INFO)-utils | Request Method: GET | Request Resource: /api/modules/
+2024-12-03 13:08:25,346-(INFO)-utils | Response Status: 200
+2024-12-03 13:08:42,159-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-12-03 13:08:42,160-(INFO)-utils | Response Status: 200
+2024-12-03 13:08:56,145-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-12-03 13:08:56,146-(INFO)-utils | Response Status: 200
+2024-12-03 13:09:04,453-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-12-03 13:09:04,454-(INFO)-utils | Response Status: 200
+2024-12-03 13:09:18,415-(INFO)-utils | Request Method: POST | Request Resource: /api/eis/
+2024-12-03 13:09:18,416-(INFO)-utils | Response Status: 201
+2024-12-03 13:09:21,651-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-12-03 13:09:21,652-(INFO)-utils | Response Status: 200
+2024-12-03 13:09:26,530-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/3/
+2024-12-03 13:09:26,532-(INFO)-utils | Response Status: 200
+2024-12-03 13:09:28,994-(INFO)-utils | Request Method: DELETE | Request Resource: /api/eis/3/
+2024-12-03 13:09:28,995-(INFO)-utils | Response Status: 204
+2024-12-03 13:09:34,470-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/3/
+2024-12-03 13:09:34,472-(INFO)-utils | Response Status: 404
+2024-12-03 13:09:38,288-(INFO)-utils | Request Method: GET | Request Resource: /api/eis/
+2024-12-03 13:09:38,289-(INFO)-utils | Response Status: 200
+2024-12-03 13:09:46,608-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-12-03 13:09:46,609-(INFO)-utils | Response Status: 200
+2024-12-03 13:10:04,779-(INFO)-utils | Request Method: POST | Request Resource: /api/measurements/
+2024-12-03 13:10:04,780-(INFO)-utils | Response Status: 200
+2024-12-03 13:10:07,559-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-12-03 13:10:07,560-(INFO)-utils | Response Status: 200
+2024-12-03 13:10:13,126-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/1/
+2024-12-03 13:10:13,127-(INFO)-utils | Response Status: 200
+2024-12-03 13:10:16,179-(INFO)-utils | Request Method: DELETE | Request Resource: /api/measurements/1/
+2024-12-03 13:10:16,180-(INFO)-utils | Response Status: 204
+2024-12-03 13:10:18,454-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/1/
+2024-12-03 13:10:18,455-(INFO)-utils | Response Status: 404
+2024-12-03 13:10:22,092-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
+2024-12-03 13:10:22,093-(INFO)-utils | Response Status: 200

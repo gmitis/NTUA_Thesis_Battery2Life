@@ -59,13 +59,7 @@ class Module(models.Model):
     # Unit kg
     battery_module_weight = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True, default=1.0 )
     # Unit C
-    operating_temperature = models.DecimalField(
-        max_digits=3,
-        decimal_places=3,
-        blank=True,
-        null=True,
-        validators=[MinValueValidator(-20.0), MaxValueValidator(60.0)],
-    )
+    operating_temperature = models.FloatField(blank=True,null=True)
     # Unit m
     max_operating_altitude = models.IntegerField(blank=True, null=True, default=1)
     # Unit dB
