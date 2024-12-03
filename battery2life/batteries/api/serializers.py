@@ -21,19 +21,14 @@ class ModuleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Module
         fields = "__all__"
+
+
+class CellSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Cell
+        fields = "__all__"
         
-
-class AddCellSerializer(serializers.Serializer):
-    cell_id = serializers.ListField(child=serializers.IntegerField(), allow_empty=False)
-
-    def validate_cell_ids(self, value):
-        # validate for duplicates, negative numebrs
-        if len(value) != len(set(value)):
-            raise serializers.ValidationError("Please remove duplicate ids from your request")
-        if len(value) != len(list(filter(lambda x:x>=0, value))):
-            raise serializers.ValidationError("All ids must be positive integer numbers")
-        return value
-
 
 class AddMeasurementSerializer(serializers.Serializer):
     cell_ids = serializers.ListField(
@@ -79,7 +74,7 @@ class AddMeasurementSerializer(serializers.Serializer):
     )
 
     def validate_cell_ids(self, value):
-        queryset = Cell.objects.values_list('cell_id')
+        queryset = Cell.objects.values_list('id')
         registered_ids = [item[0] for item in queryset]
         for candidate_id in value:
             if candidate_id < 0:
@@ -88,12 +83,6 @@ class AddMeasurementSerializer(serializers.Serializer):
                 raise serializers.ValidationError(f"Cell instance with cell_id: {candidate_id} must already exist, please create Cell instance")
         return value
 
-
-class CellSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = Cell
-        fields = "__all__"
         
 class EISSerializer(serializers.ModelSerializer):
     

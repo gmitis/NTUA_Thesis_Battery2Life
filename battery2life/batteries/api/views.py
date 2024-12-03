@@ -17,7 +17,6 @@ from batteries.api.serializers import (
     AddMeasurementSerializer,
     ModuleSerializer,
     CellSerializer,
-    AddCellSerializer,
 )
 from batteries.mixins import LoggingMixin
 
@@ -50,22 +49,6 @@ class CellViewSet(LoggingMixin, ModelViewSet):
     queryset = Cell.objects.all()
     serializer_class = CellSerializer
     permission_classes = [IsAuthenticated]
-
-    # Creates Cell instances, POST request body: list of cell_ids
-    def create(self, request, *args, **kwargs):
-        serializer = AddCellSerializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        
-        cell_ids = serializer.validated_data.get('cell_id')
-        created_ids = []
-        already_exists_ids = []
-        for id in cell_ids:
-            if  not Cell.objects.filter(pk=id).exists():
-                Cell.objects.create(cell_id=id)
-                created_ids.append(id)
-                
-        return Response(
-            {"created_cell_ids": created_ids}, status=status.HTTP_200_OK)    
     
 
 class EISViewSet(LoggingMixin, ModelViewSet):
@@ -93,7 +76,7 @@ class MeasurementViewSet(LoggingMixin, ModelViewSet):
         soc = serializer.validated_data.get("soc")
         
         for id in range(4):
-            cell = Cell.objects.get(cell_id=cell_id[id])
+            cell = Cell.objects.get(id=cell_id[id])
             Measurement.objects.create(
                 cell_id=cell, 
                 voltage=voltage[id], 
