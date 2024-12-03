@@ -30,6 +30,8 @@ DEBUG = bool(os.environ.get("DEBUG", default=1))
 
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOST", default='localhost').split(" ")
 
+CSRF_TRUSTED_ORIGINS = ['https://dev-battery2life.iccs.gr']
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
@@ -168,8 +170,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Your Project API',
-    'DESCRIPTION': 'Your project description',
+    'TITLE': 'Battery2Life API',
+    'DESCRIPTION': 'Initial api',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
     # OTHER SETTINGS
