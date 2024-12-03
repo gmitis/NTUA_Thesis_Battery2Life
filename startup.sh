@@ -1,3 +1,3 @@
 #! /bin/bash
 
-docker-compose up --build --force-recreate api
+docker-compose up  --force-recreate --build api db

@@ -26,3 +26,91 @@
 2024-11-22 06:11:07,487-(INFO)-utils | Response Status: 200
 2024-11-22 06:11:10,349-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
 2024-11-22 06:11:10,350-(INFO)-utils | Response Status: 200
+2024-12-03 10:51:21,076-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 10:51:21,077-(INFO)-utils | Response Status: 403
+2024-12-03 10:51:26,477-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 10:51:26,478-(INFO)-utils | Response Status: 200
+2024-12-03 10:51:56,448-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 10:51:56,448-(INFO)-utils | Response Status: 200
+2024-12-03 10:52:33,079-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 10:52:33,081-(INFO)-utils | Response Status: 400
+2024-12-03 10:55:59,603-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 10:55:59,604-(INFO)-utils | Response Status: 200
+2024-12-03 10:56:26,192-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 10:56:26,192-(INFO)-utils | Response Status: 201
+2024-12-03 10:56:41,393-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 10:56:41,394-(INFO)-utils | Response Status: 400
+2024-12-03 10:56:47,673-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 10:56:47,674-(INFO)-utils | Response Status: 400
+2024-12-03 10:57:00,591-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 10:57:00,591-(INFO)-utils | Response Status: 400
+2024-12-03 10:57:12,150-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 10:57:12,151-(INFO)-utils | Response Status: 400
+2024-12-03 10:57:23,745-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 10:57:23,747-(INFO)-utils | Response Status: 201
+2024-12-03 10:57:51,223-(INFO)-utils | Request Method: PATCH | Request Resource: /api/batteries/1/
+2024-12-03 10:57:51,224-(INFO)-utils | Response Status: 200
+2024-12-03 10:58:17,084-(INFO)-utils | Request Method: PUT | Request Resource: /api/batteries/1/
+2024-12-03 10:58:17,085-(INFO)-utils | Response Status: 400
+2024-12-03 10:58:30,343-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 10:58:30,343-(INFO)-utils | Response Status: 200
+2024-12-03 10:58:46,028-(INFO)-utils | Request Method: PUT | Request Resource: /api/batteries/1/
+2024-12-03 10:58:46,032-(INFO)-utils | Response Status: 400
+2024-12-03 10:59:02,796-(INFO)-utils | Request Method: PUT | Request Resource: /api/batteries/1/
+2024-12-03 10:59:02,797-(INFO)-utils | Response Status: 400
+2024-12-03 10:59:35,204-(INFO)-utils | Request Method: PUT | Request Resource: /api/batteries/1/
+2024-12-03 10:59:35,210-(INFO)-utils | Response Status: 200
+2024-12-03 11:00:42,065-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/ww2/
+2024-12-03 11:00:42,071-(INFO)-utils | Response Status: 200
+2024-12-03 11:00:59,117-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 11:00:59,118-(INFO)-utils | Response Status: 400
+2024-12-03 11:01:09,688-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 11:01:09,689-(INFO)-utils | Response Status: 201
+2024-12-03 11:01:29,138-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:01:29,146-(INFO)-utils | Response Status: 200
+2024-12-03 11:02:24,736-(INFO)-utils | Request Method: DELETE | Request Resource: /api/batteries/1/
+2024-12-03 11:02:24,742-(INFO)-utils | Response Status: 204
+2024-12-03 11:02:31,196-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:02:31,196-(INFO)-utils | Response Status: 200
+2024-12-03 11:02:48,364-(INFO)-utils | Request Method: DELETE | Request Resource: /api/batteries/%22ww2-%5E&1%22/
+2024-12-03 11:02:48,365-(INFO)-utils | Response Status: 404
+2024-12-03 11:03:55,261-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:03:55,262-(INFO)-utils | Response Status: 200
+2024-12-03 11:04:06,645-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/ww2-%5E&1/
+2024-12-03 11:04:06,645-(INFO)-utils | Response Status: 200
+2024-12-03 11:05:58,020-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/ww2-%5E&1/
+2024-12-03 11:05:58,021-(INFO)-utils | Response Status: 200
+2024-12-03 11:23:02,639-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:23:02,640-(INFO)-utils | Response Status: 403
+2024-12-03 11:23:25,205-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:23:25,205-(INFO)-utils | Response Status: 200
+2024-12-03 11:23:54,799-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 11:23:54,799-(INFO)-utils | Response Status: 201
+2024-12-03 11:32:14,495-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:32:14,498-(INFO)-utils | Response Status: 403
+2024-12-03 11:32:46,264-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:32:46,268-(INFO)-utils | Response Status: 200
+2024-12-03 11:33:07,839-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 11:33:07,840-(INFO)-utils | Response Status: 400
+2024-12-03 11:33:22,148-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 11:33:22,149-(INFO)-utils | Response Status: 201
+2024-12-03 11:33:29,979-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 11:33:29,979-(INFO)-utils | Response Status: 400
+2024-12-03 11:33:37,002-(INFO)-utils | Request Method: POST | Request Resource: /api/batteries/
+2024-12-03 11:33:37,003-(INFO)-utils | Response Status: 201
+2024-12-03 11:33:41,015-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:33:41,016-(INFO)-utils | Response Status: 200
+2024-12-03 11:33:51,033-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/2/
+2024-12-03 11:33:51,034-(INFO)-utils | Response Status: 200
+2024-12-03 11:33:53,731-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/22/
+2024-12-03 11:33:53,732-(INFO)-utils | Response Status: 404
+2024-12-03 11:34:07,963-(INFO)-utils | Request Method: PUT | Request Resource: /api/batteries/2/
+2024-12-03 11:34:07,965-(INFO)-utils | Response Status: 200
+2024-12-03 11:34:24,912-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:34:24,913-(INFO)-utils | Response Status: 200
+2024-12-03 11:34:56,522-(INFO)-utils | Request Method: PATCH | Request Resource: /api/batteries/2/
+2024-12-03 11:34:56,523-(INFO)-utils | Response Status: 200
+2024-12-03 11:35:06,271-(INFO)-utils | Request Method: DELETE | Request Resource: /api/batteries/2/
+2024-12-03 11:35:06,272-(INFO)-utils | Response Status: 204
+2024-12-03 11:40:33,040-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 11:40:33,041-(INFO)-utils | Response Status: 200

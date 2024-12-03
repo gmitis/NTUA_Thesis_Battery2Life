@@ -41,6 +41,10 @@ Step 4.a: Run The App
 
 ## Testing The App:
 
+### Admin Credentials:
+- username: Admin
+- password: Admin
+
 ### Mosquitto MQTT
 
 Step 1: run the app as mentioned above 

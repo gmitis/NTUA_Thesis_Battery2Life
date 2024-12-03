@@ -2,116 +2,33 @@ import datetime
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
-
-class Address(models.Model):
-    city = models.CharField(max_length=255)
-    street = models.CharField(max_length=255)
-    number = models.SmallIntegerField()
-    zipcode = models.SmallIntegerField()
     
-    class Meta:
-        verbose_name_plural = "Addresses"
-
-    def __str__(self):
-        return f"{self.city} {self.street} {self.number}"
-
-class Dimensions(models.Model):
-    # all metrics in mm
-    height = models.DecimalField(max_digits=4, decimal_places=2, null=True)
-    width = models.DecimalField(max_digits=4, decimal_places=2, null=True)
-    length = models.DecimalField(max_digits=4, decimal_places=2, null=True)
-
-    def __str__(self):
-        return f"height:{self.height} width:{self.width} length:{self.length}"
-    
-class Chemical(models.Model):
-    EXTINGUISING_AGENTS =[
-        ('fe', 'fire extinguiser'),
-    ]
-    
-    hazardus = models.BooleanField(default=False)
-    extinguising_agent = models.CharField(
-        max_length=3, 
-        choices=EXTINGUISING_AGENTS, 
-        blank=True, 
-        null=True
-    )
-    chemical_name = models.CharField(max_length=255)
-    
-    def __str__(self):
-        return self.chemical_name
-
-    
-class SafetyFeatures(models.Model):
-    SAFETY_FEATURES = [
-        ('tm', 'thermal management'),
-        ('op', 'overcharge protection'),
-        ('sc', 'short-circuit prevention'),
-    ]
-    
-    safety_feature = models.CharField(max_length=2, choices=SAFETY_FEATURES, null=True)
-    
-    def __str__(self):
-        return self.safety_feature
-
-class Materials(models.Model):
-    critical_material = models.BooleanField(default=False)
-    recycled_material = models.BooleanField(default=False)
-    material = models.CharField(max_length=255)
-    
-    def __str__(self):
-        return self.material
-
-
-
 class Manufacturer(models.Model):
     name = models.CharField(max_length=255)
     email = models.CharField(max_length=100, blank=True, null=True)
-    address = models.ForeignKey(Address,  blank=True, null= True, on_delete=models.PROTECT)
+    address = models.CharField(max_length=2000, null=True, blank=True)
 
     def __str__(self):
         return self.name
 
 
 class Battery(models.Model):
-    serial_number = models.CharField(max_length=255)
-    battery_name = models.CharField(max_length=255, blank=True, null=True)
+    serial_number = models.CharField(max_length=255, unique=True)
+    battery_name = models.CharField(max_length=255, blank=True, null=True, unique=True)
     weight = models.DecimalField(decimal_places=3, max_digits=10, blank=True, null=True, default=0.1) # kilograms
     capacity = models.IntegerField(blank=True, null=True, default=0)  # amp-hours
     original_power_capability = models.IntegerField(blank=True, null=True, default=0)  # Watts
     expected_EndOfLife= models.DateField(blank=True, null=True)
-    manufactured_date = models.DateField()
-    manufactured_place = models.ForeignKey(
-        Address, 
-        on_delete=models.PROTECT, 
-        blank=True, 
-        null=True
-    )
-    materials = models.ForeignKey(
-        Materials, 
-        on_delete=models.PROTECT,
-        null=True,
-        blank=True,
-        related_name='batteries'
-    )
-    safety_features = models.ForeignKey(
-        SafetyFeatures, 
-        on_delete=models.PROTECT,
-        blank=True, 
-        null=True, 
-        related_name='batteries'
-    )
+    manufactured_date = models.DateField(blank=True, null=True)
+    manufactured_place = models.CharField(max_length=2000, null=True, blank=True)
     manufacturer = models.OneToOneField(
-        Manufacturer, 
+        Manufacturer,
+        blank=True,
+        null=True, 
         on_delete=models.CASCADE, 
         related_name="batteries", 
     )
-    battery_dimensions = models.OneToOneField(
-        Dimensions, 
-        on_delete=models.PROTECT, 
-        blank=True,
-        null=True, 
-    )
+    battery_dimensions = models.CharField(max_length=1000, blank=True, null=True)
 
     class Meta:
         verbose_name_plural = "Batteries"
@@ -154,18 +71,8 @@ class Module(models.Model):
     cell_technology = models.CharField(blank=True, null=True, max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    battery_module_dimension = models.OneToOneField(
-        Dimensions,
-        null=True, 
-        on_delete=models.PROTECT, 
-        related_name='battery_module_dimension'
-    )
-    power_module_dimension = models.OneToOneField(
-        Dimensions,
-        null=True, 
-        on_delete=models.PROTECT, 
-        related_name='power_module_dimension'
-    )
+    battery_module_dimension = models.CharField(max_length=1000, blank=True, null=True)
+    power_module_dimension = models.CharField(max_length=1000, blank=True, null=True)
     battery = models.ForeignKey(Battery, on_delete=models.CASCADE, related_name="modules")
 
     class Meta:
