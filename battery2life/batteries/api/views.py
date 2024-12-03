@@ -37,30 +37,35 @@ class BatteriesViewSet(LoggingMixin, ModelViewSet):
     queryset = Battery.objects.all()
     serializer_class = BatteriesSerializer
     permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
 
 
 class ModuleViewSet(LoggingMixin, ModelViewSet):
     queryset = Module.objects.all()
     serializer_class = ModuleSerializer
     permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
 
 
 class CellViewSet(LoggingMixin, ModelViewSet):
     queryset = Cell.objects.all()
     serializer_class = CellSerializer
     permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
     
 
 class EISViewSet(LoggingMixin, ModelViewSet):
     queryset = EIS.objects.all()
     serializer_class = EISSerializer
     permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
 
 
 class MeasurementViewSet(LoggingMixin, ModelViewSet):
     queryset = Measurement.objects.all()
     serializer_class = MeasurementsSerializer
     permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
 
     # Save real time measurement data 
     def create(self, request, *args, **kwargs):

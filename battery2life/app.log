@@ -300,3 +300,15 @@
 2024-12-03 13:10:18,455-(INFO)-utils | Response Status: 404
 2024-12-03 13:10:22,092-(INFO)-utils | Request Method: GET | Request Resource: /api/measurements/
 2024-12-03 13:10:22,093-(INFO)-utils | Response Status: 200
+2024-12-03 15:08:12,983-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 15:08:12,984-(INFO)-utils | Response Status: 401
+2024-12-03 15:08:27,721-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 15:08:27,723-(INFO)-utils | Response Status: 401
+2024-12-03 15:08:38,977-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 15:08:38,977-(INFO)-utils | Response Status: 401
+2024-12-03 15:09:25,350-(INFO)-utils | Request Method: GET | Request Resource: /api/batteries/
+2024-12-03 15:09:25,352-(INFO)-utils | Response Status: 200
+2024-12-03 15:09:32,527-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-12-03 15:09:32,528-(INFO)-utils | Response Status: 200
+2024-12-03 15:09:50,665-(INFO)-utils | Request Method: GET | Request Resource: /api/cells/
+2024-12-03 15:09:50,666-(INFO)-utils | Response Status: 401
