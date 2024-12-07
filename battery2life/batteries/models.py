@@ -153,7 +153,7 @@ class Measurement(models.Model):
     cell_id = models.ForeignKey(Cell, to_field='id', on_delete=models.CASCADE, related_name='measurements')
     
     def __str__(self) -> str:
-        return self.cell_id
+        return f"{self.id}"
     
 
 # Equivalent Impedance Spectroscopy measurements - asynchronous
@@ -171,5 +171,5 @@ class EIS(models.Model):
     cell_id = models.ForeignKey(Cell, to_field='id', on_delete=models.CASCADE, related_name='eis')
 
     def __str__(self):
-        return self.cell_id
+        return f"{self.id}"
     
