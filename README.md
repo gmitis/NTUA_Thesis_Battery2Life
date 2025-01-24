@@ -2,7 +2,9 @@
 
 [TBA.description]
 
-## Running The Server
+## Testing The App:
+
+### Running The Server
 
 Step 1: Clone the Repository
 
@@ -24,36 +26,47 @@ Step 3: Add necessary files
 ```
 
 
-Step 4.a: Run The App
+Step 4.a: Create services
 
  ``` bash
- docker-compose build
- docker-compose up -d 
+ docker-compose up -d --build --force-recreate 
 
- docker-compose logs -f #check for errors
+# follow service logs
+ docker logs [ServiceName] -f 
  ```
 
- Step 4.b: Stop The App
+ Step 4.b: Stop and remove Services
 
  ```bash
- docker-compose down 
+ # brings down services removes every volume, network and container created 
+ docker-compose down -v
  ```
 
-## Testing The App:
-
-### Admin Credentials:
-- username: Admin
-- password: Admin
-
-### Mosquitto MQTT
+### Testing Mosquitto MQTT
 
 Step 1: run the app as mentioned above 
 
 Step 2: install a mosquitto client in the terminal
 > sudo apt update && sudo apt install mosquitto-clients
 
-Step 3: open a terminal window, paste the following and see if you can read the message in the terminal you have started the app or mosquitto/mosquitto-client.log file 
+Step 3: 
+i. open a terminal window  
+ii. paste the following
+iii. see if you can read the message in the terminal or in the mosquitto/mosquitto-client.log file 
 > mosquitto_pub -t 'hello/topic' -m 'henlo wrold' -u user1 -P user1
+
+
+### API Documentation
+
+ Run the steps mentioned above, run the app and then visit:
+ > localhost:8000/api/schema/swagger-ui/
+
+
+
+### Admin Credentials
+- username: Admin
+- password: Admin
+
 
 ### PostgreSQL schema view
 
@@ -79,7 +92,7 @@ Step 4:
     \dt
 ```
 
-### Endpoints:
+### Endpoints
 Step 1: Test api/cells
 - make a post request with a list of cell_ids like [0, 1, 2, 3]
 
@@ -109,9 +122,3 @@ Step 3: Test api/measurements
     "phase": [93, 34, 21, 59],
     "soc": [69.66569519, 70.92323303, 59.74949265, 70.6905365]
 } 
-
-
-## API Documentation
-
- Run the steps mentioned above, run the app and then visit:
- > localhost:8000/api/schema/swagger-ui/
