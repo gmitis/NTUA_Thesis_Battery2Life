@@ -5,7 +5,11 @@ ALTER SYSTEM SET wal_keep_size = 0;
 ALTER SYSTEM SET max_wal_senders = 0;
 ALTER SYSTEM SET archive_mode = off;
 
-CREATE DATABASE b2l;
+
+-- DROP DATABASE adis;
+CREATE DATABASE adis;
+
+
 
 DO $$
 BEGIN
