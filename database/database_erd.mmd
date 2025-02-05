@@ -1,0 +1,123 @@
+erDiagram
+    Battery ||--o{ Module : "contains"
+    Battery ||--o|| Dimension : "has"
+    Battery ||--o|| Manufacturer : "has"
+    Battery ||--o|| Material : "made_of"
+    Battery ||--o|| SafetyFeature : "has"
+    Battery ||--o|| Address : "manufactured_at"
+
+    Module ||--o{ Cell : "contains"
+    Module ||--o|| Dimension : "battery_module_dimension"
+    Module ||--o|| Dimension : "power_module_dimension"
+
+    Cell ||--o|| Dimension : "has"
+    Cell ||--o{ Measurement : "has"
+    Cell ||--o{ EIS : "has"
+    Cell }o--o{ Chemical : "contains"
+
+    Manufacturer ||--o|| Address : "has"
+
+    Battery {
+        string serial_number PK
+        string battery_name UK
+        decimal weight
+        integer capacity
+        integer original_power_capability
+        date expected_EndOfLife
+        date manufactured_date
+    }
+
+    Module {
+        string power_module_name
+        string battery_module_name
+        decimal battery_module_energy
+        decimal battery_usable_energy
+        decimal max_output_power
+        decimal peak_output_power
+        integer nominal_voltage
+        integer operating_voltage_range
+        string communication
+        decimal power_module_weight
+        decimal battery_module_weight
+        float operating_temperature
+        integer max_operating_altitude
+        decimal noise_emission
+        string cell_technology
+        datetime created_at
+        datetime updated_at
+    }
+
+    Cell {
+        string cell_name PK
+        integer nominal_capacity
+        integer nominal_energy
+        integer nominal_cycles
+        integer gravimetric_energy_density
+        integer volumetric_energy_density
+        string industry_standard
+        decimal nominal_voltage
+        decimal operating_voltage
+        decimal ac_resistance
+        decimal max_self_discharge_rate
+        decimal nominal_SOC_at_delivery
+        decimal cell_weight
+        decimal cell_charging_temperature
+        decimal cell_discharging_temperature
+    }
+
+    Measurement {
+        float voltage
+        float temperature
+        float current
+        float sot
+        float phase
+        float soc
+        datetime added_at
+    }
+
+    EIS {
+        string status
+        string event_id
+        float frequency
+        float amplitude
+        float phase
+        float current_offset
+        float v_start
+        float v_end
+        float temperature
+        datetime added_at
+    }
+
+    Chemical {
+        boolean hazardus
+        string extinguising_agent
+        string chemical_name
+    }
+
+    SafetyFeature {
+        string safety_feature
+    }
+
+    Material {
+        boolean critical_material
+        boolean recycled_material
+        string material
+    }
+
+    Dimension {
+        decimal height
+        decimal width
+        decimal length
+    }
+
+    Address {
+        string city
+        string street
+        integer number
+        integer zipcode
+    }
+
+    Manufacturer {
+        string name UK
+        string email
+    }
