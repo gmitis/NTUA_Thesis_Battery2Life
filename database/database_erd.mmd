@@ -1,21 +1,41 @@
+  %%{init: {'themeVariables': {'erFontSize': '18px'}}}%%
 erDiagram
+
+%% relationships definition %%
+    User ||--o{ Battery : "manages"
+    User ||--o{ Module : "manages"
+    User ||--o{ Cell : "manages"
+    User ||--o{ Measurement : "overviews" 
+    User ||--o{ EIS : "overviews"
+
     Battery ||--o{ Module : "contains"
-    Battery ||--o|| Dimension : "has"
-    Battery ||--o|| Manufacturer : "has"
-    Battery ||--o|| Material : "made_of"
-    Battery ||--o|| SafetyFeature : "has"
-    Battery ||--o|| Address : "manufactured_at"
+    Battery ||--o| Dimension : "has"
+    Battery ||--o| Manufacturer : "has"
+    Battery ||--o| Material : "made_of"
+    Battery ||--o| SafetyFeature : "has"
+    Battery ||--o| Address : "manufactured_at"
 
     Module ||--o{ Cell : "contains"
-    Module ||--o|| Dimension : "battery_module_dimension"
-    Module ||--o|| Dimension : "power_module_dimension"
+    Module ||--o| Dimension : "battery_module_dimension"
+    Module ||--o| Dimension : "power_module_dimension"
 
-    Cell ||--o|| Dimension : "has"
+    Cell ||--o| Dimension : "has"
     Cell ||--o{ Measurement : "has"
     Cell ||--o{ EIS : "has"
     Cell }o--o{ Chemical : "contains"
 
-    Manufacturer ||--o|| Address : "has"
+    Manufacturer ||--o| Address : "has"
+
+%% entities definition %%
+    User {
+        integer id PK
+        string password 
+        string username 
+        string firstname
+        string lastname
+        string email
+        boolean is_superuser
+    }
 
     Battery {
         string serial_number PK
@@ -121,3 +141,4 @@ erDiagram
         string name UK
         string email
     }
+    
