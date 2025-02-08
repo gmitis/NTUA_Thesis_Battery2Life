@@ -18,9 +18,9 @@ class Address(models.Model):
 
 class Dimension(models.Model):
     # all metrics in mm
-    height = models.DecimalField(max_digits=4, decimal_places=2, null=True)
-    width = models.DecimalField(max_digits=4, decimal_places=2, null=True)
-    length = models.DecimalField(max_digits=4, decimal_places=2, null=True)
+    height = models.DecimalField(max_digits=4, decimal_places=2,  blank=True, null=True)
+    width = models.DecimalField(max_digits=4, decimal_places=2,  blank=True, null=True)
+    length = models.DecimalField(max_digits=4, decimal_places=2,  blank=True, null=True)
 
     def __str__(self):
         return f"height:{self.height} width:{self.width} length:{self.length}"
@@ -38,7 +38,7 @@ class Chemical(models.Model):
         blank=True, 
         null=True
     )
-    chemical_name = models.CharField(max_length=255)
+    chemical_name = models.CharField(max_length=255, blank=True, null=True)
     
     def __str__(self):
         return self.chemical_name
@@ -51,7 +51,7 @@ class SafetyFeature(models.Model):
         ('sc', 'short-circuit prevention'),
     ]
     
-    safety_feature = models.CharField(max_length=2, choices=SAFETY_FEATURES, null=True)
+    safety_feature = models.CharField(max_length=2, choices=SAFETY_FEATURES, blank=True,  null=True)
     
     def __str__(self):
         return self.safety_feature
@@ -60,7 +60,7 @@ class SafetyFeature(models.Model):
 class Material(models.Model):
     critical_material = models.BooleanField(default=False)
     recycled_material = models.BooleanField(default=False)
-    material = models.CharField(max_length=255)
+    material = models.CharField(max_length=255,  blank=True, null=True)
     
     def __str__(self):
         return self.material
