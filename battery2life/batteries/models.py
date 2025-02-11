@@ -3,29 +3,6 @@ from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
 
-class Address(models.Model):
-    city = models.CharField(max_length=255)
-    street = models.CharField(max_length=255)
-    number = models.SmallIntegerField()
-    zipcode = models.SmallIntegerField()
-    
-    class Meta:
-        verbose_name_plural = "Addresses"
-
-    def __str__(self):
-        return f"{self.city} {self.street} {self.number}"
-
-
-class Dimension(models.Model):
-    # all metrics in mm
-    height = models.DecimalField(max_digits=4, decimal_places=2,  blank=True, null=True)
-    width = models.DecimalField(max_digits=4, decimal_places=2,  blank=True, null=True)
-    length = models.DecimalField(max_digits=4, decimal_places=2,  blank=True, null=True)
-
-    def __str__(self):
-        return f"height:{self.height} width:{self.width} length:{self.length}"
-
-
 class Chemical(models.Model):
     EXTINGUISING_AGENTS =[
         ('fe', 'fire extinguiser'),
@@ -38,7 +15,7 @@ class Chemical(models.Model):
         blank=True, 
         null=True
     )
-    chemical_name = models.CharField(max_length=255, blank=True, null=True)
+    chemical_name = models.CharField(max_length=255, unique=True, default=0)
     
     def __str__(self):
         return self.chemical_name
@@ -51,16 +28,16 @@ class SafetyFeature(models.Model):
         ('sc', 'short-circuit prevention'),
     ]
     
-    safety_feature = models.CharField(max_length=2, choices=SAFETY_FEATURES, blank=True,  null=True)
+    safety_feature = models.CharField(max_length=2, choices=SAFETY_FEATURES, default=0)
     
     def __str__(self):
         return self.safety_feature
 
 
 class Material(models.Model):
-    critical_material = models.BooleanField(default=False)
-    recycled_material = models.BooleanField(default=False)
-    material = models.CharField(max_length=255,  blank=True, null=True)
+    critical_material = models.BooleanField(default=False, blank=True, null=True)
+    recycled_material = models.BooleanField(default=False, blank=True, null=True)
+    material = models.CharField(max_length=255, default=0)
     
     def __str__(self):
         return self.material
@@ -69,7 +46,12 @@ class Material(models.Model):
 class Manufacturer(models.Model):
     name = models.CharField(max_length=255, unique=True)
     email = models.CharField(max_length=100, blank=True, null=True)
-    address = models.ForeignKey(Address,  null= True, on_delete=models.PROTECT)
+    
+    # manufacturer address
+    city = models.CharField(max_length=255, default=0)
+    street = models.CharField(max_length=255, default=0)
+    number = models.IntegerField(default=0)
+    zipcode = models.IntegerField(default=0)
  
     def __str__(self):
         return self.name
@@ -78,17 +60,24 @@ class Manufacturer(models.Model):
 class Battery(models.Model):
     serial_number = models.CharField(max_length=255, unique=True)
     battery_name = models.CharField(max_length=255, blank=True, null=True, unique=True)
-    weight = models.DecimalField(decimal_places=3, max_digits=10, blank=True, null=True, default=0.1) # kilograms
-    capacity = models.IntegerField(blank=True, null=True, default=0)  # amp-hours
-    original_power_capability = models.IntegerField(blank=True, null=True, default=0)  # Watts
-    expected_EndOfLife= models.DateField(blank=True, null=True)
+    weight = models.DecimalField(max_digits=13, decimal_places=3, blank=True, null=True, default=0.1) # kilograms
+    capacity = models.BigIntegerField(blank=True, null=True, default=0)  # amp-hours
+    original_power_capability = models.BigIntegerField(blank=True, null=True, default=0)  # Watts
+    expected_endoflife = models.DateField(blank=True, null=True)
     manufactured_date = models.DateField(blank=True, null=True)
-    manufactured_place = models.ForeignKey(
-        Address, 
-        on_delete=models.PROTECT, 
-        blank=True, 
-        null=True
-    )
+    
+    # batteries dimension
+    # all metrics in mm
+    height = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    width = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    length = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+
+    # manufacturing facility of the  battery address
+    manufactured_city = models.CharField(max_length=255,  blank=True, null=True)
+    manufactured_street = models.CharField(max_length=255,  blank=True, null=True)
+    manufactured_number = models.IntegerField(blank=True, null=True)
+    manufactured_zipcode = models.CharField(max_length=255,  blank=True, null=True)
+    
     material = models.ForeignKey(
         Material, 
         on_delete=models.PROTECT,
@@ -110,12 +99,6 @@ class Battery(models.Model):
         null=True, 
         related_name="batteries", 
     )
-    battery_dimensions = models.OneToOneField(
-        Dimension, 
-        on_delete=models.PROTECT, 
-        null=True, 
-        blank=True 
-    )
 
     class Meta:
         verbose_name_plural = "Batteries"
@@ -128,45 +111,44 @@ class Module(models.Model):
     power_module_name = models.CharField(max_length=255)
     battery_module_name = models.CharField(max_length=255)
     # Unit kWh
-    battery_module_energy = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=0.1)
+    battery_module_energy = models.DecimalField(max_digits=22, decimal_places=2, blank=True, null=True, default=0.1)
     # Unit kWh
-    battery_usable_energy = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=0.1)
+    battery_usable_energy = models.DecimalField(max_digits=22, decimal_places=2, blank=True, null=True, default=0.1)
     # Unit kW
-    max_output_power = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=0.1)
+    max_output_power = models.DecimalField(max_digits=22, decimal_places=2, blank=True, null=True, default=0.1)
     # Unit kW
-    peak_output_power = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=0.1)
+    peak_output_power = models.DecimalField(max_digits=22, decimal_places=2, blank=True, null=True, default=0.1)
     # Unit V
     nominal_voltage = models.IntegerField(blank=True, null=True, default=0)
     # Unit V
     operating_voltage_range = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(1000)], blank=True, null=True)
     communication = models.CharField(blank=True, null=True, max_length=255)
     # Unit kg
-    power_module_weight = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True, default=1.0)
+    power_module_weight = models.DecimalField(max_digits=12, decimal_places=2, blank=True, null=True, default=1.0)
     # Unit kg
-    battery_module_weight = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True, default=1.0 )
+    battery_module_weight = models.DecimalField(max_digits=12, decimal_places=2, blank=True, null=True, default=1.0 )
     # Unit C
     operating_temperature = models.FloatField(blank=True,null=True)
     # Unit m
     max_operating_altitude = models.IntegerField(blank=True, null=True, default=1)
     # Unit dB
-    noise_emission = models.DecimalField(max_digits=3, decimal_places=2, blank=True, null=True, default=1.0)
+    noise_emission = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True, default=1.0)
     cell_technology = models.CharField(blank=True, null=True, max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    battery_module_dimension = models.OneToOneField(
-        Dimension,
-        null=True, 
-        blank=True, 
-        on_delete=models.PROTECT, 
-        related_name='battery_module_dimension'
-    )
-    power_module_dimension = models.OneToOneField(
-        Dimension,
-        null=True, 
-        blank=True, 
-        on_delete=models.PROTECT, 
-        related_name='power_module_dimension'
-    )
+    
+    # module dimension
+    # all metrics in mm
+    height = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    width = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    length = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+
+    # power_module dimension
+    # all metrics in mm
+    power_module_height = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    power_module_width = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    power_module_length = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+
     battery = models.ForeignKey(Battery, blank=True, null=True, on_delete=models.CASCADE, related_name="modules")
 
     class Meta:
@@ -190,10 +172,10 @@ class Cell(models.Model):
     # (ex LFP71173207)
     industry_standard = models.CharField(blank=True, null=True, max_length=255)
     # Unit V
-    nominal_voltage = models.DecimalField(max_digits=6, decimal_places=2, blank=True, null=True, default=1.0)
+    nominal_voltage = models.DecimalField(max_digits=8, decimal_places=2, blank=True, null=True, default=1.0)
     # Unit V
     operating_voltage = models.DecimalField(
-        max_digits=20, 
+        max_digits=22, 
         decimal_places=2, 
         blank=True,
         null=True,
@@ -201,21 +183,21 @@ class Cell(models.Model):
     )
     # Unit Megaohm
     ac_resistance = models.DecimalField(
-        max_digits=20, 
+        max_digits=22, 
         decimal_places=2, 
         blank=True, 
         null=True, 
         default=0.1
     )
     # Unit % / month
-    max_self_discharge_rate = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
+    max_self_discharge_rate = models.DecimalField(max_digits=22, decimal_places=2, blank=True, null=True, default=1.0)
     # Unit %
-    nominal_SOC_at_delivery = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
+    nominal_soc_at_delivery = models.DecimalField(max_digits=22, decimal_places=2, blank=True, null=True, default=1.0)
     # Unit kg
-    cell_weight = models.DecimalField(max_digits=20, decimal_places=2, blank=True, null=True, default=1.0)
+    cell_weight = models.DecimalField(max_digits=22, decimal_places=2, blank=True, null=True, default=1.0)
     # Unit C
     cell_charging_temperature = models.DecimalField(
-        max_digits=20,
+        max_digits=22,
         decimal_places=2,
         blank=True, 
         null=True, 
@@ -223,13 +205,19 @@ class Cell(models.Model):
     )
     # Unit C
     cell_discharging_temperature = models.DecimalField(
-        max_digits=20,
+        max_digits=22,
         decimal_places=2,
         blank=True, 
         null=True, 
         validators=[MinValueValidator(-30.0), MaxValueValidator(60.0)],
     )
-    cell_dimension = models.OneToOneField(Dimension, blank=True, null=True, on_delete=models.PROTECT)
+
+    # cell dimension
+    # all metrics in mm
+    height = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    width = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+    length = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
+
     cell_chemistry = models.ManyToManyField(Chemical, blank=True, related_name='cells')
     module = models.ForeignKey(Module, blank=True, null=True, on_delete=models.CASCADE, related_name="cells")
 

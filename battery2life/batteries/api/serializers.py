@@ -1,6 +1,23 @@
 from rest_framework import serializers
-from batteries.models import EIS, Manufacturer, Battery, Measurement, Module, Cell
+from batteries.models import EIS, Manufacturer, Battery, Measurement, Module, Cell, Chemical, SafetyFeature, Material
 
+class ChemicalSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Chemical
+        fields = "__all__"
+        
+class SafetyFeatureSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = SafetyFeature
+        fields = "__all__"
+
+class MaterialSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Material
+        fields = "__all__"
 
 class ManufacturerSerializer(serializers.ModelSerializer):
 

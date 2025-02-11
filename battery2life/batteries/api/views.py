@@ -8,7 +8,7 @@ from rest_framework import mixins
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from batteries.api import serializers
-from batteries.models import EIS, Manufacturer, Battery, Measurement, Module, Cell
+from batteries.models import EIS, Manufacturer, Battery, Measurement, Module, Cell, Chemical, SafetyFeature, Material
 from batteries.api.serializers import (
     EISSerializer,
     ManufacturerSerializer,
@@ -17,16 +17,35 @@ from batteries.api.serializers import (
     AddMeasurementSerializer,
     ModuleSerializer,
     CellSerializer,
+    ChemicalSerializer,
+    SafetyFeatureSerializer,
+    MaterialSerializer
 )
 from batteries.mixins import LoggingMixin
 
-class ManufacturerViewSet(
-    LoggingMixin,
-    mixins.UpdateModelMixin,
-    mixins.ListModelMixin,
-    mixins.RetrieveModelMixin,
-    viewsets.GenericViewSet,
-):
+
+class ChemicalViewSet(LoggingMixin, ModelViewSet):
+    queryset = Chemical.objects.all()
+    serializer_class = ChemicalSerializer
+    permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
+    
+    
+class SafetyFeatureViewSet(LoggingMixin, ModelViewSet):
+    queryset = SafetyFeature.objects.all()
+    serializer_class = SafetyFeatureSerializer
+    permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
+
+
+class MaterialViewSet(LoggingMixin, ModelViewSet):
+    queryset = Material.objects.all()
+    serializer_class = MaterialSerializer
+    permission_classes = [IsAuthenticated]
+    authentication_classes = [JWTAuthentication]
+    
+
+class ManufacturerViewSet(LoggingMixin, ModelViewSet):
     queryset = Manufacturer.objects.all()
     serializer_class = ManufacturerSerializer
     permission_classes = [IsAuthenticated]
