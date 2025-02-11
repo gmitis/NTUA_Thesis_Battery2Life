@@ -1,0 +1,1001 @@
+id,critical_material,recycled_material,material
+1,false,true,Calcium
+2,false,true,Manganese
+3,true,true,Electrolytes
+4,true,true,Lead sulfate
+5,false,false,Sodium-ion
+6,true,false,Sodium
+7,false,true,Sodium
+8,true,false,Sodium
+9,true,true,Lithium-ion
+10,true,false,Nickel cobalt aluminum
+11,false,true,Electrolytes
+12,false,true,Sodium-ion
+13,true,false,Graphite
+14,false,true,Anode materials
+15,true,true,Magnesium
+16,true,false,Vanadium
+17,false,false,Electrolyte salts
+18,false,true,Graphene
+19,false,true,Lead
+20,true,true,Vanadium
+21,true,false,Lead oxide
+22,false,false,Tantalum
+23,true,false,Sulfur
+24,true,true,Nickel manganese cobalt
+25,true,false,Separator materials
+26,true,false,Bismuth
+27,false,false,Lithium manganese oxide
+28,true,false,Conductive additives
+29,false,true,Electrolyte solvents
+30,true,false,Tantalum
+31,false,true,Potassium
+32,false,false,Anode materials
+33,true,true,Bismuth
+34,true,true,Gold
+35,false,false,Separator materials
+36,false,true,Potassium
+37,true,false,Sodium
+38,true,true,Zinc
+39,true,true,Zinc
+40,false,false,Zinc
+41,true,true,Zirconium
+42,true,true,Phosphate
+43,false,true,Nickel manganese cobalt
+44,false,false,Tantalum
+45,false,false,Electrolyte solvents
+46,true,true,Gold
+47,false,false,Sulfur
+48,false,false,Manganese
+49,false,true,Electrolyte salts
+50,true,false,Cathode materials
+51,true,false,Cathode materials
+52,false,true,Conductive additives
+53,false,false,Antimony
+54,false,false,Lithium polymer
+55,true,false,Potassium-ion
+56,true,false,Cobalt
+57,false,false,Gold
+58,true,true,Cobalt
+59,true,true,Lithium polymer
+60,false,false,Barium
+61,true,false,Separator materials
+62,true,true,Lithium metal
+63,true,false,Sulfur
+64,false,true,Zinc
+65,false,true,Graphene
+66,true,true,Nickel hydroxide
+67,false,true,Iron
+68,true,false,Iron
+69,true,true,Electrolytes
+70,true,true,Tin
+71,false,false,Tin
+72,true,true,Silver
+73,true,true,Carbon
+74,false,false,Nickel
+75,true,true,Electrolyte solvents
+76,true,true,Antimony
+77,true,false,Lithium cobalt oxide
+78,false,true,Zinc
+79,true,true,Zirconium
+80,true,true,Gold
+81,false,false,Lead sulfate
+82,true,false,Lithium-ion
+83,true,false,Copper
+84,true,true,Phosphate
+85,false,false,Lithium cobalt oxide
+86,true,false,Separator materials
+87,false,false,Separator materials
+88,true,true,Lead
+89,false,false,Calcium
+90,true,false,Electrolyte salts
+91,false,true,Bismuth
+92,true,false,Nickel cobalt aluminum
+93,false,true,Tin
+94,false,false,Electrolytes
+95,false,true,Silver
+96,false,true,Lead sulfate
+97,false,false,Separator materials
+98,true,true,Graphite
+99,true,true,Barium
+100,true,true,Nickel
+101,true,true,Potassium
+102,true,true,Nickel manganese cobalt
+103,false,true,Tin
+104,false,false,Lead sulfate
+105,true,false,Tantalum
+106,false,true,Electrolytes
+107,true,true,Sulfur
+108,false,false,Electrolytes
+109,false,true,Separator materials
+110,false,true,Conductive additives
+111,false,false,Antimony
+112,true,true,Carbon nanotubes
+113,true,false,Tin
+114,true,false,Sodium
+115,false,false,Conductive additives
+116,false,true,Lithium cobalt oxide
+117,false,false,Carbon nanotubes
+118,false,false,Carbon
+119,false,false,Zinc oxide
+120,false,true,Silicon
+121,false,true,Cadmium
+122,true,false,Potassium-ion
+123,true,true,Silver
+124,false,false,Electrolyte salts
+125,true,true,Silicon
+126,true,true,Antimony
+127,false,true,Sodium-ion
+128,false,false,Barium
+129,false,false,Lithium polymer
+130,false,true,Nickel
+131,true,true,Aluminum
+132,true,true,Lithium-ion
+133,true,true,Gold
+134,false,true,Sodium
+135,true,true,Sodium-ion
+136,true,false,Lithium
+137,true,true,Magnesium
+138,false,true,Lithium metal
+139,true,true,Electrolyte solvents
+140,true,false,Cathode materials
+141,false,false,Zinc sulfate
+142,false,false,Barium
+143,true,true,Graphene
+144,true,false,Silver
+145,false,true,Electrolyte solvents
+146,true,false,Electrolytes
+147,true,true,Anode materials
+148,true,true,Lithium manganese oxide
+149,false,true,Nickel hydroxide
+150,true,false,Conductive additives
+151,true,true,Separator materials
+152,false,true,Copper
+153,true,false,Lead sulfate
+154,false,false,Electrolyte solvents
+155,false,true,Separator materials
+156,true,false,Iron
+157,true,true,Phosphate
+158,false,false,Lithium-ion
+159,true,false,Iron
+160,false,false,Carbon nanotubes
+161,true,true,Cadmium
+162,true,false,Lithium polymer
+163,false,false,Lithium iron phosphate
+164,false,false,Tantalum
+165,true,false,Graphene
+166,false,false,Nickel manganese cobalt
+167,true,false,Carbon
+168,false,true,Anode materials
+169,false,true,Nickel hydroxide
+170,false,false,Zirconium
+171,false,false,Nickel cobalt aluminum
+172,false,false,Zirconium
+173,false,true,Anode materials
+174,true,false,Sulfur
+175,false,false,Potassium
+176,false,false,Gold
+177,false,false,Lithium cobalt oxide
+178,false,true,Potassium
+179,false,true,Lead sulfate
+180,true,false,Carbon
+181,false,false,Zirconium
+182,false,false,Nickel hydroxide
+183,false,true,Zinc oxide
+184,true,true,Cadmium
+185,false,true,Lithium metal
+186,false,false,Carbon nanotubes
+187,true,false,Electrolyte solvents
+188,false,false,Graphite
+189,true,true,Silicon
+190,false,true,Carbon
+191,false,true,Lithium-ion
+192,false,true,Anode materials
+193,true,true,Lead
+194,false,true,Zinc oxide
+195,true,false,Sodium-ion
+196,true,false,Carbon nanotubes
+197,false,true,Silver
+198,true,true,Lithium metal
+199,false,false,Antimony
+200,true,true,Magnesium
+201,true,false,Lead sulfate
+202,true,false,Copper
+203,true,true,Electrolytes
+204,false,false,Antimony
+205,true,false,Zinc sulfate
+206,false,true,Conductive additives
+207,false,false,Electrolyte salts
+208,false,false,Carbon nanotubes
+209,true,false,Anode materials
+210,true,false,Zinc sulfate
+211,false,false,Nickel manganese cobalt
+212,true,false,Copper
+213,true,true,Zinc
+214,true,true,Rare earth metals
+215,false,false,Silicon
+216,false,false,Lithium iron phosphate
+217,false,true,Lithium-ion
+218,false,false,Antimony
+219,true,false,Bismuth
+220,true,true,Lithium cobalt oxide
+221,false,false,Nickel hydroxide
+222,true,true,Iron
+223,false,true,Cathode materials
+224,false,false,Carbon nanotubes
+225,false,false,Sodium
+226,false,true,Silicon
+227,false,true,Lithium iron phosphate
+228,true,false,Calcium
+229,true,true,Gold
+230,true,false,Sodium
+231,false,true,Lithium cobalt oxide
+232,false,true,Antimony
+233,false,false,Lead sulfate
+234,false,false,Zinc oxide
+235,false,true,Electrolyte solvents
+236,false,true,Lead oxide
+237,true,false,Copper
+238,false,false,Zinc sulfate
+239,true,false,Nickel
+240,false,true,Gold
+241,true,false,Cathode materials
+242,false,true,Graphene
+243,false,true,Sodium
+244,false,false,Carbon
+245,true,true,Electrolytes
+246,false,false,Manganese
+247,false,true,Phosphate
+248,true,false,Lithium iron phosphate
+249,true,false,Gold
+250,false,true,Lithium
+251,true,false,Lithium iron phosphate
+252,true,false,Cathode materials
+253,false,false,Manganese
+254,true,true,Separator materials
+255,true,true,Potassium-ion
+256,true,true,Cadmium
+257,true,false,Lead oxide
+258,true,true,Anode materials
+259,false,false,Potassium
+260,true,false,Rare earth metals
+261,true,true,Anode materials
+262,false,true,Sulfur
+263,true,false,Tin
+264,false,false,Zinc sulfate
+265,true,false,Magnesium
+266,false,false,Nickel manganese cobalt
+267,true,true,Lead oxide
+268,false,true,Lithium iron phosphate
+269,true,false,Zinc
+270,false,false,Silver
+271,true,false,Electrolyte solvents
+272,true,false,Lead sulfate
+273,true,false,Separator materials
+274,false,false,Graphite
+275,false,false,Nickel manganese cobalt
+276,true,true,Manganese
+277,false,false,Anode materials
+278,false,true,Electrolytes
+279,true,false,Nickel manganese cobalt
+280,true,false,Zinc
+281,true,true,Antimony
+282,false,true,Nickel manganese cobalt
+283,true,true,Sodium-ion
+284,false,false,Barium
+285,false,false,Graphene
+286,true,true,Calcium
+287,true,false,Separator materials
+288,true,false,Bismuth
+289,false,false,Aluminum
+290,true,true,Rare earth metals
+291,false,true,Barium
+292,true,false,Bismuth
+293,false,false,Nickel cobalt aluminum
+294,false,true,Zinc
+295,true,false,Lead
+296,false,false,Antimony
+297,true,false,Lead
+298,true,true,Nickel hydroxide
+299,false,false,Electrolytes
+300,true,true,Lead sulfate
+301,true,true,Nickel hydroxide
+302,false,false,Zirconium
+303,false,false,Rare earth metals
+304,true,true,Lithium
+305,false,true,Sodium
+306,false,false,Carbon
+307,false,false,Lithium metal
+308,false,false,Potassium
+309,true,true,Cobalt
+310,false,true,Lead
+311,true,true,Electrolyte solvents
+312,false,true,Copper
+313,false,false,Nickel hydroxide
+314,false,true,Bismuth
+315,false,true,Copper
+316,false,false,Aluminum
+317,false,true,Sodium
+318,false,false,Tantalum
+319,true,false,Electrolytes
+320,false,true,Cobalt
+321,false,false,Electrolytes
+322,true,true,Graphite
+323,false,true,Nickel
+324,true,false,Manganese
+325,true,true,Carbon
+326,true,false,Nickel cobalt aluminum
+327,false,false,Lithium iron phosphate
+328,true,false,Iron
+329,true,true,Phosphate
+330,false,false,Carbon nanotubes
+331,true,false,Sulfur
+332,true,true,Conductive additives
+333,false,true,Barium
+334,false,true,Cathode materials
+335,false,false,Graphite
+336,false,false,Phosphate
+337,false,false,Potassium
+338,false,true,Bismuth
+339,true,true,Lithium manganese oxide
+340,false,true,Barium
+341,false,true,Silicon
+342,false,false,Aluminum
+343,false,true,Rare earth metals
+344,true,false,Conductive additives
+345,true,true,Silver
+346,true,false,Tantalum
+347,true,true,Phosphate
+348,true,false,Tantalum
+349,true,false,Lead sulfate
+350,false,false,Bismuth
+351,true,true,Gold
+352,true,false,Iron
+353,true,true,Graphene
+354,true,false,Potassium-ion
+355,true,false,Sulfur
+356,true,true,Lead
+357,true,true,Potassium-ion
+358,false,false,Rare earth metals
+359,false,true,Calcium
+360,false,true,Manganese
+361,false,true,Electrolytes
+362,false,true,Anode materials
+363,false,true,Potassium-ion
+364,true,true,Antimony
+365,true,true,Bismuth
+366,true,false,Phosphate
+367,true,true,Bismuth
+368,false,false,Zinc sulfate
+369,true,false,Conductive additives
+370,true,true,Lead oxide
+371,false,false,Iron
+372,false,false,Sulfur
+373,false,false,Magnesium
+374,true,false,Sodium
+375,false,false,Iron
+376,false,false,Lithium cobalt oxide
+377,false,true,Magnesium
+378,true,false,Potassium-ion
+379,false,false,Lithium metal
+380,false,true,Electrolyte solvents
+381,true,true,Tantalum
+382,false,true,Zinc oxide
+383,false,true,Lead oxide
+384,false,false,Electrolytes
+385,true,true,Nickel hydroxide
+386,false,false,Graphite
+387,false,false,Zinc
+388,false,true,Cadmium
+389,false,false,Graphene
+390,false,false,Electrolyte solvents
+391,true,true,Phosphate
+392,true,true,Lithium manganese oxide
+393,true,true,Sodium-ion
+394,true,true,Gold
+395,true,true,Tin
+396,true,false,Silicon
+397,true,true,Carbon nanotubes
+398,false,false,Zinc oxide
+399,true,true,Zinc sulfate
+400,true,true,Magnesium
+401,false,true,Electrolyte salts
+402,false,false,Magnesium
+403,false,true,Sulfur
+404,false,true,Silver
+405,false,true,Silver
+406,false,true,Cobalt
+407,true,true,Tin
+408,false,true,Iron
+409,true,false,Calcium
+410,true,true,Potassium
+411,true,true,Lithium polymer
+412,true,true,Lithium
+413,true,false,Sodium
+414,false,false,Zinc
+415,true,false,Lithium iron phosphate
+416,false,true,Phosphate
+417,true,true,Cadmium
+418,true,true,Graphite
+419,false,true,Lithium iron phosphate
+420,false,false,Lithium polymer
+421,true,true,Tantalum
+422,false,false,Sodium-ion
+423,false,false,Lithium iron phosphate
+424,true,false,Nickel cobalt aluminum
+425,false,true,Gold
+426,false,true,Aluminum
+427,false,false,Carbon
+428,false,true,Iron
+429,true,false,Lithium metal
+430,true,true,Nickel
+431,true,true,Cathode materials
+432,true,true,Lithium-ion
+433,true,false,Copper
+434,true,false,Rare earth metals
+435,true,false,Aluminum
+436,true,true,Lead oxide
+437,false,false,Nickel hydroxide
+438,true,false,Tantalum
+439,false,false,Copper
+440,false,false,Aluminum
+441,true,true,Potassium
+442,true,true,Carbon
+443,false,true,Nickel
+444,false,false,Rare earth metals
+445,false,true,Electrolyte solvents
+446,true,true,Calcium
+447,true,true,Nickel hydroxide
+448,false,true,Cadmium
+449,false,true,Manganese
+450,true,false,Aluminum
+451,false,false,Potassium-ion
+452,false,false,Zinc
+453,false,true,Magnesium
+454,true,false,Lithium iron phosphate
+455,true,false,Lead sulfate
+456,true,true,Cathode materials
+457,true,false,Sodium
+458,false,false,Tantalum
+459,false,false,Calcium
+460,true,false,Iron
+461,true,true,Bismuth
+462,false,true,Tin
+463,true,false,Zinc oxide
+464,true,true,Zinc oxide
+465,true,false,Lead
+466,false,true,Potassium
+467,true,false,Zinc sulfate
+468,false,true,Zinc oxide
+469,true,true,Lead oxide
+470,false,true,Graphene
+471,false,false,Lithium polymer
+472,false,false,Carbon
+473,false,false,Lead oxide
+474,false,false,Cobalt
+475,true,true,Lithium-ion
+476,false,true,Electrolyte solvents
+477,false,false,Lead oxide
+478,false,true,Nickel cobalt aluminum
+479,true,false,Nickel hydroxide
+480,false,false,Graphene
+481,false,true,Lead sulfate
+482,true,false,Sulfur
+483,false,true,Manganese
+484,true,true,Nickel cobalt aluminum
+485,false,false,Phosphate
+486,true,false,Zinc sulfate
+487,true,true,Antimony
+488,true,true,Electrolytes
+489,true,true,Aluminum
+490,false,false,Anode materials
+491,true,true,Sulfur
+492,true,false,Sodium-ion
+493,true,true,Zinc sulfate
+494,true,true,Cathode materials
+495,false,true,Cobalt
+496,false,true,Zirconium
+497,true,false,Lithium cobalt oxide
+498,false,true,Graphite
+499,false,true,Tantalum
+500,false,true,Barium
+501,true,true,Silicon
+502,false,true,Barium
+503,true,true,Anode materials
+504,false,true,Cathode materials
+505,true,true,Lead
+506,true,false,Vanadium
+507,true,false,Lithium iron phosphate
+508,false,true,Sodium-ion
+509,false,true,Cathode materials
+510,true,true,Lithium polymer
+511,false,true,Sodium-ion
+512,true,false,Sodium
+513,false,false,Cadmium
+514,false,false,Lead
+515,true,true,Tantalum
+516,false,true,Rare earth metals
+517,true,true,Nickel
+518,true,false,Silicon
+519,false,true,Lithium metal
+520,true,true,Lead oxide
+521,false,false,Phosphate
+522,true,true,Lithium cobalt oxide
+523,false,false,Zinc oxide
+524,true,true,Lead oxide
+525,true,false,Barium
+526,false,false,Zirconium
+527,false,true,Cathode materials
+528,false,true,Manganese
+529,true,true,Electrolyte salts
+530,true,true,Anode materials
+531,true,true,Cobalt
+532,true,true,Lithium
+533,true,true,Antimony
+534,false,true,Separator materials
+535,true,true,Zinc oxide
+536,false,false,Sulfur
+537,false,true,Lithium polymer
+538,true,true,Electrolyte salts
+539,false,true,Lead oxide
+540,true,true,Rare earth metals
+541,true,false,Conductive additives
+542,true,false,Lithium cobalt oxide
+543,true,true,Lithium polymer
+544,false,false,Iron
+545,false,true,Tantalum
+546,true,true,Calcium
+547,false,true,Barium
+548,false,false,Lithium-ion
+549,true,true,Sulfur
+550,true,false,Lithium
+551,true,false,Aluminum
+552,true,false,Antimony
+553,false,false,Calcium
+554,true,true,Zinc oxide
+555,false,true,Zinc
+556,true,false,Lithium cobalt oxide
+557,true,true,Cadmium
+558,true,false,Sodium
+559,false,true,Lithium
+560,false,false,Tantalum
+561,false,true,Graphene
+562,false,true,Antimony
+563,false,false,Aluminum
+564,false,true,Zinc
+565,true,false,Conductive additives
+566,true,false,Gold
+567,true,false,Sodium-ion
+568,false,false,Lithium-ion
+569,false,false,Lithium iron phosphate
+570,false,true,Sulfur
+571,true,false,Antimony
+572,false,false,Gold
+573,true,true,Graphene
+574,false,false,Electrolyte solvents
+575,false,true,Tin
+576,false,true,Zinc sulfate
+577,true,false,Nickel manganese cobalt
+578,false,false,Potassium
+579,false,false,Zirconium
+580,true,false,Zinc sulfate
+581,false,true,Potassium-ion
+582,true,false,Cadmium
+583,true,false,Lithium manganese oxide
+584,true,false,Potassium
+585,true,false,Nickel cobalt aluminum
+586,false,false,Graphene
+587,true,false,Silicon
+588,true,false,Graphite
+589,false,false,Copper
+590,false,true,Anode materials
+591,false,true,Bismuth
+592,true,true,Phosphate
+593,false,false,Conductive additives
+594,false,true,Zirconium
+595,false,false,Carbon nanotubes
+596,true,false,Nickel
+597,false,false,Calcium
+598,false,true,Silver
+599,false,true,Zinc
+600,false,true,Cathode materials
+601,false,true,Lead
+602,false,false,Carbon nanotubes
+603,true,true,Gold
+604,false,false,Vanadium
+605,true,false,Zinc sulfate
+606,false,true,Copper
+607,false,true,Phosphate
+608,true,true,Sodium
+609,false,false,Anode materials
+610,true,true,Copper
+611,true,false,Electrolyte salts
+612,false,true,Nickel hydroxide
+613,false,false,Carbon nanotubes
+614,false,false,Silicon
+615,false,false,Sodium-ion
+616,true,false,Lead sulfate
+617,false,false,Lead
+618,false,false,Carbon nanotubes
+619,false,false,Silicon
+620,true,false,Silver
+621,true,false,Vanadium
+622,false,false,Lithium iron phosphate
+623,true,false,Nickel
+624,true,true,Electrolyte salts
+625,true,true,Nickel hydroxide
+626,false,false,Anode materials
+627,true,true,Iron
+628,false,true,Carbon nanotubes
+629,true,true,Magnesium
+630,true,true,Separator materials
+631,true,true,Zinc
+632,true,true,Potassium-ion
+633,true,true,Electrolytes
+634,false,false,Manganese
+635,true,true,Electrolytes
+636,false,false,Zinc
+637,false,false,Silver
+638,false,false,Nickel cobalt aluminum
+639,false,true,Electrolytes
+640,false,false,Potassium
+641,true,true,Tantalum
+642,false,false,Anode materials
+643,false,true,Lithium iron phosphate
+644,false,false,Barium
+645,false,true,Lead oxide
+646,true,false,Vanadium
+647,false,true,Sodium
+648,false,true,Iron
+649,false,true,Lead sulfate
+650,false,false,Gold
+651,false,false,Zirconium
+652,false,true,Gold
+653,false,false,Lithium polymer
+654,false,true,Rare earth metals
+655,true,true,Zinc sulfate
+656,true,false,Electrolytes
+657,true,true,Potassium-ion
+658,true,true,Separator materials
+659,false,false,Lead sulfate
+660,false,false,Gold
+661,true,true,Gold
+662,false,false,Cathode materials
+663,false,false,Silver
+664,true,true,Zinc
+665,true,true,Tantalum
+666,true,false,Nickel hydroxide
+667,false,false,Lithium
+668,true,false,Zinc oxide
+669,false,false,Lithium polymer
+670,true,false,Sodium
+671,false,false,Silver
+672,false,true,Manganese
+673,false,false,Manganese
+674,false,false,Sulfur
+675,false,false,Lithium polymer
+676,true,true,Nickel
+677,true,true,Carbon nanotubes
+678,true,false,Lithium manganese oxide
+679,true,true,Iron
+680,true,true,Lithium metal
+681,false,false,Antimony
+682,true,false,Lithium iron phosphate
+683,false,false,Barium
+684,true,true,Silicon
+685,true,true,Electrolyte solvents
+686,false,false,Tin
+687,false,false,Barium
+688,false,true,Separator materials
+689,false,true,Lead oxide
+690,true,true,Zinc sulfate
+691,false,false,Bismuth
+692,true,true,Lithium
+693,false,false,Lithium manganese oxide
+694,true,false,Electrolyte salts
+695,false,false,Lithium iron phosphate
+696,false,false,Cobalt
+697,false,true,Antimony
+698,true,true,Electrolyte salts
+699,false,true,Lithium-ion
+700,true,true,Nickel manganese cobalt
+701,false,false,Sodium
+702,true,false,Lithium iron phosphate
+703,true,true,Potassium-ion
+704,false,true,Lithium manganese oxide
+705,true,true,Barium
+706,true,false,Potassium-ion
+707,true,true,Lithium polymer
+708,true,true,Potassium-ion
+709,true,false,Zinc oxide
+710,true,true,Vanadium
+711,true,true,Nickel
+712,true,true,Anode materials
+713,true,false,Nickel cobalt aluminum
+714,false,true,Lithium metal
+715,true,false,Sodium
+716,false,false,Zirconium
+717,true,true,Graphene
+718,true,false,Gold
+719,false,true,Anode materials
+720,false,false,Nickel
+721,true,true,Nickel cobalt aluminum
+722,false,false,Cadmium
+723,true,false,Iron
+724,false,true,Nickel
+725,true,true,Cadmium
+726,false,false,Tantalum
+727,false,false,Tin
+728,true,true,Lead oxide
+729,false,false,Calcium
+730,false,true,Separator materials
+731,true,true,Silver
+732,false,true,Silver
+733,true,true,Lead oxide
+734,false,true,Nickel manganese cobalt
+735,true,true,Antimony
+736,true,true,Nickel cobalt aluminum
+737,false,false,Lead sulfate
+738,true,true,Gold
+739,true,true,Tin
+740,true,false,Conductive additives
+741,true,false,Cathode materials
+742,false,false,Lead sulfate
+743,false,false,Separator materials
+744,false,false,Iron
+745,false,true,Nickel cobalt aluminum
+746,true,true,Graphene
+747,true,false,Anode materials
+748,true,false,Lithium polymer
+749,false,false,Bismuth
+750,false,true,Silver
+751,true,false,Carbon nanotubes
+752,true,false,Lithium
+753,false,false,Nickel hydroxide
+754,true,false,Antimony
+755,false,false,Nickel hydroxide
+756,false,true,Vanadium
+757,false,true,Nickel
+758,true,true,Graphene
+759,true,true,Lead
+760,false,false,Manganese
+761,false,false,Separator materials
+762,true,false,Anode materials
+763,true,false,Aluminum
+764,false,true,Nickel
+765,true,true,Nickel hydroxide
+766,true,false,Manganese
+767,false,false,Gold
+768,false,true,Zirconium
+769,true,false,Silver
+770,true,false,Bismuth
+771,true,false,Nickel manganese cobalt
+772,false,true,Lead oxide
+773,true,false,Gold
+774,true,false,Lithium-ion
+775,false,false,Sodium
+776,false,true,Electrolyte solvents
+777,false,false,Lithium metal
+778,true,false,Zinc oxide
+779,true,true,Anode materials
+780,true,false,Electrolyte salts
+781,true,false,Potassium-ion
+782,false,false,Copper
+783,false,true,Tin
+784,false,false,Iron
+785,true,false,Electrolyte salts
+786,false,false,Nickel hydroxide
+787,true,true,Lithium-ion
+788,false,true,Vanadium
+789,true,true,Lead oxide
+790,true,false,Nickel
+791,true,false,Carbon nanotubes
+792,false,false,Conductive additives
+793,false,false,Bismuth
+794,false,false,Calcium
+795,false,false,Lithium cobalt oxide
+796,true,true,Tin
+797,false,true,Phosphate
+798,false,false,Vanadium
+799,true,false,Electrolyte salts
+800,true,false,Electrolyte salts
+801,false,true,Lead sulfate
+802,true,true,Nickel manganese cobalt
+803,true,false,Conductive additives
+804,false,false,Cadmium
+805,true,true,Zinc sulfate
+806,false,false,Lithium
+807,true,true,Cadmium
+808,true,false,Nickel manganese cobalt
+809,true,false,Lithium manganese oxide
+810,false,true,Graphene
+811,false,true,Lithium metal
+812,true,true,Bismuth
+813,true,true,Nickel manganese cobalt
+814,true,true,Bismuth
+815,false,true,Calcium
+816,false,false,Copper
+817,true,false,Rare earth metals
+818,false,true,Potassium
+819,true,true,Bismuth
+820,false,true,Zirconium
+821,false,true,Cathode materials
+822,true,true,Nickel
+823,false,true,Lithium
+824,false,false,Tantalum
+825,false,true,Lead oxide
+826,false,false,Lithium manganese oxide
+827,false,true,Iron
+828,false,true,Carbon nanotubes
+829,true,false,Electrolyte solvents
+830,false,true,Potassium
+831,false,false,Zinc
+832,false,true,Nickel manganese cobalt
+833,false,true,Barium
+834,true,false,Cadmium
+835,true,true,Electrolyte solvents
+836,false,true,Electrolyte salts
+837,true,false,Lithium metal
+838,false,false,Electrolytes
+839,true,false,Cobalt
+840,false,false,Carbon
+841,false,true,Lead sulfate
+842,true,true,Lithium cobalt oxide
+843,true,true,Cadmium
+844,true,false,Separator materials
+845,true,false,Zinc sulfate
+846,true,false,Conductive additives
+847,true,false,Vanadium
+848,true,false,Nickel
+849,false,false,Nickel manganese cobalt
+850,false,true,Zinc oxide
+851,false,false,Sodium-ion
+852,false,true,Sodium-ion
+853,true,false,Vanadium
+854,false,true,Carbon nanotubes
+855,false,true,Lithium polymer
+856,false,false,Cadmium
+857,true,false,Cadmium
+858,true,true,Lead
+859,false,true,Antimony
+860,true,true,Cobalt
+861,false,true,Lithium
+862,false,false,Silicon
+863,true,true,Antimony
+864,false,false,Manganese
+865,true,true,Rare earth metals
+866,false,false,Bismuth
+867,false,true,Bismuth
+868,true,false,Conductive additives
+869,false,false,Potassium
+870,false,true,Lithium
+871,false,true,Aluminum
+872,true,false,Cathode materials
+873,true,true,Calcium
+874,false,false,Nickel cobalt aluminum
+875,true,false,Manganese
+876,true,true,Rare earth metals
+877,true,true,Antimony
+878,false,false,Lead oxide
+879,true,true,Cathode materials
+880,true,true,Lead sulfate
+881,true,true,Graphite
+882,false,true,Silicon
+883,true,true,Potassium-ion
+884,true,false,Manganese
+885,false,true,Carbon
+886,false,true,Silicon
+887,true,false,Graphene
+888,false,true,Lithium metal
+889,true,true,Vanadium
+890,false,false,Potassium
+891,true,true,Lead oxide
+892,false,true,Sodium
+893,false,true,Sodium
+894,true,false,Anode materials
+895,false,false,Bismuth
+896,true,true,Electrolytes
+897,false,false,Lead
+898,false,true,Carbon
+899,false,false,Zinc oxide
+900,false,true,Potassium-ion
+901,false,false,Zinc sulfate
+902,true,false,Carbon
+903,true,false,Carbon nanotubes
+904,true,true,Lead oxide
+905,false,true,Lithium polymer
+906,true,true,Manganese
+907,true,false,Calcium
+908,false,true,Cathode materials
+909,true,false,Zinc oxide
+910,true,true,Zinc
+911,false,false,Electrolyte salts
+912,true,false,Sodium
+913,true,false,Lead
+914,false,true,Lithium
+915,true,false,Potassium-ion
+916,true,true,Lead
+917,false,true,Calcium
+918,false,true,Gold
+919,true,true,Sulfur
+920,false,false,Graphene
+921,false,true,Phosphate
+922,false,false,Graphite
+923,false,false,Lithium manganese oxide
+924,false,false,Rare earth metals
+925,true,true,Potassium-ion
+926,false,true,Silicon
+927,true,false,Bismuth
+928,false,true,Nickel manganese cobalt
+929,true,true,Antimony
+930,false,true,Electrolytes
+931,false,false,Magnesium
+932,true,true,Zinc
+933,false,false,Nickel
+934,true,false,Nickel hydroxide
+935,true,false,Silver
+936,true,true,Zinc oxide
+937,true,true,Lithium metal
+938,true,false,Conductive additives
+939,false,false,Lithium cobalt oxide
+940,false,false,Barium
+941,true,true,Calcium
+942,true,true,Manganese
+943,true,true,Conductive additives
+944,true,false,Phosphate
+945,true,false,Iron
+946,true,false,Calcium
+947,true,false,Potassium-ion
+948,false,true,Zirconium
+949,true,false,Lithium cobalt oxide
+950,false,false,Graphene
+951,false,true,Cobalt
+952,true,false,Potassium
+953,false,false,Nickel
+954,false,true,Phosphate
+955,true,true,Phosphate
+956,false,false,Graphene
+957,false,false,Separator materials
+958,true,false,Conductive additives
+959,false,false,Cobalt
+960,false,true,Lithium cobalt oxide
+961,false,false,Zirconium
+962,true,true,Electrolyte solvents
+963,true,true,Zinc
+964,false,false,Barium
+965,false,false,Nickel cobalt aluminum
+966,false,false,Lithium cobalt oxide
+967,true,false,Tin
+968,true,true,Electrolyte solvents
+969,false,false,Sulfur
+970,false,true,Nickel hydroxide
+971,false,true,Graphene
+972,false,false,Lead sulfate
+973,false,false,Nickel hydroxide
+974,true,true,Tantalum
+975,true,false,Lead oxide
+976,false,true,Sodium
+977,false,false,Vanadium
+978,false,false,Iron
+979,false,false,Rare earth metals
+980,true,true,Barium
+981,true,false,Tantalum
+982,true,false,Barium
+983,true,true,Electrolytes
+984,false,false,Lithium metal
+985,true,true,Copper
+986,true,true,Gold
+987,false,true,Carbon
+988,true,false,Lithium manganese oxide
+989,true,false,Manganese
+990,false,true,Lithium
+991,true,true,Cadmium
+992,true,true,Sodium
+993,false,false,Sulfur
+994,true,false,Silicon
+995,true,true,Zirconium
+996,false,true,Silicon
+997,true,true,Tantalum
+998,false,false,Graphene
+999,false,false,Iron
+1000,true,true,Anode materials

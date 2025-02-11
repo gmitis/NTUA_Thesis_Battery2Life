@@ -1,0 +1,54 @@
+id,hazardus,extinguising_agent,chemical_name
+1,true,fe,Lithium
+2,true,fe,Cobalt
+3,false,fe,Nickel
+4,false,fe,Manganese
+5,true,fe,Lead
+6,true,fe,Zinc
+7,true,fe,Iron
+8,true,fe,Cadmium
+9,true,fe,Graphite
+10,false,fe,Copper
+11,true,fe,Aluminum
+12,false,fe,Phosphate
+13,false,fe,Sulfur
+14,false,fe,Potassium
+15,false,fe,Sodium
+16,true,fe,Silver
+17,true,fe,Gold
+18,false,fe,Carbon
+19,false,fe,Silicon
+20,false,fe,Vanadium
+21,false,fe,Magnesium
+22,false,fe,Tin
+23,false,fe,Graphene
+24,false,fe,Lithium iron phosphate
+25,true,fe,Lithium cobalt oxide
+26,false,fe,Lithium manganese oxide
+27,false,fe,Nickel cobalt aluminum
+28,false,fe,Nickel manganese cobalt
+29,false,fe,Sodium-ion
+30,false,fe,Potassium-ion
+31,false,fe,Zinc oxide
+32,true,fe,Zinc sulfate
+33,false,fe,Electrolytes
+34,false,fe,Separator materials
+35,false,fe,Conductive additives
+36,false,fe,Lithium polymer
+37,false,fe,Lithium metal
+38,true,fe,Anode materials
+39,false,fe,Cathode materials
+40,false,fe,Electrolyte salts
+41,true,fe,Electrolyte solvents
+42,false,fe,Lithium-ion
+43,false,fe,Carbon nanotubes
+44,true,fe,Rare earth metals
+45,false,fe,Bismuth
+46,true,fe,Antimony
+47,false,fe,Tantalum
+48,false,fe,Zirconium
+49,true,fe,Lead oxide
+50,true,fe,Nickel hydroxide
+51,true,fe,Lead sulfate
+52,false,fe,Calcium
+53,false,fe,Barium

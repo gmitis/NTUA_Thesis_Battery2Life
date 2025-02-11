@@ -1,0 +1,1001 @@
+id,status,event_id,frequency,amplitude,phase,current_offset,v_start,v_end,temperature,added_at,cell_id_id
+1,duis ac nibh,vitae mattis nibh ligula,10694831.26,39.95,227.79,24.13,48.45,11.35,2132.42,2024-11-28T04:29:17Z,1
+2,vitae nisi nam,auctor gravida sem,12168582.69,58.84,186.79,36.24,0.29,81.66,2820.69,2025-01-20T22:43:14Z,2
+3,in lacus curabitur at ipsum,et ultrices posuere cubilia curae,24581962.13,7.08,199.98,63.37,46.94,6.46,2240.7,2024-04-07T01:34:27Z,3
+4,velit eu est congue,condimentum id luctus nec molestie,14100474.78,6.0,115.42,43.47,16.82,78.93,2516.09,2024-04-16T21:11:07Z,4
+5,pede justo lacinia eget tincidunt,donec odio justo sollicitudin,20788685.52,50.08,63.23,68.49,31.96,67.69,4027.62,2024-02-26T19:45:42Z,5
+6,ultrices posuere cubilia curae nulla,aenean auctor gravida,47584325.71,20.35,6.14,19.07,47.53,83.75,4741.94,2024-12-18T17:42:32Z,6
+7,a feugiat et,mauris viverra diam,53669907.86,72.04,315.12,94.95,51.94,10.49,3725.35,2024-03-01T16:20:01Z,7
+8,aliquet ultrices erat tortor,nonummy maecenas tincidunt lacus,6089848.89,59.43,94.9,12.39,58.56,11.49,4620.01,2024-04-17T04:33:56Z,8
+9,morbi vel lectus in quam,vivamus tortor duis mattis,71280483.66,59.73,232.12,6.45,35.48,55.98,5442.37,2025-01-24T02:33:31Z,9
+10,a suscipit nulla elit,sit amet consectetuer,65516646.8,57.26,342.42,76.98,15.8,58.71,199.74,2024-06-12T02:42:43Z,10
+11,hac habitasse platea dictumst etiam,tincidunt lacus at velit,57506168.45,2.57,83.51,7.37,28.24,66.9,5162.18,2024-03-31T13:51:48Z,11
+12,cursus vestibulum proin eu,lectus pellentesque at nulla suspendisse,46060687.34,43.39,298.29,63.08,59.98,98.73,3912.56,2024-03-19T20:09:45Z,12
+13,habitasse platea dictumst,magna ac consequat metus sapien,2751536.92,57.93,25.85,2.09,20.84,64.65,1373.77,2025-02-01T08:43:15Z,13
+14,justo aliquam quis turpis,lectus suspendisse potenti in eleifend,66391398.35,86.57,101.81,2.5,93.42,94.98,873.75,2024-04-07T14:06:03Z,14
+15,justo etiam pretium iaculis,magnis dis parturient montes nascetur,93701270.68,33.99,174.2,84.13,21.34,52.19,86.58,2024-11-09T22:09:05Z,15
+16,scelerisque quam turpis adipiscing,in quis justo maecenas rhoncus,63244582.82,9.91,133.2,71.71,68.35,35.13,4860.58,2024-10-24T03:36:33Z,16
+17,mi nulla ac,dictumst morbi vestibulum,57953626.37,28.87,149.74,17.75,40.95,71.75,1910.69,2024-11-21T13:09:40Z,17
+18,lorem id ligula,leo odio condimentum id luctus,85226139.32,0.16,90.43,67.01,5.47,37.45,2622.8,2025-01-29T23:48:38Z,18
+19,nec nisi volutpat eleifend donec,praesent lectus vestibulum,35205804.95,25.94,196.35,39.37,68.19,30.06,4754.87,2024-02-28T10:53:29Z,19
+20,pretium iaculis justo in hac,congue vivamus metus,69756195.79,75.35,271.85,76.16,80.82,41.11,2683.65,2024-11-14T09:38:56Z,20
+21,massa volutpat convallis,et tempus semper,87428205.45,52.63,262.23,17.47,19.01,57.2,719.47,2024-06-16T19:21:21Z,21
+22,lobortis vel dapibus at,tempor turpis nec euismod scelerisque,30464587.68,60.11,306.95,94.79,92.85,23.19,975.66,2024-06-15T19:22:06Z,22
+23,amet consectetuer adipiscing elit,quam sollicitudin vitae,35523878.45,40.79,76.67,56.93,91.73,89.95,2220.22,2025-01-28T04:51:47Z,23
+24,sit amet eros,iaculis diam erat fermentum justo,98677472.65,74.16,64.1,78.93,39.13,67.85,-41.74,2024-09-05T13:52:17Z,24
+25,dapibus at diam nam tristique,convallis duis consequat dui nec,8757975.94,76.82,164.87,31.94,39.26,69.84,5268.43,2024-08-07T04:47:54Z,25
+26,pellentesque ultrices phasellus,in faucibus orci luctus,86440204.99,49.89,60.84,46.9,43.67,63.53,4520.38,2024-08-22T02:45:51Z,26
+27,nam nulla integer pede,nisi venenatis tristique fusce congue,959490.4,58.41,109.21,82.07,3.69,40.83,2319.09,2025-01-27T19:24:04Z,27
+28,accumsan odio curabitur convallis,lorem vitae mattis,75577533.4,91.25,225.03,15.94,14.28,78.75,4465.75,2024-10-01T01:36:05Z,28
+29,suscipit nulla elit,lacinia eget tincidunt,37199609.11,18.27,168.76,37.16,45.59,66.61,2839.15,2024-07-17T07:34:14Z,29
+30,consequat in consequat,fringilla rhoncus mauris enim leo,96151288.42,75.89,41.05,11.63,15.99,6.19,3256.45,2024-11-02T22:19:43Z,30
+31,dictumst morbi vestibulum velit id,ante vivamus tortor,33747572.75,84.32,257.89,36.35,31.1,37.0,3088.12,2024-08-26T15:41:02Z,31
+32,laoreet ut rhoncus aliquet,ultrices phasellus id sapien in,529570.0,71.23,237.9,5.65,6.22,72.32,3142.31,2024-11-05T09:21:37Z,32
+33,orci nullam molestie nibh in,sapien a libero,95683107.37,1.13,2.2,17.42,62.62,25.27,5484.19,2025-01-11T10:35:18Z,33
+34,sagittis dui vel nisl duis,nam nulla integer pede justo,82763076.55,62.97,9.8,89.5,34.24,2.42,-145.19,2024-07-01T02:54:07Z,34
+35,morbi a ipsum integer,ante vel ipsum praesent,82593154.81,21.59,209.37,91.16,28.97,26.14,5173.38,2024-05-26T09:25:20Z,35
+36,sit amet eros suspendisse accumsan,at lorem integer tincidunt ante,48935049.08,16.37,250.13,82.15,16.39,18.89,714.28,2024-06-28T19:48:42Z,36
+37,sit amet consectetuer,velit eu est congue,4178355.22,55.87,142.71,33.94,7.69,75.04,3205.58,2024-07-23T23:19:15Z,37
+38,sapien sapien non mi,integer aliquet massa,25620999.44,33.92,333.09,55.4,86.29,91.91,-105.91,2024-10-29T02:26:18Z,38
+39,libero rutrum ac lobortis vel,mollis molestie lorem quisque ut,58918562.84,52.59,54.44,75.29,38.46,20.11,4658.85,2024-09-26T22:11:58Z,39
+40,ligula vehicula consequat morbi a,luctus et ultrices posuere,68922040.45,32.23,1.15,24.43,43.91,70.85,684.11,2024-12-18T18:27:28Z,40
+41,vivamus vestibulum sagittis sapien cum,sed magna at,87800253.58,76.01,131.61,61.29,72.04,22.28,3757.14,2024-05-07T04:07:50Z,41
+42,vel augue vestibulum,justo sollicitudin ut suscipit,62436441.63,86.66,282.64,52.56,89.24,77.55,2793.2,2025-02-08T20:28:34Z,42
+43,turpis integer aliquet massa,odio odio elementum eu,39314017.74,29.28,155.87,32.15,22.49,9.0,3351.44,2024-03-16T12:53:45Z,43
+44,in lectus pellentesque,duis bibendum felis sed interdum,94065972.11,4.53,343.56,47.66,14.23,17.04,775.67,2024-12-31T04:30:46Z,44
+45,sem fusce consequat,est lacinia nisi,9504235.57,6.2,31.28,95.45,54.15,36.7,4042.46,2024-07-03T02:14:39Z,45
+46,lorem ipsum dolor sit,convallis eget eleifend,50489307.26,96.91,113.72,52.58,50.31,66.28,3027.85,2024-11-02T07:13:59Z,46
+47,eu tincidunt in leo maecenas,lobortis est phasellus sit amet,3339467.12,74.31,256.44,28.33,43.0,51.64,-101.96,2024-02-24T15:45:34Z,47
+48,nullam varius nulla facilisi,in tempus sit amet,365986.97,86.13,112.41,39.19,80.17,71.33,37.14,2024-04-14T14:41:47Z,48
+49,sem sed sagittis,morbi non quam nec dui,88052290.6,26.19,240.57,47.81,41.1,96.79,508.7,2024-09-02T16:38:39Z,49
+50,morbi non lectus aliquam,imperdiet et commodo,48830207.9,24.04,267.72,30.72,56.23,78.35,5011.3,2024-08-03T15:31:29Z,50
+51,in leo maecenas,curae duis faucibus accumsan,4726453.87,85.08,190.34,80.3,73.36,97.83,737.16,2024-04-26T22:01:05Z,51
+52,sed augue aliquam erat,quam fringilla rhoncus mauris enim,84275301.08,46.83,351.94,61.38,3.02,68.98,3822.22,2025-01-03T00:38:22Z,52
+53,neque sapien placerat ante,bibendum imperdiet nullam orci pede,88040908.3,12.76,286.68,59.12,7.43,68.53,3100.29,2024-12-08T12:54:49Z,53
+54,platea dictumst morbi,leo odio condimentum id luctus,53825989.28,52.65,291.02,28.72,54.56,72.92,2303.27,2024-03-13T21:58:24Z,54
+55,quis augue luctus tincidunt,duis at velit eu est,78960905.02,24.56,264.95,24.02,48.77,73.81,445.94,2024-06-18T06:20:47Z,55
+56,suspendisse potenti nullam porttitor lacus,pharetra magna ac consequat metus,30998992.46,95.89,85.25,42.86,55.64,33.57,4505.99,2024-12-02T15:14:13Z,56
+57,at feugiat non,ridiculus mus etiam vel,54702341.52,38.55,27.61,87.01,93.82,84.93,2191.01,2024-03-04T08:22:15Z,57
+58,pellentesque ultrices phasellus,in congue etiam justo etiam,51559866.62,51.16,229.73,72.67,82.44,97.5,849.27,2025-02-07T13:11:09Z,58
+59,morbi a ipsum integer a,fusce posuere felis sed lacus,78638903.55,7.75,211.07,10.4,93.43,41.64,4064.44,2024-04-01T15:22:23Z,59
+60,imperdiet sapien urna,urna ut tellus nulla ut,11398453.75,19.08,19.35,41.1,10.56,46.42,5572.25,2024-11-14T07:15:52Z,60
+61,curabitur in libero,ipsum ac tellus semper interdum,99096599.76,40.72,57.08,37.52,14.98,53.56,496.62,2024-11-25T20:12:59Z,61
+62,lorem ipsum dolor sit amet,vestibulum velit id,13424495.69,86.05,235.67,1.13,70.8,51.52,174.1,2024-11-09T03:08:08Z,62
+63,ipsum primis in faucibus,accumsan tortor quis turpis,23993472.92,77.11,329.75,53.18,29.06,60.88,4730.76,2024-11-08T17:00:22Z,63
+64,purus aliquet at,turpis adipiscing lorem,53796673.07,5.36,288.69,18.32,92.41,6.33,4697.38,2024-03-01T05:13:23Z,64
+65,vehicula consequat morbi a ipsum,sagittis nam congue risus,51014858.05,84.78,15.03,74.96,69.63,65.99,5257.03,2024-10-05T07:28:01Z,65
+66,consequat morbi a ipsum,hac habitasse platea,18320979.84,18.47,298.85,75.79,23.01,63.01,3001.08,2024-04-09T09:38:37Z,66
+67,amet eleifend pede libero,facilisi cras non velit nec,65533424.65,32.39,65.88,30.19,24.4,37.08,178.31,2024-09-12T08:55:58Z,67
+68,at feugiat non pretium,pede ullamcorper augue a suscipit,31023446.75,7.08,273.52,14.54,65.4,92.0,1353.37,2024-05-06T10:32:25Z,68
+69,id nulla ultrices,morbi odio odio elementum eu,89669580.98,74.16,117.1,51.43,54.09,93.27,2327.21,2024-05-26T22:30:48Z,69
+70,lacus curabitur at ipsum ac,non mattis pulvinar nulla,13418818.62,85.65,125.25,12.08,8.45,75.17,1701.55,2024-12-30T03:34:20Z,70
+71,ut at dolor,in lectus pellentesque at,59625261.22,69.91,160.48,60.21,73.35,36.51,3760.06,2024-06-23T02:53:30Z,71
+72,ac leo pellentesque ultrices mattis,felis sed lacus morbi,36420870.21,11.47,105.8,55.44,42.76,57.64,2362.35,2025-02-06T07:09:23Z,72
+73,erat vestibulum sed magna at,ultrices mattis odio donec,14321366.74,1.72,255.84,68.15,68.72,57.35,2239.56,2024-07-26T03:39:13Z,73
+74,felis eu sapien,dolor vel est donec,56706634.96,52.1,94.92,95.98,88.32,1.4,5063.5,2024-11-07T14:41:18Z,74
+75,est lacinia nisi,ullamcorper augue a,90978913.92,61.01,250.78,0.41,65.39,61.83,5167.09,2024-12-16T03:20:16Z,75
+76,suspendisse accumsan tortor quis,est donec odio,25153284.26,83.02,144.83,26.09,47.97,5.28,4899.11,2024-12-14T01:09:32Z,76
+77,pede ac diam,turpis sed ante vivamus,41923032.21,81.14,340.62,77.07,12.38,32.4,1917.52,2024-06-11T02:26:45Z,77
+78,eget congue eget,pede ac diam cras pellentesque,29409566.8,82.14,305.28,13.13,99.75,45.74,2149.49,2024-08-23T00:31:16Z,78
+79,sapien cum sociis natoque penatibus,elit proin interdum mauris non,64450519.18,14.47,77.56,92.81,23.79,89.83,1845.87,2024-12-05T22:17:09Z,79
+80,leo rhoncus sed vestibulum,quam fringilla rhoncus,71165454.82,29.92,119.56,73.64,53.67,56.2,3641.56,2024-05-05T15:22:31Z,80
+81,vel enim sit,dui maecenas tristique est et,10161061.18,37.03,350.01,66.77,10.25,99.77,5144.11,2025-02-08T04:37:37Z,81
+82,suspendisse accumsan tortor,nisi venenatis tristique fusce congue,89845545.26,58.18,153.34,34.73,31.34,28.75,4055.97,2024-12-09T11:57:24Z,82
+83,interdum mauris non ligula pellentesque,at vulputate vitae,71133798.69,62.74,318.6,11.7,60.74,5.32,1865.27,2024-06-18T02:05:43Z,83
+84,id ornare imperdiet sapien,non mi integer ac neque,18716656.51,0.1,182.5,37.62,38.71,71.89,2844.31,2024-08-26T02:41:51Z,84
+85,odio elementum eu interdum eu,id ligula suspendisse,76155886.34,23.93,90.49,10.13,41.19,70.55,-71.03,2024-08-14T03:12:06Z,85
+86,ipsum dolor sit,at velit vivamus vel,79040508.9,56.48,294.03,72.63,10.68,8.5,5526.21,2024-08-14T15:51:54Z,86
+87,nunc purus phasellus,convallis duis consequat dui,74497673.89,61.8,333.24,13.87,64.36,46.5,3134.18,2024-03-01T07:41:55Z,87
+88,ligula in lacus curabitur,vulputate nonummy maecenas tincidunt lacus,54122129.13,80.51,125.23,29.78,23.78,23.95,1697.01,2024-10-19T19:13:06Z,88
+89,nam ultrices libero,vulputate elementum nullam varius,18265204.64,7.13,32.95,55.2,12.29,50.94,3063.29,2025-02-08T19:38:08Z,89
+90,eu sapien cursus,pede morbi porttitor lorem id,80810301.29,22.54,290.35,81.57,56.5,64.45,1741.75,2024-08-09T01:32:51Z,90
+91,maecenas tincidunt lacus at,ut erat id,44983679.49,55.82,334.77,36.87,71.23,90.3,2561.53,2025-02-01T11:05:51Z,91
+92,lacus purus aliquet at feugiat,nulla ultrices aliquet maecenas,80835822.17,92.5,193.1,1.93,94.86,16.62,344.64,2024-04-21T08:36:08Z,92
+93,congue vivamus metus arcu adipiscing,sollicitudin vitae consectetuer eget rutrum,38806481.95,73.62,154.09,4.1,10.93,9.86,4648.19,2024-08-17T10:09:06Z,93
+94,libero non mattis pulvinar,sed augue aliquam erat,73691421.78,86.28,100.54,9.92,74.87,67.64,4065.81,2024-05-26T03:26:52Z,94
+95,lectus aliquam sit amet diam,velit vivamus vel nulla eget,10884353.9,48.49,35.56,22.5,75.18,57.68,2005.37,2024-07-29T02:48:51Z,95
+96,vel enim sit amet,ut nunc vestibulum,26661725.01,85.08,174.27,90.91,10.24,97.27,496.68,2024-11-18T17:30:18Z,96
+97,libero nam dui proin,leo rhoncus sed,16546119.71,45.73,193.88,45.92,3.61,74.31,4105.33,2024-05-25T09:09:23Z,97
+98,vitae ipsum aliquam non,integer ac leo pellentesque,73057583.42,16.76,145.86,90.02,47.48,18.87,1149.31,2024-10-31T15:16:27Z,98
+99,ligula vehicula consequat,blandit non interdum in,60382085.01,78.57,287.75,71.86,60.33,35.81,445.33,2024-05-26T09:25:58Z,99
+100,orci luctus et ultrices,nulla suscipit ligula,81424552.64,28.0,39.6,22.76,49.99,36.39,5430.54,2025-01-25T21:52:37Z,100
+101,felis donec semper sapien,lorem integer tincidunt,31818908.46,63.59,122.33,78.37,50.02,9.67,5064.24,2024-03-14T01:03:23Z,101
+102,hac habitasse platea dictumst maecenas,etiam faucibus cursus urna,17660135.13,86.22,141.2,6.52,63.89,67.74,5398.29,2024-03-07T05:36:04Z,102
+103,amet lobortis sapien,integer a nibh in,73184622.59,14.06,177.29,71.43,1.84,24.38,1896.25,2024-05-05T18:06:56Z,103
+104,nec molestie sed justo pellentesque,maecenas rhoncus aliquam lacus,17956267.71,8.41,333.15,88.79,62.9,90.64,4857.27,2024-06-20T02:40:54Z,104
+105,donec ut dolor morbi,a suscipit nulla,27231655.41,91.92,244.58,27.54,45.6,4.44,-213.75,2025-01-24T02:39:18Z,105
+106,vivamus metus arcu adipiscing molestie,arcu adipiscing molestie hendrerit,1952754.76,47.4,253.04,33.26,52.8,69.81,1952.23,2024-12-31T20:17:35Z,106
+107,id consequat in,vel lectus in quam fringilla,76083623.64,34.06,251.59,55.36,80.43,23.38,2076.97,2024-11-26T09:34:09Z,107
+108,lacus morbi sem,donec ut dolor morbi,39518580.93,61.06,264.91,49.17,77.01,35.09,3079.83,2024-05-24T04:17:37Z,108
+109,adipiscing molestie hendrerit,lobortis ligula sit,3600810.82,13.11,121.0,71.0,87.22,60.2,3225.62,2024-05-05T03:46:17Z,109
+110,malesuada in imperdiet et,amet erat nulla tempus vivamus,67891019.14,1.96,226.14,85.98,93.16,47.79,2119.24,2024-02-13T17:35:57Z,110
+111,ipsum primis in faucibus orci,aliquet at feugiat,47059469.47,40.31,230.52,62.88,20.62,71.57,5231.12,2024-12-18T20:54:16Z,111
+112,bibendum morbi non,lacus morbi sem mauris,24848270.03,39.92,38.21,54.06,2.37,83.81,4352.63,2024-12-21T08:09:47Z,112
+113,id mauris vulputate elementum,interdum venenatis turpis enim blandit,47823843.64,27.86,267.62,56.13,3.28,28.19,1341.62,2024-11-22T15:49:28Z,113
+114,augue quam sollicitudin vitae,risus auctor sed tristique,73112753.55,39.3,152.14,89.06,33.0,31.46,1565.24,2024-06-12T12:27:12Z,114
+115,magna vulputate luctus cum,non velit nec nisi vulputate,41801465.56,20.55,29.59,60.91,35.61,86.84,4867.33,2024-04-01T02:03:24Z,115
+116,porttitor lacus at,velit vivamus vel nulla,87646042.92,11.41,226.41,14.5,2.72,94.73,4544.34,2025-01-29T00:03:30Z,116
+117,sem sed sagittis,metus sapien ut nunc vestibulum,43022893.07,38.59,46.62,79.47,63.14,89.81,2141.42,2024-08-30T20:28:29Z,117
+118,nibh in quis,nulla pede ullamcorper augue,93297254.82,46.66,22.17,80.92,7.38,53.01,2734.87,2024-03-11T12:10:12Z,118
+119,pellentesque ultrices phasellus,odio odio elementum eu,3013666.46,87.92,354.13,73.93,74.33,80.47,2833.82,2024-12-21T20:39:15Z,119
+120,id mauris vulputate elementum nullam,ipsum praesent blandit,37551980.75,7.19,117.96,78.29,31.48,78.22,1781.07,2024-09-07T21:11:08Z,120
+121,quis turpis eget,ac lobortis vel,89310010.9,7.6,27.12,70.49,36.27,69.41,2933.59,2024-09-21T07:13:28Z,121
+122,ut volutpat sapien arcu,ut volutpat sapien arcu sed,10706343.32,55.5,316.61,10.86,74.68,6.89,1331.21,2025-01-03T22:17:19Z,122
+123,cubilia curae mauris viverra,in sapien iaculis congue vivamus,79159903.66,65.78,106.88,55.15,69.37,92.77,5127.0,2024-05-01T03:07:11Z,123
+124,quis tortor id nulla,vestibulum ante ipsum,29553171.79,18.65,209.87,31.01,54.56,20.63,55.63,2025-01-24T05:53:17Z,124
+125,vivamus vel nulla eget,at lorem integer,78879299.31,47.27,63.34,55.28,53.46,40.38,839.36,2024-05-16T18:32:15Z,125
+126,sit amet eleifend pede libero,in purus eu magna vulputate,84006036.38,87.37,118.16,73.99,2.93,73.24,170.37,2024-06-08T07:10:18Z,126
+127,posuere nonummy integer non,non mauris morbi,36319880.42,62.51,315.37,80.2,95.46,50.55,3349.09,2024-07-28T21:57:16Z,127
+128,erat nulla tempus vivamus in,vel lectus in quam,18494600.56,21.94,119.38,8.54,95.53,60.18,-91.53,2024-09-07T08:46:33Z,128
+129,ut erat id,vivamus metus arcu adipiscing,61768990.97,23.85,329.02,7.93,92.51,79.6,3674.43,2024-07-09T10:30:09Z,129
+130,quis orci nullam molestie nibh,luctus cum sociis natoque,10444364.51,79.6,239.82,81.47,9.33,34.79,3998.72,2024-06-22T09:20:16Z,130
+131,nam nulla integer,fusce posuere felis sed lacus,47116198.21,80.9,330.8,3.58,55.17,81.27,66.64,2024-04-23T13:19:55Z,131
+132,ut blandit non interdum,ligula pellentesque ultrices,26656047.41,49.52,118.53,59.28,71.79,3.69,941.14,2024-04-03T10:45:29Z,132
+133,odio consequat varius integer ac,duis at velit eu,38187235.46,69.37,345.33,46.74,58.78,53.5,1822.98,2025-01-20T13:37:56Z,133
+134,felis ut at,sed tincidunt eu felis fusce,26730335.06,90.14,248.53,12.91,24.97,74.96,1839.16,2024-09-13T15:41:03Z,134
+135,eu magna vulputate luctus cum,sollicitudin ut suscipit a feugiat,2820734.06,54.95,118.94,26.18,65.96,45.42,2923.2,2024-06-24T18:15:17Z,135
+136,lorem ipsum dolor sit,vulputate luctus cum sociis natoque,16714391.11,38.14,0.1,1.06,78.73,52.78,4257.61,2024-10-07T16:25:41Z,136
+137,justo sollicitudin ut,id turpis integer,414281.97,53.1,162.14,57.0,67.62,58.43,1226.4,2025-02-01T23:07:57Z,137
+138,arcu adipiscing molestie,sapien varius ut blandit,54590465.2,33.72,36.33,5.99,81.13,86.48,801.58,2024-06-30T20:21:04Z,138
+139,lacinia eget tincidunt eget,nisl nunc rhoncus dui vel,9447382.59,16.03,136.29,31.27,58.23,78.67,87.1,2024-08-12T17:59:12Z,139
+140,vehicula condimentum curabitur,ante ipsum primis in faucibus,53968568.97,77.5,252.73,77.3,99.61,82.23,4948.78,2024-04-03T23:38:58Z,140
+141,iaculis justo in hac habitasse,rhoncus aliquet pulvinar sed nisl,35325388.62,14.74,68.86,14.68,4.9,49.66,4714.31,2024-12-19T04:52:27Z,141
+142,eleifend donec ut dolor,eu est congue elementum,42674639.37,66.11,92.43,29.21,48.33,61.84,4724.74,2024-10-10T01:26:24Z,142
+143,diam in magna bibendum,sapien arcu sed augue,32030213.97,62.59,221.12,82.05,66.63,0.69,4094.82,2024-05-28T20:50:00Z,143
+144,luctus et ultrices posuere,eget massa tempor,31392499.93,53.94,324.79,42.61,11.55,47.29,1501.35,2024-09-17T00:26:38Z,144
+145,posuere cubilia curae,odio odio elementum eu,35000249.91,42.34,218.09,44.08,1.29,62.21,2145.07,2024-07-24T03:35:24Z,145
+146,in faucibus orci luctus et,luctus et ultrices posuere,24850833.49,5.37,47.61,75.8,15.45,41.22,1553.47,2024-10-27T04:34:12Z,146
+147,nulla ultrices aliquet,eu felis fusce posuere,26804410.48,89.9,335.68,76.76,85.58,40.37,589.48,2024-09-28T06:48:26Z,147
+148,nec nisi volutpat eleifend donec,venenatis non sodales,27029467.75,97.63,187.8,27.61,91.35,45.79,4972.97,2024-06-07T18:19:21Z,148
+149,faucibus orci luctus,quis libero nullam,74885107.73,34.7,266.43,24.13,84.75,41.2,-109.78,2024-06-24T17:52:56Z,149
+150,habitasse platea dictumst etiam,ac consequat metus sapien ut,742825.56,18.29,19.99,54.75,7.72,20.79,4100.89,2024-07-01T08:10:15Z,150
+151,tempor turpis nec,vestibulum sed magna at,49987712.03,59.0,87.73,52.38,36.34,18.95,-202.93,2024-03-10T04:58:24Z,151
+152,morbi quis tortor id,aliquam erat volutpat in congue,86648637.38,99.0,326.52,80.56,34.96,38.41,1106.22,2024-05-03T12:13:12Z,152
+153,ut massa volutpat,mi sit amet lobortis,42745891.69,30.54,26.28,20.6,69.42,95.95,4222.25,2024-06-19T13:02:47Z,153
+154,blandit non interdum,aenean auctor gravida sem praesent,83116334.51,82.54,242.86,16.26,79.34,27.73,3778.22,2024-12-18T07:36:38Z,154
+155,ante vestibulum ante ipsum,odio consequat varius integer,36611120.51,21.92,120.74,13.07,16.25,6.32,5265.77,2025-02-03T14:30:29Z,155
+156,in lacus curabitur,quisque ut erat curabitur gravida,65744780.04,24.78,104.09,86.48,2.0,42.38,5041.64,2024-03-07T22:21:52Z,156
+157,cubilia curae donec,quis lectus suspendisse potenti,61459956.12,25.9,270.82,79.74,39.32,69.34,4556.22,2024-04-16T23:32:28Z,157
+158,penatibus et magnis,congue elementum in hac,73238266.7,56.88,153.43,76.27,32.83,28.9,4336.72,2024-12-27T19:24:52Z,158
+159,amet eleifend pede libero quis,non velit donec diam,31172655.45,50.52,179.11,34.82,38.78,84.7,2695.28,2024-08-14T22:23:18Z,159
+160,vestibulum vestibulum ante ipsum primis,tellus semper interdum mauris ullamcorper,98485845.35,64.46,196.22,22.65,1.74,46.65,4617.94,2024-12-09T13:41:53Z,160
+161,parturient montes nascetur,ipsum primis in faucibus,14817840.97,11.67,212.72,63.68,95.28,86.88,1106.17,2024-10-18T18:07:01Z,161
+162,eleifend donec ut dolor,in imperdiet et commodo vulputate,18319894.59,23.23,195.74,67.0,2.18,59.84,1393.28,2025-01-23T10:57:00Z,162
+163,quisque ut erat curabitur,semper sapien a,75689264.45,31.69,174.46,85.3,89.78,9.68,5159.69,2025-01-10T18:15:49Z,163
+164,fusce lacus purus aliquet at,tincidunt in leo maecenas pulvinar,81299044.78,52.62,278.18,68.22,97.36,47.0,4.08,2024-11-27T08:31:22Z,164
+165,morbi odio odio elementum,in consequat ut,33394363.97,93.25,261.01,40.93,45.67,46.13,4412.12,2024-09-01T04:40:25Z,165
+166,at turpis a pede posuere,ut nunc vestibulum,25141512.03,75.43,274.82,15.18,44.56,88.85,902.0,2024-09-08T22:59:14Z,166
+167,massa id nisl venenatis,proin leo odio,31194108.76,96.21,265.05,19.38,60.4,51.36,1258.44,2024-03-02T22:09:14Z,167
+168,eleifend luctus ultricies eu,cum sociis natoque penatibus,64918291.28,52.92,233.24,87.57,26.51,51.62,944.0,2024-12-25T18:28:32Z,168
+169,curae nulla dapibus dolor vel,eget nunc donec,2447646.96,26.0,35.29,92.38,84.83,33.89,5084.37,2024-11-12T18:54:33Z,169
+170,at turpis a,ultrices posuere cubilia curae donec,31589530.22,57.74,242.33,68.12,4.29,1.9,676.01,2024-08-13T05:51:22Z,170
+171,metus sapien ut nunc,odio elementum eu,5130784.94,92.39,308.83,67.51,18.45,18.73,651.28,2024-08-30T17:18:22Z,171
+172,dui luctus rutrum,integer non velit donec diam,35675914.75,5.5,170.18,8.6,49.31,42.13,3910.27,2024-03-16T07:41:25Z,172
+173,ipsum primis in faucibus orci,lorem vitae mattis nibh ligula,25141209.16,74.19,295.15,77.05,3.71,53.57,5481.82,2025-01-18T02:33:46Z,173
+174,eu orci mauris lacinia,viverra eget congue eget semper,93710589.19,71.22,278.54,33.64,4.78,88.35,5164.44,2024-04-18T21:47:14Z,174
+175,at ipsum ac tellus semper,tortor duis mattis egestas metus,426042.46,91.94,255.23,8.2,5.7,96.27,568.89,2024-10-21T09:14:28Z,175
+176,porttitor pede justo eu,in imperdiet et commodo,44367081.51,8.63,303.6,75.28,97.06,12.08,2575.3,2024-10-15T21:45:30Z,176
+177,montes nascetur ridiculus,vehicula consequat morbi,41104290.88,78.66,238.91,74.58,44.4,67.06,3322.75,2025-01-15T06:50:42Z,177
+178,eros viverra eget congue eget,ac nulla sed vel enim,28367002.2,29.14,114.26,66.26,22.4,98.32,205.43,2024-10-19T14:24:58Z,178
+179,in hac habitasse,quis tortor id nulla,79112642.84,43.6,189.63,58.33,43.57,67.53,1617.4,2024-06-28T19:13:39Z,179
+180,sapien in sapien,congue elementum in hac,31297507.59,79.31,145.76,57.75,83.58,71.18,4291.02,2024-08-17T13:08:06Z,180
+181,morbi non quam nec dui,dui maecenas tristique,8160417.45,76.83,167.51,23.02,41.21,1.57,2975.16,2024-02-25T15:11:25Z,181
+182,ipsum primis in faucibus orci,sem duis aliquam convallis nunc,30159797.71,40.42,53.26,84.13,44.23,4.99,5469.9,2024-09-08T07:32:53Z,182
+183,odio porttitor id,dui proin leo odio porttitor,53851802.11,19.72,188.7,7.77,47.79,60.33,3554.07,2024-04-16T04:40:06Z,183
+184,lacus at turpis,est phasellus sit amet,47134121.97,47.54,137.17,78.44,64.72,86.26,479.25,2024-08-30T04:39:44Z,184
+185,quam sapien varius ut,praesent blandit nam,23564121.66,14.92,180.3,38.49,78.52,74.87,4462.13,2024-05-10T03:53:31Z,185
+186,leo rhoncus sed,quam pede lobortis,15531862.08,95.58,249.68,34.42,71.82,86.46,270.08,2025-02-09T16:12:15Z,186
+187,magna ac consequat metus sapien,non interdum in ante vestibulum,56242103.24,30.48,158.43,2.89,15.47,81.44,2395.32,2024-05-03T17:51:38Z,187
+188,duis faucibus accumsan,potenti in eleifend quam,13446415.13,1.15,198.22,23.75,44.62,88.24,5266.23,2024-04-13T11:14:28Z,188
+189,placerat ante nulla justo aliquam,penatibus et magnis,29947370.3,88.55,152.78,96.15,35.38,82.47,1315.3,2024-12-09T21:17:37Z,189
+190,quis lectus suspendisse potenti in,id sapien in sapien,61656778.02,68.76,249.84,79.22,59.77,50.67,4413.01,2024-06-24T12:20:15Z,190
+191,scelerisque quam turpis adipiscing,suspendisse potenti nullam porttitor,38575769.0,55.91,4.07,6.48,90.5,99.76,2996.8,2024-12-08T20:15:34Z,191
+192,risus semper porta volutpat,vestibulum rutrum rutrum,66751219.35,52.19,344.23,15.79,82.16,56.9,1031.03,2024-07-01T11:03:48Z,192
+193,at ipsum ac tellus semper,mauris ullamcorper purus sit amet,52136378.87,96.46,35.1,28.15,25.94,97.96,534.22,2024-08-10T19:49:47Z,193
+194,nulla sed accumsan,enim blandit mi in,48277807.68,40.03,238.24,47.95,55.6,90.97,4565.24,2024-05-31T12:09:32Z,194
+195,egestas metus aenean,placerat praesent blandit,52605919.88,82.64,104.7,82.45,92.53,66.43,3929.0,2024-11-14T19:24:00Z,195
+196,mauris laoreet ut,maecenas leo odio condimentum id,48030151.44,15.48,294.85,18.45,32.28,46.27,2909.22,2024-04-25T12:01:32Z,196
+197,congue vivamus metus,non mi integer,28206603.05,23.27,17.95,29.72,58.8,6.36,1583.41,2024-11-08T05:39:19Z,197
+198,rutrum neque aenean,turpis eget elit,59296823.16,35.7,144.4,32.89,57.57,72.29,5103.55,2024-12-18T16:58:19Z,198
+199,amet eleifend pede libero quis,nunc nisl duis,85444492.09,81.76,175.73,58.53,36.27,74.18,3878.43,2024-07-08T22:45:54Z,199
+200,justo aliquam quis,fermentum donec ut mauris eget,63763759.46,1.81,256.44,48.51,57.07,52.75,1544.38,2024-11-03T10:59:29Z,200
+201,pellentesque volutpat dui maecenas,curae mauris viverra,35573396.37,0.12,203.4,54.02,52.55,95.46,4532.77,2024-11-23T06:01:04Z,201
+202,risus dapibus augue,nunc vestibulum ante,34929948.79,56.07,224.5,48.04,36.76,31.16,1607.2,2024-08-17T15:26:56Z,202
+203,justo in hac habitasse platea,vulputate ut ultrices vel augue,37233249.91,61.73,308.4,61.24,60.3,13.14,4148.95,2024-04-14T21:09:57Z,203
+204,cras non velit nec,habitasse platea dictumst etiam faucibus,83914737.72,88.69,172.43,61.36,0.28,40.35,2368.2,2024-10-06T02:10:01Z,204
+205,et ultrices posuere cubilia,enim leo rhoncus sed,98690148.19,40.62,134.57,55.93,9.84,87.1,1456.7,2024-10-14T14:51:36Z,205
+206,vel pede morbi porttitor,aliquam augue quam sollicitudin,20107411.82,54.83,303.01,36.67,38.03,94.27,1032.43,2024-06-14T03:41:10Z,206
+207,libero convallis eget eleifend luctus,nascetur ridiculus mus etiam,59238334.33,6.0,23.69,74.57,17.96,95.29,1708.09,2024-04-07T23:03:26Z,207
+208,lacus curabitur at,porttitor lorem id,65857722.72,54.71,103.0,28.03,80.76,34.31,4948.38,2024-06-26T07:49:06Z,208
+209,elementum pellentesque quisque porta,posuere cubilia curae duis faucibus,63752827.96,98.5,13.28,61.07,53.31,92.15,3969.03,2024-11-19T12:50:27Z,209
+210,lectus aliquam sit amet,erat nulla tempus vivamus,46289721.93,30.25,355.0,21.99,64.07,97.87,2584.34,2024-03-23T13:32:25Z,210
+211,lacus at turpis donec,pede lobortis ligula,65610774.91,62.95,115.41,70.0,49.36,15.93,1973.02,2024-06-18T13:46:34Z,211
+212,neque aenean auctor gravida,a feugiat et eros,40540536.17,83.97,287.43,93.39,34.67,20.01,3280.08,2024-06-03T04:18:35Z,212
+213,odio curabitur convallis duis,in hac habitasse platea dictumst,61005268.39,12.98,317.88,82.76,62.64,99.48,2659.83,2025-02-02T03:46:53Z,213
+214,viverra dapibus nulla suscipit,primis in faucibus,85422753.2,45.64,39.63,17.19,59.2,61.13,-183.86,2025-02-04T07:22:42Z,214
+215,commodo placerat praesent blandit,justo nec condimentum neque,11733001.62,5.47,314.03,61.19,55.35,15.37,1232.73,2024-09-19T15:54:26Z,215
+216,tortor sollicitudin mi,maecenas tincidunt lacus,71308427.92,18.43,272.05,89.73,33.99,69.2,-61.56,2024-08-16T13:10:48Z,216
+217,risus dapibus augue,in felis donec,99152476.64,16.52,129.37,28.5,82.23,6.74,3647.84,2025-01-24T12:42:47Z,217
+218,et tempus semper est quam,penatibus et magnis dis,37142618.97,24.01,100.29,36.29,75.31,17.45,4519.04,2024-09-24T21:24:21Z,218
+219,nulla facilisi cras non velit,justo eu massa donec dapibus,80128411.05,72.44,130.09,58.11,2.31,41.01,1689.55,2024-05-11T06:14:11Z,219
+220,lorem integer tincidunt ante vel,mi in porttitor pede justo,14196144.3,91.87,228.79,11.57,64.29,4.75,1170.26,2025-01-17T06:18:22Z,220
+221,duis consequat dui,consectetuer eget rutrum at lorem,57094984.99,6.73,44.0,76.64,82.63,21.01,-142.74,2024-11-12T02:21:18Z,221
+222,praesent blandit nam,pellentesque quisque porta volutpat,86076103.48,24.46,28.1,18.09,49.66,52.59,1778.97,2024-08-20T00:05:18Z,222
+223,ut suscipit a,non mi integer,36171211.24,25.03,103.03,58.4,31.03,6.84,5175.01,2024-10-10T11:08:14Z,223
+224,in faucibus orci,nibh fusce lacus purus,2495621.1,68.13,334.86,44.86,36.84,58.19,1103.06,2024-03-26T05:08:34Z,224
+225,dapibus duis at,erat volutpat in congue,94315589.9,82.5,125.18,24.77,73.28,64.79,5542.63,2025-02-04T12:33:29Z,225
+226,est congue elementum in,nulla sed accumsan,23159848.94,10.53,29.65,54.33,7.8,51.43,1700.07,2025-01-25T19:16:00Z,226
+227,volutpat erat quisque,erat fermentum justo nec condimentum,75486910.65,74.41,106.67,48.78,60.91,59.74,4005.49,2024-05-13T10:32:29Z,227
+228,iaculis justo in,leo odio condimentum id luctus,89614971.17,34.84,18.69,16.74,1.74,86.83,3620.35,2024-10-23T04:49:55Z,228
+229,ligula nec sem duis,platea dictumst etiam faucibus,12132160.21,90.08,249.68,75.75,42.63,33.31,1927.09,2024-03-16T23:00:16Z,229
+230,accumsan felis ut at,pede malesuada in,83649277.52,25.37,260.76,79.89,83.47,8.1,4217.32,2024-03-25T06:58:58Z,230
+231,porttitor id consequat,duis bibendum felis,92371025.43,51.29,112.65,35.08,67.77,1.63,5519.56,2025-02-04T10:52:06Z,231
+232,massa id nisl venenatis lacinia,fusce lacus purus aliquet,9551319.46,44.99,296.65,29.22,19.63,29.38,5213.87,2024-05-07T23:39:06Z,232
+233,platea dictumst maecenas ut massa,nam dui proin leo odio,37078762.64,69.55,8.46,10.19,88.11,87.13,2499.57,2024-09-22T00:01:51Z,233
+234,maecenas tristique est et,commodo vulputate justo,15162026.95,37.19,43.17,85.43,70.02,21.8,4216.13,2024-04-02T19:27:14Z,234
+235,rhoncus dui vel,pellentesque ultrices phasellus id,53177984.95,42.85,182.38,70.03,35.87,13.76,39.98,2025-01-26T18:43:14Z,235
+236,nulla pede ullamcorper augue a,posuere cubilia curae,2493378.69,31.58,304.74,76.59,24.21,58.36,5566.76,2024-02-13T17:54:54Z,236
+237,placerat praesent blandit nam nulla,orci eget orci vehicula condimentum,70545842.72,38.63,103.91,91.82,60.74,26.95,319.05,2024-03-15T20:42:32Z,237
+238,vulputate justo in blandit ultrices,diam id ornare,75665631.34,29.29,336.4,86.83,71.53,17.43,40.16,2024-05-24T15:01:57Z,238
+239,ac neque duis bibendum morbi,at turpis donec,79551857.81,73.76,193.65,82.19,29.98,51.98,2935.78,2024-07-04T00:20:39Z,239
+240,vitae ipsum aliquam non,vivamus metus arcu adipiscing,44829665.81,9.26,268.12,1.08,95.89,82.75,73.74,2024-09-06T07:06:59Z,240
+241,consequat morbi a,id ligula suspendisse,16710534.83,72.82,345.61,42.46,83.75,44.88,704.44,2025-01-20T16:30:43Z,241
+242,semper interdum mauris ullamcorper purus,vehicula consequat morbi,18956266.8,48.24,288.24,10.41,25.36,43.71,2901.72,2024-10-06T03:24:29Z,242
+243,nullam sit amet turpis,justo morbi ut odio cras,13933981.62,11.73,124.72,32.98,65.67,15.58,3895.06,2024-03-28T22:07:41Z,243
+244,curabitur gravida nisi,lorem ipsum dolor sit,50533123.29,52.61,38.38,48.49,46.58,4.2,774.75,2025-01-21T09:07:36Z,244
+245,odio condimentum id,sed magna at nunc,7501842.55,60.81,161.58,60.9,85.4,10.55,3972.34,2024-03-12T21:52:06Z,245
+246,nisi nam ultrices,purus phasellus in felis,17988991.75,58.04,324.47,9.14,35.52,41.89,4004.78,2024-03-26T04:19:48Z,246
+247,in faucibus orci luctus et,tempor turpis nec euismod scelerisque,72293059.48,11.79,36.54,28.38,34.56,44.38,1994.57,2024-09-02T02:34:55Z,247
+248,nunc nisl duis bibendum,ante ipsum primis in faucibus,65446915.75,50.15,232.74,21.29,71.58,40.64,3577.87,2024-07-30T15:11:43Z,248
+249,aenean auctor gravida sem praesent,vel lectus in,91928120.48,41.07,175.9,33.75,30.63,7.81,5401.62,2024-09-03T20:27:53Z,249
+250,turpis elementum ligula vehicula consequat,volutpat convallis morbi odio,37670697.2,6.54,326.89,8.97,33.84,49.99,1272.22,2024-02-17T10:49:54Z,250
+251,lobortis sapien sapien non,vitae nisl aenean lectus pellentesque,29905689.41,63.14,1.25,72.1,44.73,72.56,121.84,2024-08-23T03:37:55Z,251
+252,nulla integer pede justo lacinia,iaculis diam erat fermentum,72772057.88,33.58,356.1,68.92,66.57,71.52,2445.62,2024-03-09T00:25:32Z,252
+253,potenti nullam porttitor,eu sapien cursus,77460716.84,41.75,270.74,73.46,42.8,82.88,204.14,2024-11-08T12:12:28Z,253
+254,etiam faucibus cursus,lacinia erat vestibulum sed,55486154.24,22.22,157.28,69.43,96.12,79.13,-9.05,2024-11-12T18:09:18Z,254
+255,in eleifend quam,arcu sed augue aliquam erat,41184973.88,16.66,336.38,35.5,13.61,83.22,5230.97,2024-11-27T12:46:32Z,255
+256,massa donec dapibus,nisi vulputate nonummy maecenas,63642042.79,53.2,184.73,47.79,93.9,46.53,104.21,2024-05-19T02:11:02Z,256
+257,nulla ac enim in,tortor risus dapibus augue,23744770.12,68.14,21.07,30.36,51.32,62.83,3278.74,2024-08-04T14:42:27Z,257
+258,eleifend pede libero quis orci,lorem ipsum dolor sit amet,41971636.94,15.71,133.27,19.3,68.34,23.89,4207.62,2024-12-26T16:42:26Z,258
+259,in consequat ut nulla sed,quam fringilla rhoncus mauris,18571628.33,22.28,299.18,67.91,99.69,48.06,5531.83,2024-04-12T23:10:20Z,259
+260,potenti nullam porttitor,potenti in eleifend quam,64240779.65,12.27,77.64,19.47,3.05,88.31,3422.63,2024-11-12T03:18:50Z,260
+261,condimentum curabitur in libero,neque vestibulum eget,61939918.09,48.81,253.69,4.18,46.21,72.34,1849.02,2024-08-14T10:11:57Z,261
+262,tristique est et tempus semper,mi pede malesuada in,49692048.63,68.3,312.31,43.95,74.45,13.37,958.22,2024-07-17T18:11:56Z,262
+263,sit amet sem fusce,pretium iaculis justo in hac,81163721.46,91.08,140.32,51.77,57.96,61.5,3949.43,2024-10-24T11:00:21Z,263
+264,ante nulla justo aliquam quis,adipiscing elit proin interdum mauris,86086178.82,74.62,84.19,57.79,48.75,63.42,3284.67,2025-01-31T10:00:04Z,264
+265,adipiscing molestie hendrerit at,aliquam quis turpis eget elit,98922945.88,69.6,355.14,57.64,70.83,24.1,2399.3,2024-04-03T20:24:20Z,265
+266,faucibus orci luctus et,ut odio cras mi pede,86085176.17,41.93,34.94,39.32,74.58,98.07,627.48,2024-07-18T08:24:53Z,266
+267,non ligula pellentesque,odio elementum eu,28282392.35,92.23,190.62,15.48,51.21,41.84,1220.92,2024-04-30T06:13:36Z,267
+268,sed interdum venenatis turpis,non velit donec diam neque,17912603.85,10.02,355.85,41.83,48.85,18.12,3349.77,2024-07-25T16:48:31Z,268
+269,morbi non quam,curabitur at ipsum ac tellus,99081284.77,14.72,270.4,72.26,26.85,30.62,3471.95,2024-06-13T15:37:27Z,269
+270,at nulla suspendisse,convallis nulla neque libero convallis,51030412.31,3.54,244.69,72.56,44.09,49.38,670.76,2024-12-23T17:31:50Z,270
+271,orci pede venenatis,nulla neque libero,25598816.91,52.12,263.82,9.3,79.21,81.16,5131.21,2024-07-17T23:59:27Z,271
+272,sapien dignissim vestibulum vestibulum,convallis morbi odio odio,77035862.6,43.13,107.91,77.94,67.1,56.54,4706.32,2024-02-17T15:32:54Z,272
+273,pellentesque ultrices phasellus,semper rutrum nulla nunc,63192411.04,44.01,241.84,1.06,76.56,83.71,4559.63,2024-06-08T14:27:53Z,273
+274,lacus morbi quis tortor id,arcu libero rutrum ac lobortis,67562506.35,70.33,99.56,1.7,62.24,82.8,1208.91,2024-06-20T09:40:39Z,274
+275,dapibus dolor vel,libero convallis eget,94867673.46,15.46,120.95,75.97,32.75,96.25,3375.65,2024-03-26T20:37:45Z,275
+276,mauris sit amet,turpis elementum ligula,67849813.28,39.02,164.61,12.95,43.65,70.45,5381.31,2024-09-13T08:12:32Z,276
+277,convallis morbi odio,pulvinar sed nisl,52231808.59,69.38,106.77,1.79,95.49,4.88,3573.12,2024-02-17T22:17:06Z,277
+278,at diam nam tristique,cras mi pede malesuada in,59976190.99,32.77,76.51,26.15,68.31,35.21,3398.25,2024-10-16T10:32:21Z,278
+279,consequat morbi a ipsum integer,magnis dis parturient,82477582.78,66.57,197.12,80.49,53.92,73.21,5.51,2024-12-14T07:34:44Z,279
+280,ultrices posuere cubilia,tristique fusce congue diam id,19066819.49,94.57,77.16,2.03,74.65,67.96,-21.3,2024-07-28T10:59:58Z,280
+281,lectus vestibulum quam sapien,nec condimentum neque sapien placerat,9110801.18,48.69,16.44,38.84,7.75,21.54,5450.97,2024-07-19T07:23:44Z,281
+282,volutpat in congue,nunc vestibulum ante,24117095.18,93.92,34.66,38.05,53.74,37.91,2247.14,2024-02-21T12:14:11Z,282
+283,parturient montes nascetur,consequat nulla nisl,9588373.53,7.21,134.29,80.9,22.55,25.31,1990.76,2024-06-27T08:06:22Z,283
+284,suspendisse ornare consequat lectus,posuere nonummy integer non,99121934.1,18.6,100.59,51.15,94.73,22.31,4352.65,2024-07-18T14:12:15Z,284
+285,magnis dis parturient montes nascetur,semper est quam,40415237.82,65.34,163.54,13.62,48.05,80.14,-224.27,2024-07-17T03:42:39Z,285
+286,eget orci vehicula condimentum,nullam molestie nibh,38660185.89,98.66,167.13,34.03,89.9,21.95,1494.26,2024-12-12T04:03:00Z,286
+287,aliquet ultrices erat,pede lobortis ligula,57047578.13,96.27,152.8,6.03,15.33,22.8,2693.17,2024-07-07T22:43:43Z,287
+288,et ultrices posuere,pretium nisl ut volutpat sapien,82712586.1,13.22,325.08,6.21,22.0,8.64,2096.33,2024-05-18T22:58:56Z,288
+289,ultrices libero non mattis pulvinar,metus arcu adipiscing molestie,10736691.45,48.45,97.79,39.28,23.43,13.44,104.13,2024-11-08T14:42:21Z,289
+290,eget tincidunt eget tempus,neque vestibulum eget vulputate ut,38159905.65,28.28,269.68,44.27,54.28,47.69,196.35,2024-03-05T20:55:27Z,290
+291,id turpis integer aliquet massa,eget congue eget semper rutrum,47509793.11,39.98,230.3,42.81,43.53,95.94,222.72,2024-04-12T07:39:49Z,291
+292,aliquet ultrices erat,eros suspendisse accumsan,99450467.62,15.3,319.87,68.12,39.19,15.32,3748.92,2024-03-27T19:41:21Z,292
+293,primis in faucibus,pulvinar lobortis est phasellus,97442116.21,16.62,211.35,5.2,36.36,97.34,1919.56,2024-06-09T02:34:34Z,293
+294,pellentesque ultrices phasellus id sapien,suscipit a feugiat et eros,11782711.38,40.38,9.06,0.07,18.4,0.32,5018.36,2024-06-08T09:37:52Z,294
+295,ante ipsum primis,libero ut massa volutpat convallis,90547412.61,21.65,252.71,68.41,31.14,0.71,938.38,2024-03-03T16:59:32Z,295
+296,quis odio consequat varius integer,sagittis dui vel nisl duis,30709224.05,26.83,255.69,26.61,60.13,66.27,4876.63,2024-11-10T23:55:32Z,296
+297,turpis a pede,nibh in lectus pellentesque at,75428888.33,9.65,163.79,43.26,92.98,99.58,258.03,2024-06-14T12:05:11Z,297
+298,odio donec vitae nisi nam,rhoncus mauris enim,70171171.62,93.18,291.78,80.2,38.98,75.08,4671.07,2024-04-02T07:12:29Z,298
+299,vivamus in felis eu sapien,eget tincidunt eget tempus vel,89555904.92,93.56,262.01,2.49,70.65,81.9,3321.86,2024-08-14T16:13:12Z,299
+300,et ultrices posuere,ultricies eu nibh quisque,70153605.46,32.67,355.1,56.86,45.47,23.86,1474.32,2024-04-19T03:37:46Z,300
+301,nec euismod scelerisque quam,at diam nam,1286694.16,80.87,181.66,57.72,48.71,78.32,3392.53,2024-11-02T13:58:15Z,301
+302,sagittis nam congue risus,arcu libero rutrum ac lobortis,84237531.01,41.88,224.72,34.51,89.58,72.94,4589.29,2024-07-02T19:32:28Z,302
+303,suscipit nulla elit,tortor duis mattis egestas metus,25721722.41,9.06,96.09,96.03,3.27,22.53,511.65,2024-11-03T01:46:17Z,303
+304,at ipsum ac,luctus rutrum nulla,84661279.14,15.64,44.18,31.67,47.36,37.97,59.23,2024-11-04T14:57:07Z,304
+305,quis augue luctus tincidunt,feugiat et eros,22512798.12,79.58,113.24,20.0,36.79,20.4,4652.19,2025-01-11T15:27:01Z,305
+306,enim sit amet nunc,ut erat id mauris,93361867.15,63.54,122.22,42.3,61.26,55.26,5149.01,2024-09-24T15:56:58Z,306
+307,quam pharetra magna,rhoncus sed vestibulum,50654313.15,81.4,168.22,43.71,19.5,2.65,3248.29,2024-09-19T15:22:56Z,307
+308,platea dictumst morbi vestibulum,libero quis orci,46492542.8,29.41,57.79,44.18,27.03,37.01,2916.29,2024-07-02T08:14:02Z,308
+309,luctus et ultrices posuere,volutpat erat quisque erat eros,3014861.14,72.74,299.49,73.88,24.76,93.57,3537.07,2024-04-14T05:44:23Z,309
+310,pellentesque at nulla suspendisse,accumsan tellus nisi eu,62561928.51,86.27,140.16,34.58,59.73,82.94,5187.39,2024-12-11T21:59:22Z,310
+311,a nibh in quis,lorem quisque ut,48829557.34,93.79,229.37,61.43,76.92,55.73,693.81,2024-02-13T02:05:30Z,311
+312,cubilia curae duis,porta volutpat quam pede lobortis,41832324.92,41.59,310.31,88.53,72.81,61.34,3534.4,2024-12-31T21:15:52Z,312
+313,a ipsum integer a nibh,maecenas rhoncus aliquam lacus morbi,31554971.62,61.69,122.98,52.79,46.72,20.2,2795.96,2024-02-26T07:14:12Z,313
+314,sed nisl nunc rhoncus dui,quam suspendisse potenti nullam porttitor,80436581.4,15.25,3.13,83.4,17.04,22.87,245.05,2024-11-08T00:24:51Z,314
+315,etiam justo etiam pretium iaculis,vestibulum ante ipsum primis in,78102059.64,60.13,342.04,85.9,91.99,77.31,1412.81,2024-09-16T18:47:06Z,315
+316,velit vivamus vel,vivamus vestibulum sagittis,82922259.54,23.89,197.35,52.39,94.78,64.14,2727.06,2024-03-27T11:39:16Z,316
+317,turpis donec posuere,faucibus orci luctus et ultrices,20157235.76,76.99,327.97,36.73,69.43,65.38,963.21,2024-11-24T02:43:24Z,317
+318,pede ac diam cras,in tempus sit,27426736.51,31.37,338.34,95.04,67.9,43.51,1142.56,2024-08-31T11:05:47Z,318
+319,sapien placerat ante nulla,vel accumsan tellus nisi eu,79436766.44,47.95,102.15,57.79,61.46,87.9,2502.36,2024-07-19T16:29:25Z,319
+320,accumsan odio curabitur,diam erat fermentum justo nec,2945977.7,34.37,169.89,65.91,89.96,14.19,1706.14,2024-10-06T22:44:19Z,320
+321,sed ante vivamus tortor,vulputate vitae nisl aenean,49563441.43,9.54,220.97,41.81,20.89,9.42,1490.66,2024-08-16T05:21:59Z,321
+322,non pretium quis lectus suspendisse,cubilia curae mauris viverra,13681658.41,49.84,5.22,39.61,84.01,53.29,816.63,2024-06-08T08:20:44Z,322
+323,quis turpis sed ante vivamus,ultrices posuere cubilia,36862524.71,34.84,256.1,12.57,49.83,11.72,4360.0,2024-04-29T13:18:49Z,323
+324,adipiscing lorem vitae mattis nibh,ligula vehicula consequat,38785955.95,43.49,59.77,61.14,51.91,91.13,91.2,2024-12-14T11:42:13Z,324
+325,primis in faucibus orci,turpis adipiscing lorem vitae mattis,28723973.25,93.84,169.51,69.46,24.13,67.68,2074.95,2024-09-02T16:07:07Z,325
+326,phasellus id sapien in,ante nulla justo aliquam quis,68690022.94,96.1,316.88,82.7,50.81,67.43,2858.42,2025-01-13T00:33:39Z,326
+327,quis orci nullam molestie,convallis duis consequat dui,43392419.99,54.57,1.34,77.51,0.02,4.33,2906.71,2024-11-29T12:47:57Z,327
+328,luctus et ultrices posuere cubilia,aliquam quis turpis eget,41764176.18,20.47,95.36,80.22,13.06,31.12,4489.92,2024-10-10T12:30:37Z,328
+329,penatibus et magnis,morbi non lectus aliquam,20594328.41,77.88,2.28,79.18,22.26,78.19,1825.7,2025-01-28T21:31:10Z,329
+330,pellentesque viverra pede ac,orci luctus et,66135869.16,29.1,218.86,78.31,46.67,59.14,965.03,2025-01-21T21:30:56Z,330
+331,consequat varius integer ac,ut mauris eget massa,40973508.15,5.69,339.9,77.57,8.39,87.19,4900.64,2024-07-09T21:54:07Z,331
+332,cras pellentesque volutpat dui maecenas,suspendisse potenti cras in,20321204.74,19.06,25.94,69.66,97.22,79.37,256.98,2025-01-08T20:13:52Z,332
+333,aenean lectus pellentesque eget,non mi integer,64353144.34,53.12,35.16,34.57,6.81,59.33,2156.2,2024-06-24T14:06:46Z,333
+334,sem duis aliquam convallis nunc,nisl nunc rhoncus,64981867.22,24.29,183.26,65.19,19.43,94.58,907.95,2024-04-21T13:48:43Z,334
+335,cursus urna ut tellus nulla,in libero ut massa volutpat,18190006.98,1.62,217.4,86.99,71.6,60.86,4577.99,2024-04-20T17:08:03Z,335
+336,purus phasellus in felis,volutpat in congue etiam,49306755.7,75.63,8.81,21.24,3.62,67.08,1246.85,2025-01-27T00:03:01Z,336
+337,id nisl venenatis,porta volutpat quam,36421077.7,39.18,64.15,58.48,84.07,55.79,4117.29,2024-06-08T09:55:42Z,337
+338,sit amet consectetuer adipiscing elit,elit sodales scelerisque mauris,44515857.6,14.29,62.17,38.12,70.53,21.2,1937.75,2024-12-29T14:10:52Z,338
+339,interdum mauris non ligula pellentesque,sagittis nam congue,61862457.96,29.65,171.38,56.26,2.87,3.52,1743.65,2024-08-09T21:44:25Z,339
+340,pretium iaculis justo in,tincidunt ante vel ipsum,74070836.03,53.76,220.2,68.2,75.84,88.12,1690.19,2024-05-23T15:21:17Z,340
+341,enim in tempor turpis,sem praesent id massa,82382129.19,22.78,143.29,67.66,94.35,78.82,216.17,2024-10-12T00:37:49Z,341
+342,habitasse platea dictumst,nunc proin at turpis a,32714160.9,64.8,76.97,37.75,90.05,44.61,1937.06,2024-11-23T07:15:19Z,342
+343,eget congue eget semper rutrum,luctus tincidunt nulla mollis,51722135.63,74.18,44.9,90.84,5.22,28.26,11.78,2024-09-02T17:36:35Z,343
+344,eleifend donec ut dolor,magna at nunc,85639683.51,88.2,9.4,95.79,71.48,68.23,2478.6,2024-02-29T11:24:11Z,344
+345,molestie lorem quisque ut,sed nisl nunc,57995508.88,86.87,82.5,86.9,15.98,25.0,998.4,2024-11-06T05:08:12Z,345
+346,pellentesque quisque porta,eget rutrum at lorem integer,60377789.69,28.73,95.94,60.74,17.89,78.94,1199.59,2024-09-11T16:07:04Z,346
+347,pellentesque ultrices mattis odio donec,posuere nonummy integer,44870083.29,91.67,69.2,14.11,46.13,36.47,4906.13,2024-04-04T17:45:02Z,347
+348,sit amet erat nulla tempus,sem fusce consequat,88434508.55,53.86,35.32,88.61,72.87,53.38,2536.34,2024-02-14T12:13:31Z,348
+349,nec sem duis,fermentum donec ut mauris eget,79002254.95,19.02,139.28,44.98,53.21,41.1,-76.87,2024-11-10T07:41:18Z,349
+350,hendrerit at vulputate,lacus at velit vivamus,35212053.79,40.91,22.95,60.72,23.19,16.3,3848.54,2024-05-01T17:38:20Z,350
+351,turpis enim blandit,in purus eu magna,17827101.18,92.25,87.96,31.29,56.71,58.49,4317.83,2024-03-10T13:51:07Z,351
+352,curabitur at ipsum,sem praesent id massa,47639690.91,64.07,88.51,38.98,41.37,77.41,4939.59,2024-12-31T15:43:48Z,352
+353,donec odio justo sollicitudin,morbi quis tortor id,39745854.0,27.77,170.15,39.89,85.1,16.02,130.59,2024-07-18T07:16:29Z,353
+354,id mauris vulputate elementum nullam,vivamus tortor duis,312983.12,63.8,9.85,82.29,47.83,77.93,1251.29,2024-06-05T17:48:41Z,354
+355,vestibulum ante ipsum,consequat in consequat,59863073.19,16.74,142.47,96.47,76.97,1.18,1719.49,2024-12-15T07:05:12Z,355
+356,aenean lectus pellentesque,massa quis augue luctus,78736437.63,31.02,110.71,85.87,93.25,94.68,4088.32,2025-01-02T12:22:29Z,356
+357,nisi eu orci mauris,magna bibendum imperdiet nullam,2200713.09,17.69,128.94,28.9,5.61,22.23,5382.47,2024-12-12T06:53:46Z,357
+358,pede lobortis ligula sit amet,natoque penatibus et,51199852.02,53.25,342.64,28.81,26.28,76.57,2719.43,2024-03-23T04:23:42Z,358
+359,lacus curabitur at ipsum,convallis eget eleifend luctus ultricies,31477394.66,84.48,324.39,53.79,40.94,1.4,2831.55,2024-03-27T21:30:37Z,359
+360,morbi non lectus aliquam,aliquet maecenas leo,50545564.34,43.53,180.5,31.49,92.16,4.89,5032.28,2024-02-17T22:43:46Z,360
+361,sollicitudin mi sit amet lobortis,nisi venenatis tristique fusce congue,32426922.26,99.01,347.19,26.92,3.33,1.19,5439.85,2024-10-09T16:12:18Z,361
+362,libero ut massa,augue a suscipit nulla elit,29344332.08,90.68,90.0,23.03,52.98,10.7,1158.68,2025-01-05T14:53:45Z,362
+363,donec semper sapien a,sit amet sem,36394126.51,45.58,352.73,13.48,10.78,97.37,1262.77,2024-11-19T20:10:49Z,363
+364,nulla nisl nunc nisl,lacinia aenean sit,8657355.22,81.34,33.84,54.79,89.22,61.61,1631.03,2024-11-15T15:23:59Z,364
+365,lorem ipsum dolor sit amet,vel enim sit amet,42847671.03,34.31,214.76,10.04,59.32,91.59,1246.7,2024-03-30T19:54:21Z,365
+366,platea dictumst maecenas,orci luctus et ultrices posuere,55010412.0,54.02,199.42,32.07,0.45,80.61,569.38,2025-01-14T06:00:49Z,366
+367,odio donec vitae,morbi ut odio cras,29626741.45,4.58,255.06,78.29,34.22,11.73,4132.38,2024-12-25T22:16:10Z,367
+368,ipsum primis in faucibus,montes nascetur ridiculus,62650096.5,5.5,145.83,0.6,23.12,33.14,4680.46,2024-08-30T13:01:23Z,368
+369,porttitor lorem id ligula suspendisse,non quam nec dui,16014167.09,91.62,240.2,52.91,78.13,57.2,3017.09,2024-05-06T16:39:17Z,369
+370,in magna bibendum,nonummy maecenas tincidunt lacus,77046848.27,10.16,258.92,89.9,63.54,88.11,758.46,2025-02-03T20:30:20Z,370
+371,id massa id,urna pretium nisl ut,20202889.21,15.76,149.53,24.63,52.07,52.39,2739.42,2024-08-09T00:54:08Z,371
+372,ridiculus mus etiam vel augue,est phasellus sit amet,1779531.9,18.71,54.47,52.4,7.13,67.98,1093.3,2024-10-14T01:33:50Z,372
+373,hac habitasse platea,in hac habitasse platea,59543967.61,13.83,306.15,59.72,98.24,45.39,4785.04,2024-11-16T02:47:15Z,373
+374,ultrices aliquet maecenas leo,integer pede justo,23060394.59,81.34,250.51,26.71,15.74,91.02,5329.25,2024-02-26T18:37:46Z,374
+375,fermentum justo nec,rhoncus mauris enim leo rhoncus,14825516.79,9.67,117.75,12.07,32.82,51.09,954.87,2025-01-13T09:12:56Z,375
+376,pellentesque viverra pede ac,sed tincidunt eu felis,21438262.11,60.21,261.96,72.14,56.1,61.42,1712.49,2024-04-06T12:58:21Z,376
+377,bibendum morbi non quam,condimentum id luctus nec molestie,2646332.07,74.28,292.55,65.64,17.37,20.78,5079.92,2024-11-06T21:15:10Z,377
+378,duis at velit eu,lacus morbi sem mauris,83097279.7,4.07,118.18,14.84,49.64,36.58,2949.12,2024-12-16T07:01:34Z,378
+379,neque sapien placerat ante,elementum nullam varius,80585553.74,71.04,198.25,9.3,61.21,9.03,506.2,2024-05-31T01:38:11Z,379
+380,libero non mattis pulvinar,arcu libero rutrum,38436089.08,63.1,245.91,22.17,87.44,70.3,2033.82,2024-09-14T04:48:36Z,380
+381,quam sollicitudin vitae,quisque ut erat curabitur,54348864.29,51.69,301.94,26.95,5.39,11.4,5146.73,2025-02-07T19:27:07Z,381
+382,hac habitasse platea,vitae quam suspendisse,79299902.13,16.4,251.86,55.84,62.25,14.69,2746.15,2024-09-16T10:18:33Z,382
+383,aliquam augue quam sollicitudin,ultricies eu nibh quisque,6002619.2,74.61,249.12,93.72,86.63,1.47,382.17,2024-07-02T11:51:01Z,383
+384,luctus et ultrices,quam suspendisse potenti nullam porttitor,1795822.81,73.28,139.11,36.11,5.26,61.09,3665.2,2024-08-25T19:59:04Z,384
+385,natoque penatibus et,dictumst maecenas ut massa quis,9564157.42,77.54,139.62,55.44,83.0,44.67,2308.11,2025-01-24T15:40:21Z,385
+386,purus aliquet at feugiat,dapibus dolor vel est,95293666.33,63.08,236.82,50.73,18.44,5.95,3088.95,2024-12-07T12:21:05Z,386
+387,ultrices phasellus id sapien in,ultrices posuere cubilia,52508743.35,63.91,331.41,17.95,85.09,3.19,3192.68,2024-10-26T22:37:30Z,387
+388,praesent blandit nam nulla,at dolor quis,2970407.56,88.49,221.01,65.41,51.89,62.74,1370.85,2024-11-19T14:58:26Z,388
+389,diam in magna bibendum imperdiet,venenatis turpis enim,28000556.37,46.02,312.9,49.88,1.27,53.09,1528.21,2024-07-21T10:09:40Z,389
+390,a odio in hac habitasse,porttitor pede justo eu,76995004.4,17.44,332.3,45.9,77.98,95.88,-9.58,2024-06-15T02:49:54Z,390
+391,nec nisi vulputate nonummy,nibh in quis,86556237.57,15.5,12.18,22.95,42.89,77.84,2178.26,2024-10-27T09:42:14Z,391
+392,id pretium iaculis diam erat,duis bibendum felis sed interdum,77138456.83,55.27,229.25,15.87,90.75,72.31,1500.08,2024-08-07T05:02:53Z,392
+393,massa id nisl,morbi quis tortor id nulla,7077088.01,66.36,19.12,42.41,14.95,34.66,3101.71,2024-11-22T16:42:55Z,393
+394,in quam fringilla rhoncus mauris,pharetra magna vestibulum aliquet ultrices,16076318.51,67.09,344.29,24.1,48.04,56.22,2936.39,2024-12-13T07:36:26Z,394
+395,accumsan odio curabitur,erat volutpat in congue,36754512.16,36.17,99.88,17.78,85.94,54.5,1394.16,2024-09-23T07:04:25Z,395
+396,nam dui proin leo,pede venenatis non sodales sed,78079026.02,77.31,176.44,65.98,32.45,86.98,381.46,2024-04-09T23:24:26Z,396
+397,tempus semper est,ut nunc vestibulum ante ipsum,88407636.15,92.49,297.77,91.8,33.44,55.15,4427.11,2024-02-15T18:15:44Z,397
+398,sit amet eleifend pede libero,dictumst etiam faucibus,73498622.54,8.88,206.6,83.29,1.56,87.65,1188.56,2024-11-20T14:06:32Z,398
+399,nec euismod scelerisque,orci vehicula condimentum,28519916.12,82.44,126.46,28.44,47.39,15.19,1766.63,2024-05-31T01:08:53Z,399
+400,libero ut massa,penatibus et magnis dis parturient,74088884.27,88.99,208.17,89.11,25.05,64.74,1064.22,2024-10-31T03:56:23Z,400
+401,dapibus dolor vel est,vulputate elementum nullam varius,2417623.05,2.04,350.61,68.53,3.98,77.33,1750.4,2024-03-24T22:19:21Z,401
+402,sapien urna pretium,ipsum integer a nibh,78086372.02,39.84,313.99,20.56,47.79,43.71,3943.86,2024-12-05T01:11:30Z,402
+403,leo pellentesque ultrices mattis,id ornare imperdiet sapien urna,53599827.44,5.85,158.75,58.03,82.5,1.43,3095.22,2024-12-11T09:34:26Z,403
+404,in imperdiet et commodo vulputate,enim blandit mi,56115595.41,26.44,53.65,28.99,8.28,63.78,2953.85,2025-01-17T14:05:51Z,404
+405,nec molestie sed,diam neque vestibulum eget,79726905.14,81.33,133.97,74.21,33.59,13.0,2774.4,2024-12-10T23:36:11Z,405
+406,tristique in tempus sit amet,elit proin interdum mauris,74082052.39,46.76,17.23,29.91,84.45,34.49,728.84,2024-05-20T23:52:33Z,406
+407,congue etiam justo etiam,hac habitasse platea,81997502.54,91.15,38.5,46.66,70.27,37.43,1286.86,2024-10-18T12:13:15Z,407
+408,in hac habitasse,urna ut tellus nulla,40758542.46,79.68,311.61,16.61,56.45,31.86,2687.34,2024-05-17T12:31:38Z,408
+409,nam ultrices libero non mattis,nulla elit ac nulla,67466753.91,75.73,181.56,92.27,18.3,43.16,2030.6,2024-05-30T02:07:03Z,409
+410,vitae ipsum aliquam non,tincidunt in leo maecenas,89932233.94,32.42,243.02,0.3,55.43,88.91,3130.87,2024-08-08T06:03:46Z,410
+411,metus arcu adipiscing,felis sed interdum venenatis turpis,40471684.47,81.09,34.77,71.0,74.86,18.54,2798.75,2024-09-25T18:48:42Z,411
+412,at nibh in hac,congue diam id ornare,72565899.89,26.28,235.99,15.22,68.21,33.82,3279.3,2024-07-05T19:22:28Z,412
+413,nulla neque libero convallis eget,at vulputate vitae nisl aenean,95341279.52,46.84,108.97,36.75,3.97,23.98,1745.28,2024-11-21T21:41:28Z,413
+414,convallis nulla neque,duis consequat dui nec,4741500.23,31.14,58.6,43.88,7.55,54.72,2506.86,2024-07-10T14:52:16Z,414
+415,nunc nisl duis bibendum,massa id lobortis convallis,8507602.82,90.7,53.63,55.52,37.67,29.87,1479.17,2024-03-08T17:55:26Z,415
+416,quam sollicitudin vitae consectetuer eget,iaculis diam erat,21997288.91,77.42,228.04,21.72,2.25,76.04,3684.91,2024-08-27T18:12:17Z,416
+417,a ipsum integer,pellentesque ultrices mattis,37945512.58,88.63,180.47,35.59,88.74,3.3,5493.46,2024-09-30T04:03:22Z,417
+418,in quis justo maecenas,congue vivamus metus,53926052.69,62.74,301.14,36.81,13.4,66.43,3580.99,2025-02-06T09:26:36Z,418
+419,laoreet ut rhoncus aliquet,pede justo lacinia eget,72539710.78,9.2,224.3,50.08,83.26,67.49,306.32,2024-12-13T15:04:02Z,419
+420,faucibus cursus urna ut,odio odio elementum,27346354.29,16.5,17.97,85.18,11.42,37.89,2269.57,2024-07-07T05:48:40Z,420
+421,nunc proin at,nulla dapibus dolor vel est,75580932.95,54.15,295.89,14.79,51.69,94.78,5314.49,2024-08-19T19:12:21Z,421
+422,sapien in sapien,phasellus id sapien in sapien,66711167.49,29.66,278.73,43.75,7.48,16.24,3621.52,2025-01-20T05:45:55Z,422
+423,elit proin risus praesent,libero nam dui proin leo,21295398.86,1.65,319.84,82.65,83.23,52.11,1408.62,2024-12-28T01:44:18Z,423
+424,integer pede justo lacinia eget,vulputate nonummy maecenas,69035057.82,86.9,205.53,94.01,81.73,3.05,4650.32,2024-12-14T07:37:47Z,424
+425,est phasellus sit amet,lectus vestibulum quam,80021586.12,9.54,235.39,94.41,22.18,51.38,3054.04,2024-12-10T11:45:46Z,425
+426,hac habitasse platea dictumst,vel est donec odio justo,2169309.39,43.9,229.88,80.35,30.1,27.85,465.17,2024-09-23T01:08:54Z,426
+427,porttitor lacus at,lacus morbi quis tortor id,88787484.7,6.38,56.01,68.36,2.31,58.66,2246.32,2024-04-29T18:58:05Z,427
+428,eleifend pede libero,id nulla ultrices aliquet,37966359.32,65.25,270.73,87.08,95.96,44.45,1710.82,2024-04-11T22:57:43Z,428
+429,nullam orci pede venenatis,lacus at turpis donec posuere,23843603.47,12.12,65.79,72.81,1.45,98.6,5503.37,2024-06-16T10:41:46Z,429
+430,nulla pede ullamcorper augue a,quis orci nullam molestie nibh,649558.42,14.68,309.92,3.33,88.69,81.56,4060.79,2024-08-15T15:49:24Z,430
+431,pretium nisl ut volutpat sapien,ullamcorper purus sit,79025143.2,3.73,112.66,58.8,87.42,23.79,527.7,2024-05-02T10:20:13Z,431
+432,nibh in lectus pellentesque,aenean auctor gravida sem praesent,96402574.05,2.52,11.61,26.98,11.32,81.59,1523.52,2024-04-01T18:01:58Z,432
+433,donec odio justo sollicitudin,in consequat ut,61713674.9,71.62,250.58,28.61,61.51,81.76,125.02,2024-07-28T18:14:37Z,433
+434,lectus pellentesque eget nunc,vulputate ut ultrices,70619042.68,68.97,35.32,54.03,5.24,88.78,5257.54,2024-12-10T16:08:35Z,434
+435,faucibus accumsan odio curabitur convallis,nullam orci pede,4381329.96,30.67,112.22,5.69,54.89,5.46,2735.93,2024-12-20T04:30:04Z,435
+436,justo nec condimentum,vitae mattis nibh ligula,47803612.06,37.02,25.89,20.24,83.26,87.34,1102.97,2024-05-02T03:16:11Z,436
+437,in quis justo maecenas,maecenas pulvinar lobortis est phasellus,71362776.88,11.15,302.03,40.6,48.91,31.55,4386.68,2024-12-05T18:36:13Z,437
+438,lobortis est phasellus,justo in blandit ultrices,36102982.1,24.62,76.05,62.51,61.31,18.98,3647.82,2024-02-22T17:12:27Z,438
+439,eleifend pede libero quis orci,nisi at nibh,20115950.52,49.36,40.17,44.07,17.32,48.17,1993.94,2024-02-12T06:36:44Z,439
+440,ante ipsum primis,at vulputate vitae nisl,50409854.59,20.76,209.14,14.91,22.51,85.74,4765.92,2024-06-04T01:24:11Z,440
+441,non sodales sed tincidunt eu,aenean auctor gravida sem praesent,2809910.78,16.77,104.3,9.62,66.93,46.5,1713.1,2024-07-06T06:40:40Z,441
+442,nunc purus phasellus in felis,erat id mauris vulputate elementum,70817439.06,35.96,215.03,3.58,67.97,30.09,967.62,2024-08-15T01:59:25Z,442
+443,semper porta volutpat quam,duis consequat dui,84278399.96,37.37,275.72,65.25,24.28,30.91,4527.7,2024-04-11T09:51:07Z,443
+444,aenean lectus pellentesque eget,augue vel accumsan tellus,20844092.74,32.58,25.98,44.78,99.99,77.54,2590.85,2024-07-19T14:10:11Z,444
+445,penatibus et magnis dis parturient,in libero ut massa volutpat,58317410.35,49.11,158.98,36.45,38.34,41.32,912.8,2024-08-31T08:40:48Z,445
+446,et ultrices posuere,eget elit sodales scelerisque mauris,23403812.6,95.12,293.6,13.89,19.4,97.31,1128.38,2024-07-19T16:58:01Z,446
+447,quis turpis eget elit sodales,quis turpis sed ante,4870812.55,8.72,238.51,7.91,22.52,9.8,3787.51,2024-06-22T22:34:06Z,447
+448,dapibus dolor vel,ut erat curabitur gravida,16267870.98,73.69,269.76,41.72,74.49,53.89,3421.91,2024-08-27T12:46:30Z,448
+449,libero non mattis pulvinar nulla,tristique tortor eu pede,49790006.68,42.19,108.46,63.34,3.01,70.88,614.31,2024-04-23T02:43:15Z,449
+450,curabitur at ipsum ac tellus,vestibulum quam sapien,14684060.97,27.84,119.47,68.93,62.62,11.04,3350.57,2024-10-20T03:33:48Z,450
+451,lobortis sapien sapien non mi,in purus eu magna vulputate,10130720.14,89.77,178.47,2.7,93.7,7.09,1872.03,2024-11-01T15:16:28Z,451
+452,mattis egestas metus,nulla ultrices aliquet maecenas leo,88720083.6,9.37,142.69,25.23,96.63,11.88,2612.92,2024-06-27T23:30:04Z,452
+453,posuere nonummy integer non velit,duis faucibus accumsan,56783610.78,79.47,231.31,85.43,86.18,70.18,3958.21,2024-08-08T11:34:23Z,453
+454,sit amet lobortis sapien sapien,eget nunc donec quis orci,89269016.19,15.61,120.65,16.35,74.53,26.9,988.29,2024-08-02T00:42:43Z,454
+455,morbi non quam nec dui,varius integer ac leo,89135548.83,51.0,210.95,1.67,39.6,96.03,-230.31,2024-12-09T09:16:13Z,455
+456,pede justo lacinia eget tincidunt,iaculis congue vivamus metus arcu,20547845.41,49.04,230.79,80.48,25.2,0.84,2215.94,2025-01-25T22:58:22Z,456
+457,ut volutpat sapien,sed augue aliquam,99907.13,63.38,29.46,25.57,30.42,99.18,759.84,2024-12-07T23:57:08Z,457
+458,ac leo pellentesque ultrices mattis,sagittis sapien cum sociis,76756059.62,30.67,143.2,4.51,51.57,35.47,3270.78,2025-01-12T21:30:50Z,458
+459,amet nulla quisque arcu,congue risus semper porta volutpat,62150555.11,19.83,62.7,22.49,52.79,83.54,5490.74,2024-07-25T20:07:53Z,459
+460,ultrices posuere cubilia curae duis,duis consequat dui,74263228.52,40.75,200.15,70.33,46.53,50.51,3152.65,2024-09-27T19:57:45Z,460
+461,aliquam sit amet diam in,mauris enim leo rhoncus,27513799.05,58.84,205.26,62.56,48.79,35.68,755.26,2025-01-25T19:25:51Z,461
+462,rutrum rutrum neque aenean,erat nulla tempus vivamus,53754365.54,68.09,299.93,15.37,22.4,70.83,2585.35,2024-03-18T21:44:38Z,462
+463,in ante vestibulum,purus sit amet nulla quisque,13107160.07,66.62,15.99,66.0,26.2,89.59,4358.1,2024-05-01T01:27:21Z,463
+464,lorem vitae mattis,maecenas tristique est,46637259.44,4.64,302.7,77.62,44.23,9.13,1955.38,2024-10-31T19:58:36Z,464
+465,mattis pulvinar nulla,ultrices posuere cubilia curae,7217120.73,96.09,184.4,80.6,9.67,75.4,41.69,2025-01-22T02:05:33Z,465
+466,eu sapien cursus,volutpat erat quisque erat eros,83569142.87,6.31,179.87,75.26,76.98,53.82,2857.3,2024-02-15T15:16:18Z,466
+467,sodales scelerisque mauris sit,cursus urna ut,74972534.48,13.03,127.12,53.45,83.53,4.68,2473.22,2024-11-07T09:28:19Z,467
+468,tristique est et tempus semper,imperdiet nullam orci pede,61661682.83,10.78,252.65,47.66,6.34,5.66,820.65,2024-10-02T19:11:56Z,468
+469,eros elementum pellentesque,rhoncus mauris enim,78231805.49,36.65,71.41,25.09,77.23,41.58,4618.34,2024-05-03T03:10:05Z,469
+470,cubilia curae nulla dapibus,sit amet eleifend pede,9817715.37,0.28,150.36,7.91,65.66,39.79,1778.52,2024-04-01T00:04:43Z,470
+471,praesent blandit lacinia erat,vel dapibus at,19348920.3,67.56,350.95,30.78,75.2,53.42,4971.03,2024-05-22T19:39:28Z,471
+472,natoque penatibus et,sagittis sapien cum,17200901.72,29.75,350.14,34.82,57.0,76.84,5059.32,2025-02-10T21:56:05Z,472
+473,lorem ipsum dolor,pellentesque at nulla suspendisse,69120725.03,18.04,286.49,79.48,43.33,25.64,1568.59,2024-02-13T07:02:56Z,473
+474,congue eget semper rutrum,congue etiam justo,25871746.43,15.18,275.63,28.98,33.49,28.16,2394.87,2024-06-22T18:40:23Z,474
+475,nulla dapibus dolor,porta volutpat erat quisque,46203224.61,21.17,270.01,14.8,7.63,80.48,4284.42,2024-04-16T03:09:45Z,475
+476,nulla elit ac,id justo sit amet,91956274.63,35.38,144.77,19.43,56.71,62.45,1092.77,2024-12-25T16:28:32Z,476
+477,pede lobortis ligula sit amet,posuere nonummy integer non velit,8312575.5,65.01,130.73,83.4,4.35,93.29,3009.57,2024-12-21T17:22:28Z,477
+478,at nibh in,eu sapien cursus vestibulum proin,58054987.61,38.6,258.39,73.37,3.28,94.76,5527.75,2025-02-09T05:27:50Z,478
+479,odio cras mi pede malesuada,fermentum justo nec condimentum neque,26409892.78,65.11,9.01,94.33,89.21,34.02,3764.97,2024-04-14T01:02:32Z,479
+480,scelerisque mauris sit amet,arcu adipiscing molestie,33068014.06,0.12,159.87,18.3,23.29,43.83,1728.56,2024-11-13T22:43:47Z,480
+481,nec euismod scelerisque quam turpis,mi nulla ac enim in,26477146.91,70.14,116.75,94.01,39.64,88.19,548.74,2024-10-12T23:07:09Z,481
+482,augue vestibulum ante ipsum primis,in ante vestibulum,58819440.18,87.87,25.27,66.9,55.86,16.22,4551.43,2024-07-17T18:22:48Z,482
+483,proin risus praesent lectus vestibulum,semper sapien a libero nam,63217182.5,75.83,356.91,0.9,96.22,5.92,1776.65,2024-07-09T15:34:38Z,483
+484,viverra pede ac,quam a odio in,66506420.36,80.54,197.06,91.99,12.05,21.95,1187.03,2024-06-22T22:00:33Z,484
+485,lobortis convallis tortor risus dapibus,at nunc commodo placerat praesent,36583286.67,71.29,96.17,91.23,62.58,60.75,2648.03,2024-11-28T05:49:37Z,485
+486,aliquet massa id lobortis,tortor sollicitudin mi sit amet,43677861.67,32.87,87.35,7.46,20.16,54.93,730.61,2024-03-19T02:17:43Z,486
+487,donec ut dolor,urna ut tellus,9995445.27,83.92,9.26,28.53,19.38,80.49,2991.14,2025-01-21T09:18:13Z,487
+488,etiam justo etiam pretium iaculis,quis orci nullam molestie,71170531.7,66.47,152.35,2.12,76.95,41.59,3798.47,2024-07-20T08:52:04Z,488
+489,iaculis justo in hac habitasse,aliquam erat volutpat in congue,88877308.24,9.45,254.13,65.34,53.15,24.27,4979.01,2024-05-17T23:38:28Z,489
+490,tincidunt lacus at velit vivamus,ultrices mattis odio donec vitae,386874.78,86.81,277.44,86.75,56.24,1.0,4243.72,2024-06-10T20:45:34Z,490
+491,nam congue risus semper,nec nisi volutpat,53868331.73,75.83,118.58,82.61,98.46,90.34,1495.78,2024-07-30T10:47:22Z,491
+492,purus sit amet nulla quisque,a odio in hac habitasse,57975806.91,25.44,198.64,30.22,52.08,77.82,5092.73,2024-04-02T18:30:45Z,492
+493,vestibulum ante ipsum primis,faucibus orci luctus et,70917237.89,64.06,33.09,46.39,13.16,51.98,5201.48,2024-03-14T20:51:53Z,493
+494,nulla integer pede,eget elit sodales scelerisque mauris,98654669.22,91.84,131.76,27.45,44.48,56.88,1998.88,2024-03-13T22:48:17Z,494
+495,libero non mattis pulvinar,luctus et ultrices,18197901.83,17.43,105.88,20.63,69.97,60.8,-188.54,2025-02-02T13:54:37Z,495
+496,et commodo vulputate justo,tempus vivamus in felis eu,86171189.82,62.37,353.16,86.93,81.61,35.5,3249.33,2024-08-16T21:13:26Z,496
+497,aenean sit amet justo,nulla tellus in,80566170.43,60.01,77.95,84.85,35.87,23.43,672.32,2024-07-07T13:29:19Z,497
+498,potenti cras in purus eu,vulputate vitae nisl aenean lectus,38132471.44,13.1,128.57,26.02,59.76,65.74,4475.17,2024-08-20T01:27:40Z,498
+499,et ultrices posuere,mauris enim leo rhoncus,84529858.3,90.81,27.13,65.51,96.1,65.85,1996.71,2024-11-26T00:29:42Z,499
+500,vulputate vitae nisl,lacinia sapien quis libero nullam,27371151.76,33.41,261.84,88.77,22.24,16.26,1272.35,2024-12-01T03:17:16Z,500
+501,purus sit amet,dis parturient montes nascetur ridiculus,53117083.43,41.05,199.87,45.29,45.88,44.96,5164.44,2024-09-30T20:44:21Z,501
+502,urna ut tellus,convallis tortor risus,48080175.67,27.69,276.83,11.12,6.29,95.1,-24.98,2024-09-13T22:49:30Z,502
+503,sed tristique in tempus sit,leo odio porttitor id,66152693.55,56.4,93.56,90.03,75.8,18.4,648.55,2024-03-27T05:53:22Z,503
+504,elementum eu interdum eu tincidunt,tempus vivamus in,39754873.32,85.79,311.17,7.86,50.29,26.23,2794.92,2024-12-28T00:05:32Z,504
+505,nulla integer pede,sagittis dui vel,80526689.96,19.62,9.38,95.1,55.95,70.78,4654.16,2024-02-23T23:47:08Z,505
+506,fermentum justo nec condimentum,ligula in lacus curabitur,18990822.9,67.64,102.16,7.5,28.64,7.39,1059.03,2024-07-06T17:22:43Z,506
+507,phasellus in felis,odio condimentum id luctus,36848482.45,52.07,160.34,89.06,4.16,1.14,3157.22,2024-03-22T08:25:02Z,507
+508,ultrices erat tortor sollicitudin mi,massa volutpat convallis,89452240.17,34.91,98.71,61.43,27.56,30.86,1068.13,2024-12-26T04:07:27Z,508
+509,pellentesque volutpat dui,est et tempus semper,31322296.14,58.15,57.54,89.9,13.33,29.17,3421.03,2024-05-11T02:09:55Z,509
+510,etiam vel augue vestibulum,fusce congue diam id ornare,93424423.14,82.85,123.1,21.59,19.82,20.16,3251.89,2024-07-15T08:06:39Z,510
+511,tincidunt in leo,augue a suscipit nulla elit,58718260.53,72.9,227.05,73.51,93.84,47.36,1254.32,2024-05-04T05:59:20Z,511
+512,augue quam sollicitudin,in hac habitasse,27928363.33,63.77,3.21,52.11,29.61,4.9,1712.6,2024-06-13T12:03:27Z,512
+513,pellentesque viverra pede ac,eu interdum eu tincidunt,17629873.25,18.8,34.69,91.02,5.48,97.69,4149.09,2024-02-12T08:26:15Z,513
+514,nulla eget eros elementum,eu tincidunt in leo,31633637.18,73.18,11.61,85.23,36.6,23.88,407.22,2024-02-11T02:20:32Z,514
+515,tortor risus dapibus augue,lectus in quam fringilla rhoncus,66170576.52,85.98,125.09,76.49,55.57,17.6,3217.05,2024-10-04T22:20:38Z,515
+516,proin interdum mauris non,sapien quis libero nullam sit,33797031.69,27.35,334.46,66.54,22.14,66.15,3423.84,2025-01-08T21:58:06Z,516
+517,id justo sit,tellus nisi eu orci mauris,11383126.1,54.29,203.19,63.91,47.8,31.8,2076.49,2024-07-03T01:29:37Z,517
+518,vel nulla eget eros elementum,donec odio justo sollicitudin ut,4134001.9,93.51,153.77,70.24,48.93,19.17,354.7,2024-05-27T21:05:18Z,518
+519,donec ut mauris eget massa,eu massa donec dapibus duis,17229292.22,37.9,23.63,76.6,83.14,26.08,2528.66,2025-01-24T14:05:50Z,519
+520,vitae consectetuer eget rutrum at,sit amet erat nulla tempus,31829656.23,39.62,324.99,23.36,61.85,3.69,2983.64,2025-02-07T16:21:07Z,520
+521,sapien a libero nam,erat tortor sollicitudin,95684832.09,49.38,103.03,66.83,16.16,99.75,288.96,2024-09-22T06:00:03Z,521
+522,ut ultrices vel augue,mus etiam vel augue,9819808.23,46.22,43.13,37.33,45.73,1.03,1661.43,2025-01-15T22:49:37Z,522
+523,turpis sed ante,metus sapien ut nunc,28129508.61,32.78,22.23,15.44,97.49,10.67,261.61,2024-11-18T07:14:05Z,523
+524,tellus semper interdum,eget massa tempor,23831961.59,79.57,343.06,33.13,55.53,56.02,22.15,2025-01-11T22:46:33Z,524
+525,tortor duis mattis,maecenas leo odio,73909903.95,13.36,146.94,17.02,27.97,98.59,2117.89,2025-02-08T13:17:27Z,525
+526,sapien dignissim vestibulum vestibulum,aliquet massa id lobortis convallis,79056964.87,69.46,262.71,57.17,17.63,48.58,1431.97,2024-03-17T21:08:11Z,526
+527,ligula pellentesque ultrices phasellus,lorem integer tincidunt,69126846.08,60.33,316.38,91.4,29.62,20.49,-159.54,2024-05-29T14:44:51Z,527
+528,sagittis nam congue,semper rutrum nulla nunc,34370957.0,88.94,8.07,34.85,16.11,94.6,710.0,2024-12-04T15:43:10Z,528
+529,pharetra magna vestibulum aliquet ultrices,maecenas rhoncus aliquam,7393095.72,75.01,150.26,70.18,44.85,95.13,-47.36,2024-11-12T13:32:21Z,529
+530,sem duis aliquam convallis,eu mi nulla ac enim,16444035.29,99.06,316.61,18.7,87.43,73.63,3798.82,2024-06-01T07:56:16Z,530
+531,volutpat erat quisque,id ligula suspendisse,96679222.31,2.19,20.09,68.68,73.78,2.44,-143.92,2024-11-30T13:32:06Z,531
+532,duis aliquam convallis nunc,est quam pharetra magna ac,20810737.21,38.82,115.4,92.41,74.48,54.75,3375.34,2024-10-04T01:19:40Z,532
+533,est phasellus sit,curabitur in libero ut,91665046.77,25.91,340.02,19.32,28.17,94.57,4321.96,2024-09-15T06:07:51Z,533
+534,phasellus id sapien in sapien,integer aliquet massa,59225014.83,55.44,217.35,15.79,54.88,24.91,2904.69,2024-07-21T20:27:11Z,534
+535,tortor sollicitudin mi,velit id pretium iaculis diam,88534235.03,93.71,78.05,36.21,22.0,9.69,1685.32,2024-07-04T00:04:57Z,535
+536,turpis nec euismod scelerisque quam,nunc commodo placerat praesent blandit,751551.13,84.58,229.34,43.68,68.0,89.08,-17.18,2024-11-07T20:55:24Z,536
+537,sem fusce consequat nulla nisl,parturient montes nascetur,46261124.33,78.71,346.37,16.7,13.34,84.22,2251.74,2024-10-18T00:32:34Z,537
+538,lacus at turpis donec posuere,quis orci eget orci vehicula,21463117.76,58.98,202.13,74.47,36.38,42.94,5386.58,2024-08-08T10:40:44Z,538
+539,leo odio condimentum id,integer non velit,9051006.92,14.8,343.11,51.08,91.13,74.81,694.24,2024-08-20T00:04:28Z,539
+540,dolor sit amet consectetuer adipiscing,sodales sed tincidunt eu felis,18364784.78,30.19,291.76,23.86,26.52,94.58,2910.63,2024-03-30T13:11:58Z,540
+541,nisl nunc nisl duis,odio odio elementum,3725457.65,27.81,144.37,17.67,34.4,56.11,4877.1,2024-02-20T21:42:50Z,541
+542,lacus curabitur at ipsum,odio curabitur convallis duis,43264966.23,4.83,62.71,23.38,52.69,99.72,-14.49,2024-06-22T04:45:52Z,542
+543,curae duis faucibus accumsan,ut mauris eget massa,96419064.19,41.97,352.18,30.18,95.05,48.14,784.83,2024-10-01T02:43:58Z,543
+544,felis eu sapien cursus,accumsan tellus nisi eu orci,99991079.47,35.67,183.23,25.77,59.19,40.4,5352.86,2024-07-31T23:59:45Z,544
+545,in faucibus orci,ligula suspendisse ornare,79813424.98,33.07,141.52,56.84,12.91,39.39,3306.38,2024-04-04T09:41:51Z,545
+546,erat curabitur gravida nisi,duis faucibus accumsan odio curabitur,84405105.97,65.27,65.16,49.35,97.92,80.02,3861.58,2024-05-29T08:00:23Z,546
+547,faucibus orci luctus,sollicitudin ut suscipit a feugiat,81518856.8,30.05,77.1,74.78,89.2,36.55,307.35,2025-01-13T02:45:15Z,547
+548,est quam pharetra,sed vel enim sit amet,59371928.5,15.74,56.24,40.27,40.2,25.21,1363.46,2024-08-27T12:09:30Z,548
+549,potenti cras in purus,curae donec pharetra magna vestibulum,56470375.49,38.08,304.73,30.89,42.16,81.2,4609.8,2024-10-03T19:55:10Z,549
+550,erat volutpat in congue etiam,praesent blandit nam nulla integer,29246109.72,50.99,338.69,1.34,99.8,66.51,734.25,2024-11-01T20:35:02Z,550
+551,luctus et ultrices posuere,ultrices aliquet maecenas,47557495.47,59.41,168.13,22.87,46.84,35.74,2630.61,2024-06-19T19:09:22Z,551
+552,ut massa volutpat convallis morbi,eu massa donec,70816829.9,80.54,277.42,86.53,40.6,39.13,3554.66,2025-01-22T18:57:19Z,552
+553,in quis justo,in imperdiet et,93341243.12,69.16,276.77,66.7,30.78,68.85,5572.54,2024-05-29T15:48:16Z,553
+554,luctus cum sociis natoque penatibus,nulla justo aliquam quis turpis,55704910.2,96.05,176.24,41.7,68.39,47.23,5129.67,2024-08-20T15:34:23Z,554
+555,quam a odio in hac,molestie nibh in,95609575.82,71.38,214.15,93.48,20.84,59.99,1973.38,2024-04-09T08:52:45Z,555
+556,consequat morbi a ipsum integer,sapien ut nunc vestibulum,27253494.28,55.08,49.06,7.13,86.55,85.26,3736.63,2024-04-01T09:32:31Z,556
+557,convallis nunc proin at,orci luctus et ultrices posuere,71852885.49,44.5,213.5,89.6,6.85,53.55,3741.36,2024-06-20T19:29:28Z,557
+558,et commodo vulputate justo,ligula pellentesque ultrices phasellus,72115818.97,18.06,304.17,16.05,84.22,39.39,936.69,2024-05-31T19:59:24Z,558
+559,nisl nunc nisl duis,magna ac consequat metus,70505959.48,98.8,237.63,69.36,28.04,9.05,4495.01,2024-03-29T19:19:10Z,559
+560,sapien arcu sed augue aliquam,nascetur ridiculus mus etiam vel,38274799.38,24.19,68.77,75.23,62.25,81.76,680.6,2024-04-21T12:35:06Z,560
+561,quis lectus suspendisse potenti in,sit amet consectetuer adipiscing,20394156.12,2.35,25.78,46.9,53.14,1.99,2438.6,2024-03-15T12:56:22Z,561
+562,in congue etiam justo,libero nam dui proin,30309595.37,1.21,166.96,21.53,25.77,24.2,2988.73,2024-05-28T19:05:00Z,562
+563,eros viverra eget congue,justo sollicitudin ut,49888608.64,21.74,63.29,64.57,27.86,48.37,4636.93,2024-07-18T21:59:26Z,563
+564,mauris vulputate elementum,luctus cum sociis natoque,3828692.07,60.16,272.95,83.76,38.04,57.71,1854.9,2024-10-12T00:35:54Z,564
+565,lectus vestibulum quam sapien varius,volutpat sapien arcu sed,8259008.82,17.5,331.83,18.93,9.47,98.1,4681.62,2024-06-15T08:58:32Z,565
+566,pellentesque volutpat dui maecenas,nonummy integer non,22388898.05,72.72,22.45,3.98,97.71,35.01,2435.02,2024-02-11T15:18:13Z,566
+567,enim leo rhoncus sed,montes nascetur ridiculus mus,35246627.4,80.2,69.06,55.16,74.63,34.0,5262.07,2025-01-30T00:10:31Z,567
+568,nulla sed vel enim,ultrices enim lorem ipsum dolor,32538148.84,79.68,157.89,1.91,68.78,93.83,58.73,2025-02-01T01:59:28Z,568
+569,eu sapien cursus,non interdum in,14943344.43,46.95,314.89,50.27,8.22,23.29,4832.79,2024-12-25T13:00:24Z,569
+570,rutrum nulla tellus,condimentum curabitur in libero ut,12344571.17,78.71,209.71,8.65,16.09,88.75,1986.36,2024-12-03T23:16:25Z,570
+571,mi nulla ac,risus semper porta volutpat,59966459.42,57.08,234.04,42.01,63.9,13.93,370.54,2024-10-04T12:22:22Z,571
+572,in felis eu sapien,suscipit ligula in lacus,49956594.55,41.62,324.7,62.09,43.84,80.87,1699.91,2024-09-29T06:48:34Z,572
+573,convallis duis consequat dui nec,libero quis orci,83177534.96,77.81,233.21,38.48,74.97,92.75,4739.74,2024-08-26T21:57:27Z,573
+574,semper est quam,aliquet maecenas leo,33371265.79,90.04,332.2,27.27,84.9,49.94,5315.94,2024-07-17T17:33:19Z,574
+575,turpis nec euismod,orci luctus et,99498950.7,70.43,203.46,20.09,52.57,88.9,2235.01,2024-02-14T16:21:50Z,575
+576,elementum nullam varius nulla facilisi,id nulla ultrices aliquet,23193188.13,70.79,40.27,16.31,26.67,76.84,2103.82,2024-12-20T10:55:20Z,576
+577,mauris sit amet,nec sem duis aliquam convallis,37353080.97,91.56,20.62,76.21,75.98,90.29,1646.92,2025-01-11T18:47:16Z,577
+578,ridiculus mus vivamus,viverra diam vitae quam,44492011.07,5.7,247.15,63.37,90.61,6.07,1463.15,2024-06-22T19:42:26Z,578
+579,est donec odio justo sollicitudin,arcu adipiscing molestie hendrerit at,89630851.34,78.93,64.05,81.71,77.45,59.18,925.72,2024-07-28T17:10:33Z,579
+580,suspendisse accumsan tortor quis turpis,ultrices enim lorem ipsum dolor,18361221.84,20.66,119.91,35.01,80.75,13.67,2407.42,2024-07-22T06:12:28Z,580
+581,mauris non ligula pellentesque,molestie nibh in lectus pellentesque,62333575.54,26.56,47.78,36.96,36.84,66.51,874.7,2024-08-11T03:32:17Z,581
+582,nec molestie sed justo pellentesque,magna ac consequat,11057413.81,44.74,306.77,50.27,66.75,9.32,-74.37,2024-07-07T12:56:15Z,582
+583,convallis eget eleifend,dictumst aliquam augue,59939527.1,84.38,136.85,6.37,19.12,48.2,929.25,2024-03-27T10:12:29Z,583
+584,primis in faucibus orci,mauris enim leo rhoncus sed,10094162.67,52.25,279.87,72.89,51.16,50.9,4598.92,2024-10-03T11:13:49Z,584
+585,vulputate nonummy maecenas tincidunt lacus,et eros vestibulum ac est,71879345.25,92.94,75.65,84.3,9.98,94.23,-228.64,2025-02-09T13:25:00Z,585
+586,ornare imperdiet sapien urna pretium,vestibulum eget vulputate ut ultrices,86296452.89,44.53,204.71,46.97,92.01,81.95,4497.42,2024-04-30T08:17:02Z,586
+587,ut at dolor,quis justo maecenas,96817732.25,49.26,189.81,59.99,61.39,84.52,2510.6,2024-09-26T15:03:30Z,587
+588,pede venenatis non sodales sed,at nulla suspendisse potenti cras,79538610.51,48.04,334.63,87.32,75.28,84.8,2301.98,2024-05-31T17:46:30Z,588
+589,fermentum donec ut mauris eget,viverra diam vitae quam,74974914.62,47.58,37.77,8.62,87.0,72.75,2205.19,2024-02-18T13:58:24Z,589
+590,ultricies eu nibh quisque id,fusce consequat nulla,75268440.34,65.86,124.46,43.02,58.46,25.53,-262.78,2025-02-06T06:13:55Z,590
+591,sit amet lobortis sapien sapien,ridiculus mus vivamus vestibulum,44761906.76,38.85,223.79,18.52,79.62,86.37,5484.92,2024-11-28T05:14:40Z,591
+592,hac habitasse platea dictumst,consequat lectus in est risus,5905812.23,1.11,312.04,32.35,56.16,66.91,5583.38,2025-02-05T08:55:32Z,592
+593,vel ipsum praesent blandit,purus sit amet,23215007.88,86.9,240.96,73.57,41.82,24.65,4623.72,2024-06-06T12:41:33Z,593
+594,donec diam neque,vestibulum ante ipsum primis in,42365977.83,35.7,79.76,80.0,91.93,85.09,1159.42,2024-08-04T07:13:03Z,594
+595,nullam sit amet turpis elementum,eget eleifend luctus,69979664.55,18.31,80.9,34.6,65.62,17.68,5513.29,2024-12-07T15:10:17Z,595
+596,consequat lectus in est risus,aliquam sit amet diam in,99933526.62,14.8,172.97,92.81,83.33,18.07,3897.65,2024-07-27T12:40:17Z,596
+597,eros viverra eget congue eget,nec dui luctus rutrum nulla,12484626.33,27.22,234.36,19.45,95.8,19.69,5497.27,2024-09-29T21:34:14Z,597
+598,proin interdum mauris non ligula,cubilia curae nulla,26200953.52,63.86,23.4,36.99,80.18,35.28,5597.28,2024-03-27T02:52:51Z,598
+599,mattis pulvinar nulla pede ullamcorper,adipiscing elit proin risus,53225052.75,27.47,199.85,64.52,73.36,98.88,1206.99,2024-06-09T11:59:23Z,599
+600,ac lobortis vel dapibus at,morbi sem mauris laoreet,95991446.68,47.55,47.43,33.89,37.47,38.13,3620.16,2024-08-05T03:49:20Z,600
+601,massa donec dapibus,platea dictumst morbi vestibulum velit,70623356.74,78.19,170.66,42.64,63.27,95.99,4571.9,2024-10-04T19:18:25Z,601
+602,turpis integer aliquet massa id,tortor risus dapibus augue vel,70842641.52,57.66,14.77,0.85,78.68,62.94,227.2,2024-07-13T13:48:02Z,602
+603,tortor sollicitudin mi sit amet,eu tincidunt in,35086336.54,54.83,163.72,23.53,85.15,86.46,5565.22,2024-03-21T17:04:37Z,603
+604,risus dapibus augue,aliquam quis turpis eget elit,45535479.55,95.94,320.61,85.47,21.54,16.98,1275.97,2024-07-29T11:56:06Z,604
+605,natoque penatibus et magnis,sapien non mi integer,52271192.61,18.97,313.83,7.36,62.59,63.2,913.27,2024-02-19T06:29:02Z,605
+606,purus aliquet at feugiat non,rutrum nulla tellus in,96367082.99,74.66,61.75,93.32,90.46,11.47,1986.86,2025-01-19T12:52:21Z,606
+607,nisl ut volutpat,pretium quis lectus suspendisse,25030732.36,34.45,58.46,36.94,12.66,16.15,574.77,2025-01-27T13:30:22Z,607
+608,sapien varius ut blandit,non mattis pulvinar,47552798.84,56.94,260.85,95.85,99.39,2.28,886.24,2024-03-02T02:13:51Z,608
+609,amet lobortis sapien,non quam nec dui,39357200.09,27.1,259.65,38.31,49.45,55.71,-183.8,2024-06-10T20:46:58Z,609
+610,congue risus semper porta volutpat,in faucibus orci luctus et,88736995.79,94.78,50.88,79.07,62.24,65.56,986.32,2024-10-29T08:32:19Z,610
+611,venenatis turpis enim blandit mi,amet diam in magna,64409272.88,66.33,341.98,86.89,94.33,40.48,3560.06,2024-12-19T05:02:31Z,611
+612,morbi vel lectus,in lacus curabitur at ipsum,1326559.34,58.13,233.14,3.87,49.82,93.58,2652.67,2024-09-19T06:01:08Z,612
+613,enim in tempor turpis,nisl venenatis lacinia aenean,82763193.41,11.97,182.05,37.56,81.11,52.53,3397.3,2024-05-10T21:39:48Z,613
+614,massa id nisl venenatis lacinia,ante vel ipsum praesent blandit,86876117.43,69.36,115.65,75.84,37.72,59.02,3600.03,2025-01-28T06:45:07Z,614
+615,tincidunt ante vel ipsum,vestibulum rutrum rutrum neque aenean,88776207.76,16.67,352.07,67.31,71.58,54.27,128.77,2024-05-20T23:04:47Z,615
+616,erat tortor sollicitudin mi,vestibulum quam sapien,10949900.99,90.48,130.82,76.32,95.21,83.58,498.24,2024-12-16T14:40:13Z,616
+617,sapien non mi,nulla tellus in sagittis dui,5550525.79,24.84,226.27,79.97,42.04,63.45,5154.22,2024-03-11T03:26:46Z,617
+618,ultrices posuere cubilia,montes nascetur ridiculus mus,25751754.75,27.32,193.19,21.23,49.33,72.58,1830.47,2024-04-02T15:48:02Z,618
+619,felis ut at,non pretium quis lectus,674202.14,89.06,59.68,14.55,65.49,60.21,1866.3,2025-01-02T13:53:49Z,619
+620,sagittis nam congue,pede ullamcorper augue a suscipit,67708421.84,23.47,154.0,86.35,25.8,10.52,2629.94,2024-11-09T11:59:31Z,620
+621,in lectus pellentesque at,quisque id justo,60894329.94,16.44,72.05,70.9,43.6,90.56,5479.49,2025-01-29T10:13:36Z,621
+622,dolor sit amet,phasellus sit amet,59803133.67,62.41,30.59,22.07,87.09,40.5,3104.09,2024-08-15T09:21:34Z,622
+623,lectus vestibulum quam sapien,ut blandit non,68127546.41,56.43,201.41,34.74,28.88,69.34,2740.21,2025-02-01T11:28:15Z,623
+624,vestibulum rutrum rutrum neque,diam neque vestibulum eget,56613767.62,76.45,315.03,81.08,42.59,14.68,5382.88,2024-08-08T22:32:09Z,624
+625,dapibus augue vel,amet justo morbi ut,85064593.58,50.42,248.76,7.1,36.55,72.9,-83.07,2024-12-20T12:57:51Z,625
+626,dui vel sem sed sagittis,penatibus et magnis dis parturient,49196090.43,63.6,227.96,7.99,74.04,14.32,699.87,2024-10-20T07:20:09Z,626
+627,vivamus metus arcu,porta volutpat erat quisque,76730642.12,7.34,34.99,22.89,35.51,42.43,1512.46,2024-11-24T13:30:14Z,627
+628,ipsum dolor sit amet consectetuer,vehicula condimentum curabitur in,81702643.51,80.18,77.56,26.4,80.61,9.88,1142.05,2024-12-19T06:13:21Z,628
+629,odio consequat varius integer ac,amet turpis elementum,62329282.8,5.4,168.07,7.44,12.34,14.01,89.53,2024-05-08T23:34:04Z,629
+630,proin at turpis a,ante nulla justo aliquam quis,97212052.33,18.41,98.14,49.3,68.45,75.77,4172.49,2024-05-04T03:06:15Z,630
+631,pellentesque ultrices phasellus,et ultrices posuere cubilia,91616347.2,13.48,133.3,5.35,81.26,32.03,1753.28,2024-09-22T17:12:51Z,631
+632,iaculis diam erat fermentum,feugiat et eros vestibulum ac,24962062.71,87.28,150.38,52.01,73.25,45.47,2870.59,2024-07-05T15:04:54Z,632
+633,orci luctus et,quis orci eget,39037592.63,80.95,174.81,17.37,98.12,37.66,5134.36,2024-05-02T19:23:27Z,633
+634,aliquam non mauris morbi non,volutpat quam pede,23100030.01,91.69,105.43,78.82,36.15,51.83,5594.88,2024-08-10T01:40:28Z,634
+635,dictumst maecenas ut massa quis,rutrum neque aenean auctor gravida,2968466.71,89.15,47.81,74.72,36.29,25.72,1453.3,2024-10-02T18:25:20Z,635
+636,maecenas rhoncus aliquam,tempus semper est quam pharetra,33760101.71,27.78,9.6,14.08,8.88,76.85,1297.85,2024-12-28T22:11:38Z,636
+637,luctus et ultrices posuere cubilia,convallis duis consequat,30331177.06,2.92,258.71,2.51,93.21,79.86,1746.16,2025-02-02T03:40:38Z,637
+638,nunc commodo placerat praesent blandit,id massa id nisl,92989312.75,3.79,110.97,53.82,86.98,59.75,135.49,2025-01-31T04:05:26Z,638
+639,a feugiat et,amet justo morbi ut odio,88070781.17,29.31,41.84,44.91,19.5,61.48,2533.95,2024-08-06T07:07:09Z,639
+640,et eros vestibulum,sed vel enim sit amet,39439062.5,95.3,173.16,38.41,95.88,14.5,5185.64,2024-11-10T19:45:00Z,640
+641,lacus morbi quis tortor,at velit vivamus,44771706.37,13.39,294.66,36.16,11.17,38.42,2967.34,2025-01-02T01:59:55Z,641
+642,in faucibus orci,montes nascetur ridiculus mus,23389462.29,91.84,269.82,42.22,87.75,43.91,2147.47,2024-04-13T09:51:53Z,642
+643,in felis donec semper,neque sapien placerat ante nulla,26502760.62,36.5,97.49,22.14,95.41,69.55,4647.97,2024-09-04T00:40:26Z,643
+644,dolor vel est,lectus pellentesque at,36422448.01,24.9,29.07,24.36,93.74,68.37,1871.99,2025-01-06T13:36:55Z,644
+645,vestibulum quam sapien,parturient montes nascetur ridiculus mus,19439077.89,59.33,148.24,63.75,56.27,79.99,1852.13,2024-09-29T20:16:13Z,645
+646,pede posuere nonummy integer non,in faucibus orci luctus,41146113.63,85.63,88.43,90.0,15.93,31.16,2182.51,2024-04-08T16:41:40Z,646
+647,tristique est et tempus,morbi porttitor lorem id ligula,51224195.2,73.64,212.77,18.12,60.82,74.46,3073.02,2024-04-16T12:44:31Z,647
+648,non velit donec diam neque,diam vitae quam,93688804.82,25.86,169.84,35.4,95.45,59.0,5190.89,2024-11-19T08:24:08Z,648
+649,leo odio condimentum id,aliquam non mauris,60194071.16,13.74,115.01,23.92,32.34,67.31,4433.61,2024-12-02T04:41:12Z,649
+650,luctus tincidunt nulla mollis,morbi vestibulum velit,84206522.81,93.35,116.31,4.88,8.48,98.73,3651.85,2024-09-28T12:15:00Z,650
+651,in tempus sit amet,enim leo rhoncus sed vestibulum,90464643.37,3.19,231.95,62.12,43.57,34.09,2820.58,2025-01-30T10:42:45Z,651
+652,erat eros viverra eget,habitasse platea dictumst morbi vestibulum,24538185.17,25.44,114.71,87.79,78.74,7.46,1522.02,2025-02-02T02:00:31Z,652
+653,varius ut blandit non,cras pellentesque volutpat dui maecenas,61820991.32,36.96,204.15,47.26,70.58,12.22,4336.34,2024-12-08T05:52:38Z,653
+654,posuere cubilia curae,vivamus vel nulla,17340373.32,90.58,195.81,62.35,94.81,7.94,3327.89,2024-10-14T21:07:37Z,654
+655,massa tempor convallis nulla neque,venenatis tristique fusce congue diam,23385098.6,78.5,315.5,25.28,7.27,47.88,249.5,2024-10-26T19:40:07Z,655
+656,urna ut tellus,vehicula condimentum curabitur in,22244755.95,12.01,322.83,15.92,45.4,6.43,4042.31,2025-02-08T19:03:05Z,656
+657,tellus nulla ut,ultricies eu nibh quisque id,37710196.21,67.14,325.51,5.89,85.76,74.55,2759.29,2024-12-01T09:46:28Z,657
+658,in congue etiam justo,lectus vestibulum quam sapien,39527704.92,4.2,306.26,2.0,77.59,33.27,288.16,2024-10-07T00:15:24Z,658
+659,nam dui proin leo odio,lorem vitae mattis nibh,59171044.39,38.89,192.88,76.05,17.53,34.97,1351.98,2024-04-07T04:08:44Z,659
+660,augue quam sollicitudin vitae consectetuer,vitae nisl aenean lectus,85555961.36,74.19,67.25,26.5,29.57,82.99,3304.35,2025-01-16T17:39:49Z,660
+661,justo maecenas rhoncus aliquam lacus,posuere cubilia curae mauris,78431256.1,40.23,58.97,50.54,23.48,76.87,4956.24,2024-10-19T23:44:08Z,661
+662,vestibulum ante ipsum,posuere cubilia curae mauris,69822048.28,40.0,33.42,14.86,68.22,35.41,4838.76,2025-01-08T22:35:55Z,662
+663,vestibulum rutrum rutrum neque,consequat ut nulla sed,45056531.82,53.41,146.79,91.21,40.17,30.08,527.32,2025-01-21T22:10:32Z,663
+664,ac neque duis bibendum,eget semper rutrum nulla,79105596.92,60.18,294.12,57.44,11.65,12.27,907.27,2024-12-02T20:15:51Z,664
+665,fusce congue diam id ornare,orci mauris lacinia sapien quis,95991940.27,89.38,245.22,24.16,0.75,19.99,1421.02,2024-08-07T09:35:07Z,665
+666,condimentum neque sapien placerat ante,leo rhoncus sed vestibulum sit,80949972.02,58.97,177.07,24.49,94.52,33.12,100.46,2024-09-19T13:21:07Z,666
+667,sollicitudin vitae consectetuer eget rutrum,cras in purus eu magna,92825499.31,89.93,350.59,35.25,72.44,55.71,5121.33,2024-10-15T00:37:20Z,667
+668,justo eu massa,convallis eget eleifend,79357798.99,33.17,42.43,80.7,15.25,58.86,1543.1,2025-01-04T04:11:40Z,668
+669,suspendisse potenti nullam porttitor lacus,lacinia erat vestibulum sed magna,97126139.54,63.57,48.59,23.92,37.34,37.85,1047.3,2024-11-15T12:03:10Z,669
+670,suspendisse potenti nullam porttitor,egestas metus aenean fermentum,52765886.73,95.83,12.2,46.4,44.71,11.64,4482.14,2025-01-23T14:27:48Z,670
+671,praesent id massa id nisl,erat quisque erat eros,26551842.48,14.52,239.61,49.32,2.42,95.19,5476.41,2024-07-09T11:27:54Z,671
+672,aliquam lacus morbi,curae duis faucibus accumsan,69817757.82,36.45,42.84,96.16,87.26,34.34,590.48,2024-02-16T14:18:57Z,672
+673,velit vivamus vel,morbi a ipsum integer a,41608167.94,10.19,101.86,63.37,58.06,30.36,3514.45,2024-11-21T03:33:35Z,673
+674,in sapien iaculis congue vivamus,cum sociis natoque,75618865.86,80.87,258.78,5.96,42.08,77.15,2139.56,2024-05-27T23:16:32Z,674
+675,sit amet consectetuer adipiscing elit,justo in hac habitasse,21912991.49,79.72,25.75,95.71,2.79,7.43,2286.94,2024-02-14T13:59:33Z,675
+676,eu felis fusce posuere felis,duis at velit eu,3518567.29,90.29,290.55,4.26,37.95,92.43,1778.1,2025-01-29T22:43:30Z,676
+677,sollicitudin vitae consectetuer eget rutrum,pellentesque quisque porta volutpat,18115058.83,46.27,36.4,7.22,93.95,3.09,711.33,2024-10-23T14:36:31Z,677
+678,nulla sed accumsan felis,leo rhoncus sed vestibulum sit,23946641.35,49.19,221.96,4.58,26.04,86.71,1738.43,2024-04-11T04:01:26Z,678
+679,est risus auctor,orci luctus et ultrices posuere,31936238.53,22.42,84.17,54.2,25.61,11.35,1910.48,2024-11-30T00:53:28Z,679
+680,eu magna vulputate,dapibus at diam nam tristique,42849510.98,48.69,255.92,7.43,63.2,8.73,2557.37,2024-10-02T10:52:06Z,680
+681,magna bibendum imperdiet nullam,eu felis fusce,7303399.67,35.78,39.77,90.48,21.56,45.51,188.13,2024-04-05T01:50:58Z,681
+682,ligula suspendisse ornare,rutrum at lorem integer tincidunt,23284618.06,87.07,248.38,28.71,5.36,46.64,3291.7,2024-10-12T03:07:40Z,682
+683,sit amet erat nulla tempus,sollicitudin vitae consectetuer eget,20584964.01,54.69,252.2,65.27,94.1,41.49,3280.72,2024-12-14T11:37:08Z,683
+684,eleifend quam a,tempor convallis nulla,74766253.7,75.2,188.63,80.2,38.67,9.44,1710.96,2024-12-12T10:05:14Z,684
+685,curabitur gravida nisi at,sapien varius ut,40260512.14,51.47,352.97,32.51,40.13,20.85,2163.23,2024-05-04T04:32:09Z,685
+686,eget nunc donec quis,eu felis fusce posuere,53179756.35,95.2,303.52,49.55,22.06,36.74,4461.14,2024-05-20T03:41:52Z,686
+687,volutpat sapien arcu sed augue,ultrices posuere cubilia curae,43384724.87,96.29,152.08,83.72,86.64,51.39,2827.55,2024-05-11T02:34:43Z,687
+688,vestibulum rutrum rutrum neque aenean,dis parturient montes nascetur ridiculus,94262990.4,56.36,256.64,43.83,85.28,79.19,2988.53,2025-01-23T02:42:20Z,688
+689,morbi quis tortor id nulla,in ante vestibulum ante ipsum,73697873.63,57.78,61.81,4.46,9.62,82.22,4529.67,2024-04-13T11:06:45Z,689
+690,ut suscipit a,neque duis bibendum morbi non,75174620.83,55.63,281.98,9.94,81.09,8.59,94.49,2024-05-31T00:36:52Z,690
+691,id consequat in consequat ut,nunc commodo placerat praesent blandit,12050554.97,68.73,257.18,96.91,39.34,37.11,2510.92,2024-06-09T06:52:09Z,691
+692,ac tellus semper,sit amet consectetuer,55901227.8,5.46,70.67,12.15,70.54,40.03,5553.33,2025-02-09T16:43:05Z,692
+693,in purus eu magna vulputate,diam neque vestibulum eget,75504869.17,83.05,325.3,52.8,84.21,80.32,1516.97,2025-01-02T07:32:56Z,693
+694,ligula in lacus,vitae nisl aenean,39931830.54,24.73,250.52,64.73,48.43,42.65,335.64,2024-12-24T12:11:11Z,694
+695,blandit ultrices enim lorem,fermentum donec ut mauris,94955066.77,18.39,146.98,24.01,27.55,56.61,3482.81,2024-12-08T20:48:51Z,695
+696,odio elementum eu,molestie lorem quisque ut erat,49537019.36,56.93,164.16,57.07,8.46,93.9,-61.32,2024-08-20T09:27:00Z,696
+697,dui vel sem,nisl duis bibendum,68134036.39,9.75,358.89,59.68,59.68,63.25,649.14,2024-04-11T10:24:58Z,697
+698,justo sollicitudin ut suscipit a,molestie hendrerit at vulputate,37224892.8,85.71,161.45,31.3,25.14,5.05,4043.26,2024-09-14T04:07:03Z,698
+699,eros suspendisse accumsan,gravida nisi at nibh in,4427064.03,44.01,40.57,79.36,21.66,89.9,2865.96,2024-12-14T01:30:10Z,699
+700,nascetur ridiculus mus vivamus vestibulum,aenean auctor gravida sem praesent,62045691.29,12.66,47.18,37.23,41.15,64.51,2931.95,2024-07-31T23:49:07Z,700
+701,lacus at velit vivamus vel,quis justo maecenas rhoncus aliquam,819677.47,99.07,235.95,76.67,87.28,23.48,2764.69,2024-07-15T11:39:45Z,701
+702,praesent id massa,quam a odio in,1540528.27,13.36,23.06,47.06,27.62,48.22,3481.91,2025-01-25T05:16:37Z,702
+703,mauris eget massa tempor,interdum eu tincidunt in leo,88711529.49,61.35,78.22,76.83,43.85,64.59,690.47,2024-03-03T00:29:52Z,703
+704,tellus in sagittis dui vel,natoque penatibus et magnis dis,72000768.37,55.03,315.9,9.73,8.08,55.49,4606.08,2024-12-06T15:21:54Z,704
+705,ac consequat metus sapien,lacinia nisi venenatis tristique fusce,15097345.21,40.6,181.36,43.87,49.48,25.13,733.5,2024-05-05T05:17:05Z,705
+706,pulvinar nulla pede ullamcorper,lacinia nisi venenatis,44250764.58,42.03,92.96,83.38,77.59,78.57,5428.95,2024-10-13T14:06:46Z,706
+707,duis at velit eu est,ut dolor morbi vel,44801753.02,27.67,47.84,48.83,76.64,97.66,99.17,2024-07-03T13:39:13Z,707
+708,cum sociis natoque penatibus,massa quis augue luctus,97423922.57,58.12,169.38,14.97,32.33,24.97,5180.55,2024-05-14T01:40:02Z,708
+709,ligula sit amet eleifend pede,habitasse platea dictumst etiam faucibus,58740096.03,30.08,231.96,0.15,53.93,54.27,-201.86,2024-03-23T22:32:56Z,709
+710,etiam vel augue vestibulum,suscipit ligula in lacus,11623883.29,8.03,269.4,35.91,62.45,79.24,5429.27,2024-05-13T07:46:42Z,710
+711,iaculis congue vivamus metus,urna pretium nisl ut volutpat,8012251.84,78.24,102.94,81.21,49.18,16.96,4086.45,2024-08-19T05:07:19Z,711
+712,ultrices posuere cubilia curae nulla,proin risus praesent lectus vestibulum,19414824.61,50.75,201.45,59.86,98.95,5.62,1534.42,2024-11-11T17:35:22Z,712
+713,volutpat quam pede,sed sagittis nam congue,10193341.27,11.8,122.19,80.13,3.86,55.45,48.61,2024-10-31T22:33:33Z,713
+714,tempus vel pede morbi porttitor,congue risus semper porta,77917552.07,80.77,94.92,8.75,7.33,1.84,3982.81,2024-06-12T17:58:11Z,714
+715,congue elementum in hac habitasse,at ipsum ac tellus,35657221.58,5.85,81.66,84.34,41.34,77.37,946.73,2024-10-17T18:30:02Z,715
+716,tellus in sagittis dui vel,id consequat in consequat,93390815.15,94.03,127.55,29.59,18.23,6.5,5300.29,2024-10-10T04:28:30Z,716
+717,non pretium quis lectus suspendisse,augue a suscipit nulla elit,25815049.14,8.91,142.93,66.6,81.35,74.2,2453.54,2024-11-05T07:32:40Z,717
+718,luctus tincidunt nulla,urna pretium nisl ut,2110137.31,64.69,69.55,92.88,92.79,63.17,930.64,2024-08-31T05:13:42Z,718
+719,adipiscing molestie hendrerit at vulputate,dapibus duis at velit eu,21381513.95,76.85,175.76,90.79,26.94,20.18,608.21,2024-05-16T16:58:07Z,719
+720,sapien sapien non mi integer,duis mattis egestas metus aenean,61564381.11,58.34,99.63,17.59,54.48,90.69,391.6,2024-05-31T10:43:03Z,720
+721,tellus semper interdum mauris ullamcorper,eleifend luctus ultricies eu,5216863.72,81.79,126.87,24.3,98.62,86.21,1086.17,2024-04-11T23:42:29Z,721
+722,risus praesent lectus,volutpat in congue etiam justo,59331675.68,12.97,89.25,55.23,21.22,73.52,3829.78,2024-12-26T13:54:48Z,722
+723,vel nulla eget,amet consectetuer adipiscing elit,33487164.48,62.58,92.32,67.94,66.57,78.52,5202.07,2024-11-14T04:17:47Z,723
+724,sapien in sapien iaculis congue,in lacus curabitur at,53337013.65,96.51,228.53,68.88,63.06,99.74,712.23,2025-01-18T02:05:21Z,724
+725,in sagittis dui,quisque arcu libero,54693652.18,27.72,331.46,82.8,59.75,82.4,4921.13,2024-04-18T06:13:48Z,725
+726,ultrices posuere cubilia,sem fusce consequat nulla,98002193.39,48.22,76.28,28.62,78.19,35.94,1301.4,2024-07-01T22:52:07Z,726
+727,vel sem sed sagittis,nulla nunc purus phasellus,58414880.61,70.0,60.24,48.38,14.93,57.93,2764.26,2024-03-11T04:27:25Z,727
+728,nonummy maecenas tincidunt lacus,pulvinar sed nisl,48248889.46,29.01,258.97,31.67,20.41,4.05,5429.38,2025-01-17T17:25:48Z,728
+729,primis in faucibus orci luctus,consequat nulla nisl nunc,99342880.76,54.76,200.8,79.31,15.31,90.45,5454.64,2024-09-19T03:09:33Z,729
+730,cras non velit nec nisi,erat nulla tempus vivamus in,8154229.56,56.4,172.12,19.25,80.03,67.1,5294.45,2024-06-09T22:39:11Z,730
+731,mi pede malesuada,nam dui proin,12184911.76,44.66,84.16,68.52,26.96,85.67,1018.71,2024-12-04T04:01:33Z,731
+732,nullam sit amet,ipsum ac tellus semper interdum,69367984.95,51.14,326.22,51.35,9.3,31.23,2167.16,2024-10-16T19:26:48Z,732
+733,tempor convallis nulla neque,aliquet ultrices erat,21430694.92,88.16,350.52,73.51,26.91,37.41,3446.49,2024-12-10T17:56:20Z,733
+734,proin at turpis a,ipsum primis in faucibus orci,56447982.99,53.26,124.12,35.78,82.68,67.91,27.93,2024-11-30T11:44:41Z,734
+735,imperdiet sapien urna,elementum nullam varius nulla,14816449.23,38.27,34.44,42.06,25.06,20.17,239.65,2024-07-08T22:47:17Z,735
+736,varius ut blandit non interdum,et magnis dis,73740198.25,17.86,293.68,71.49,3.89,16.01,-31.67,2024-02-16T15:42:11Z,736
+737,orci mauris lacinia,fusce congue diam id,11074528.57,96.0,120.51,63.35,47.28,77.76,4947.52,2024-08-22T14:11:32Z,737
+738,et ultrices posuere cubilia curae,amet sapien dignissim vestibulum vestibulum,48593444.77,60.92,166.94,64.43,45.24,25.92,2533.54,2024-06-21T12:03:52Z,738
+739,vitae nisi nam ultrices,curabitur gravida nisi at,95540755.1,26.7,320.49,73.34,75.6,71.72,4971.68,2024-04-20T03:19:23Z,739
+740,convallis eget eleifend,amet sapien dignissim vestibulum,43103043.25,61.01,268.48,69.45,44.34,39.08,3599.81,2024-07-05T10:23:47Z,740
+741,in quis justo,lectus aliquam sit amet,71863454.9,37.17,41.47,70.2,43.07,37.23,3264.86,2024-03-09T15:21:27Z,741
+742,justo sollicitudin ut suscipit,rhoncus aliquet pulvinar sed,54407052.66,70.46,167.15,72.8,69.35,67.38,4418.91,2024-09-14T03:36:40Z,742
+743,sodales sed tincidunt eu,sapien quis libero nullam,69108022.03,21.19,95.64,12.88,34.51,29.11,5224.76,2024-08-22T22:10:41Z,743
+744,ipsum aliquam non,libero rutrum ac lobortis,35922030.54,74.03,248.73,83.81,25.9,86.11,3225.17,2024-08-27T11:31:25Z,744
+745,lacus at turpis donec posuere,integer aliquet massa,4980533.71,29.39,357.46,18.49,61.78,51.91,4816.0,2024-05-04T19:23:56Z,745
+746,augue vestibulum rutrum,erat fermentum justo nec condimentum,70869936.15,10.51,12.74,7.38,42.04,35.23,487.83,2024-04-25T00:00:25Z,746
+747,nam congue risus,eleifend luctus ultricies,98086490.55,41.12,4.94,43.51,95.4,32.61,1264.99,2025-01-13T11:58:30Z,747
+748,donec quis orci,aliquet massa id lobortis,39013614.61,97.23,106.22,57.34,21.17,17.93,1526.38,2024-03-28T07:12:28Z,748
+749,nunc purus phasellus,pede posuere nonummy integer non,76968909.93,47.64,23.97,12.97,6.48,81.89,-14.65,2024-07-14T02:41:04Z,749
+750,vel est donec,hac habitasse platea dictumst,12694518.35,6.93,300.2,73.19,44.37,31.53,1816.56,2025-01-05T22:41:00Z,750
+751,integer aliquet massa,nec sem duis,25150801.0,71.07,94.49,20.19,68.1,37.17,5367.29,2024-03-07T08:00:32Z,751
+752,feugiat non pretium quis,ipsum dolor sit,11399373.32,92.71,273.01,22.05,68.33,76.69,1015.86,2024-06-19T10:42:39Z,752
+753,hendrerit at vulputate,lacinia nisi venenatis tristique fusce,92945574.24,25.25,189.83,22.49,32.27,93.73,1874.8,2024-12-16T23:45:38Z,753
+754,ac tellus semper,leo pellentesque ultrices,86369661.43,35.58,326.76,56.57,44.43,65.95,266.56,2024-09-01T06:42:53Z,754
+755,at turpis a pede,lacus at velit,66043578.61,44.47,63.88,6.17,14.05,36.76,4968.02,2025-01-05T21:11:08Z,755
+756,aliquam non mauris morbi non,nibh fusce lacus purus aliquet,83354663.68,19.85,316.18,20.3,73.27,46.65,4943.8,2024-06-09T06:08:37Z,756
+757,cum sociis natoque penatibus,consequat dui nec nisi,59496112.29,56.26,171.46,2.21,34.25,99.3,-192.13,2025-01-14T02:34:44Z,757
+758,sit amet lobortis sapien sapien,nisi at nibh in,47843859.84,40.88,25.31,95.58,98.03,6.36,4414.19,2024-11-19T22:25:32Z,758
+759,id consequat in,quam nec dui,15331993.71,5.49,224.35,81.3,38.33,86.78,855.97,2024-03-24T15:24:12Z,759
+760,ac nulla sed vel,vestibulum sit amet cursus,52321257.75,13.02,18.86,49.16,9.75,14.32,5361.11,2025-01-19T14:09:26Z,760
+761,leo odio condimentum id luctus,suscipit a feugiat,34245179.9,5.35,46.26,14.67,21.94,11.75,1717.15,2024-12-17T13:52:35Z,761
+762,pede malesuada in imperdiet et,vel accumsan tellus nisi eu,25556666.74,4.39,279.93,80.99,21.68,4.66,2294.12,2024-03-18T01:18:25Z,762
+763,metus aenean fermentum,lacinia nisi venenatis,77156479.49,26.3,16.7,76.2,47.2,79.94,2914.18,2024-07-11T08:19:42Z,763
+764,habitasse platea dictumst maecenas,sapien ut nunc vestibulum ante,55218115.82,45.6,47.83,15.98,97.47,10.73,3163.52,2024-12-21T12:57:59Z,764
+765,purus eu magna vulputate,mauris sit amet,38442585.55,7.95,222.65,77.66,50.33,68.96,1111.61,2024-03-20T04:46:06Z,765
+766,faucibus orci luctus,sapien a libero nam dui,41999818.83,93.82,108.57,88.83,2.99,12.34,2150.53,2024-02-14T09:36:49Z,766
+767,dictumst maecenas ut massa quis,cras in purus eu magna,44583663.18,37.15,164.9,4.06,75.35,20.41,97.51,2024-05-11T14:18:44Z,767
+768,rutrum neque aenean auctor,morbi a ipsum,72278775.81,18.55,193.56,17.87,82.41,1.22,1600.16,2024-06-27T08:02:04Z,768
+769,maecenas ut massa,ac est lacinia nisi venenatis,22205444.92,58.37,171.91,36.86,20.55,43.96,2153.33,2024-03-06T03:51:56Z,769
+770,sed augue aliquam erat volutpat,nulla tempus vivamus in felis,45768174.83,31.03,53.37,55.33,20.67,65.08,5541.23,2024-06-06T20:42:41Z,770
+771,curabitur convallis duis,sem sed sagittis,65962237.74,56.82,222.11,72.71,26.34,59.81,881.72,2024-03-07T07:45:14Z,771
+772,nunc commodo placerat praesent blandit,parturient montes nascetur ridiculus mus,92589396.42,51.42,132.85,12.7,46.13,97.82,2586.07,2024-09-10T18:19:31Z,772
+773,tortor id nulla,suscipit nulla elit,9178278.49,81.01,96.72,86.56,74.64,40.89,1821.84,2024-06-17T04:02:40Z,773
+774,vulputate justo in,tortor id nulla ultrices,26396030.18,42.27,273.37,63.07,55.87,74.58,272.27,2025-01-28T11:55:33Z,774
+775,sit amet consectetuer adipiscing,turpis elementum ligula vehicula,10474054.76,58.46,163.85,39.74,59.87,45.4,3265.01,2024-03-20T05:32:22Z,775
+776,id sapien in sapien iaculis,lacus morbi quis,43288999.48,73.39,276.83,79.9,6.6,63.41,178.71,2024-06-04T13:23:22Z,776
+777,est phasellus sit amet erat,ultricies eu nibh,28305779.62,31.17,342.73,14.42,37.59,80.4,3622.88,2024-06-24T10:02:04Z,777
+778,etiam faucibus cursus,curae duis faucibus,93406809.81,47.32,245.52,64.07,79.88,23.05,175.98,2024-07-21T22:48:48Z,778
+779,id ornare imperdiet,vivamus metus arcu,32746138.14,88.01,327.44,80.68,55.18,50.9,3624.68,2024-10-03T15:00:13Z,779
+780,vulputate luctus cum sociis natoque,malesuada in imperdiet et,59507583.13,92.55,343.28,75.11,4.62,53.13,1569.38,2024-06-05T10:59:56Z,780
+781,tortor quis turpis,id consequat in,63816581.91,35.63,245.7,44.02,60.91,18.85,3770.39,2024-06-13T07:23:25Z,781
+782,eget eleifend luctus ultricies,cursus id turpis integer,64607024.38,40.7,351.07,69.33,44.44,56.6,3643.07,2024-05-30T18:46:22Z,782
+783,porttitor lacus at turpis,sit amet sapien dignissim vestibulum,51556126.93,2.29,31.46,6.21,9.11,53.05,1121.99,2024-08-12T04:01:11Z,783
+784,eros suspendisse accumsan tortor quis,ultrices posuere cubilia curae duis,78659492.19,5.29,156.39,60.56,32.07,83.72,2849.92,2024-06-19T05:19:13Z,784
+785,in blandit ultrices,suscipit ligula in,59651446.14,98.74,279.29,72.39,73.98,47.42,3715.89,2025-01-13T01:06:26Z,785
+786,pede malesuada in imperdiet et,nisl duis bibendum,3527936.25,86.19,268.87,2.79,85.47,95.91,3283.18,2024-09-02T03:57:49Z,786
+787,sit amet diam in,interdum venenatis turpis,35826074.42,81.45,274.35,0.68,51.02,41.35,5448.34,2024-06-18T04:27:11Z,787
+788,in hac habitasse platea,nisl aenean lectus,28762738.93,25.64,108.77,85.48,26.55,90.97,2254.44,2024-08-29T01:40:47Z,788
+789,nibh in lectus pellentesque at,luctus tincidunt nulla mollis,16203811.34,67.31,239.23,72.08,86.37,13.64,2426.57,2024-11-23T22:54:05Z,789
+790,duis bibendum morbi non,sit amet erat nulla,34934601.03,23.98,195.05,70.68,68.55,71.09,4840.52,2024-07-14T19:43:32Z,790
+791,placerat praesent blandit,nibh in hac,65792631.79,57.36,74.26,35.44,67.57,21.8,1473.1,2024-12-23T18:34:06Z,791
+792,nulla pede ullamcorper augue a,vestibulum ante ipsum primis,28732529.7,75.0,219.78,22.75,2.08,80.64,-136.79,2025-02-01T20:39:41Z,792
+793,dignissim vestibulum vestibulum,sagittis sapien cum sociis natoque,43788978.15,77.75,120.77,7.92,98.52,48.18,-197.67,2024-10-26T09:32:27Z,793
+794,aliquam convallis nunc,vitae nisi nam ultrices,3016558.79,12.23,275.71,43.32,79.37,25.81,-41.45,2024-05-28T03:57:50Z,794
+795,venenatis turpis enim,non velit nec,34653547.08,37.25,231.25,61.53,6.39,76.78,1887.77,2025-01-12T03:57:08Z,795
+796,vel augue vestibulum rutrum,nonummy integer non,68432928.47,52.63,306.48,6.5,37.73,82.34,477.59,2024-09-19T10:40:11Z,796
+797,venenatis tristique fusce congue diam,est phasellus sit amet erat,42874561.68,63.86,96.3,37.63,96.58,66.81,552.56,2024-10-13T03:02:00Z,797
+798,amet justo morbi,consequat ut nulla sed,38102372.28,27.81,253.68,48.45,48.08,25.33,874.7,2024-02-12T13:20:51Z,798
+799,adipiscing lorem vitae,quam pede lobortis,34799795.86,97.86,116.76,22.19,26.33,13.54,3389.89,2024-07-25T18:33:20Z,799
+800,id ligula suspendisse ornare consequat,porttitor lacus at,58429084.6,3.33,314.89,85.5,12.54,40.55,942.47,2025-02-06T09:04:37Z,800
+801,semper sapien a libero nam,ultrices phasellus id sapien in,52611751.05,43.66,278.71,91.53,71.53,12.62,137.79,2024-09-23T08:04:45Z,801
+802,pede justo lacinia eget tincidunt,vestibulum aliquet ultrices erat tortor,11141935.51,68.87,343.53,28.91,14.39,13.12,271.98,2024-08-03T07:17:23Z,802
+803,pharetra magna vestibulum aliquet,consequat metus sapien,77579297.66,34.59,348.91,0.96,87.33,58.9,2355.35,2024-07-31T10:31:20Z,803
+804,vulputate vitae nisl aenean lectus,phasellus id sapien,4130342.26,56.5,330.69,31.77,66.59,62.77,772.55,2024-07-25T14:46:20Z,804
+805,iaculis diam erat fermentum justo,montes nascetur ridiculus mus etiam,31207119.67,96.86,356.42,42.05,51.61,3.29,4692.05,2024-03-15T04:13:27Z,805
+806,id ligula suspendisse ornare consequat,praesent blandit lacinia erat vestibulum,51425526.32,28.02,181.75,95.46,58.7,33.86,5183.44,2025-01-16T23:12:29Z,806
+807,porta volutpat erat quisque erat,amet consectetuer adipiscing,45798685.3,44.68,61.88,42.9,74.52,36.19,4416.18,2025-02-01T18:55:59Z,807
+808,aliquam erat volutpat in congue,nunc vestibulum ante,45600753.76,36.44,241.75,50.67,3.66,29.87,1321.86,2024-11-21T21:04:57Z,808
+809,rhoncus sed vestibulum sit amet,curabitur convallis duis consequat,50762144.46,43.35,17.42,53.77,28.04,96.65,-17.46,2024-08-25T05:23:32Z,809
+810,pede ac diam,fringilla rhoncus mauris enim,23364187.51,22.95,333.55,37.29,79.53,9.48,5218.46,2024-02-17T08:49:14Z,810
+811,vitae mattis nibh ligula,donec quis orci,92552300.88,34.8,69.43,44.22,99.77,54.82,915.67,2024-03-20T16:33:29Z,811
+812,eu interdum eu tincidunt in,sem mauris laoreet ut,6485590.62,51.9,108.68,39.38,43.3,26.36,2919.3,2024-10-26T16:31:15Z,812
+813,porttitor id consequat,platea dictumst maecenas,52873978.92,92.24,231.16,6.63,86.7,72.82,694.29,2024-04-24T05:56:22Z,813
+814,sapien sapien non mi integer,nonummy integer non velit,58190796.3,41.87,315.72,50.41,21.28,70.42,-214.88,2024-05-22T18:43:15Z,814
+815,augue quam sollicitudin vitae consectetuer,maecenas tincidunt lacus at velit,60435454.2,38.43,178.32,89.02,25.34,69.55,3624.21,2025-01-23T11:02:56Z,815
+816,vestibulum quam sapien varius,iaculis congue vivamus metus arcu,63684787.5,85.15,185.97,71.56,59.54,45.18,-252.86,2024-04-27T20:39:42Z,816
+817,ipsum integer a nibh,odio cras mi pede malesuada,18329290.73,31.45,60.72,61.58,21.04,57.84,3696.48,2025-01-23T02:48:23Z,817
+818,aliquet ultrices erat tortor sollicitudin,ultrices posuere cubilia,44044636.49,85.32,326.68,51.52,33.81,52.79,-201.44,2024-12-13T10:28:43Z,818
+819,id ligula suspendisse ornare,tellus nisi eu orci mauris,13605502.16,88.94,162.51,2.08,51.98,54.23,2470.57,2024-11-03T07:22:21Z,819
+820,iaculis diam erat fermentum justo,phasellus sit amet erat nulla,75614.77,34.82,35.56,40.64,44.2,39.66,1639.61,2024-04-13T12:18:46Z,820
+821,pellentesque quisque porta,nullam molestie nibh in lectus,62958837.86,85.55,357.1,58.72,61.62,40.53,2855.45,2024-05-29T00:27:22Z,821
+822,sem duis aliquam convallis nunc,nunc proin at turpis a,87699626.03,39.08,46.98,62.76,8.19,32.86,1554.05,2024-02-29T16:02:56Z,822
+823,vel enim sit amet,vulputate elementum nullam varius,55475016.24,69.91,250.83,10.59,60.07,90.48,5158.19,2024-03-11T05:59:59Z,823
+824,pellentesque ultrices mattis odio,quisque porta volutpat,47701003.5,13.36,359.87,68.32,67.99,92.95,3832.02,2024-09-18T21:08:46Z,824
+825,nisi nam ultrices libero non,imperdiet et commodo vulputate justo,87549166.38,40.02,205.26,79.95,47.06,32.39,1426.08,2024-09-13T07:23:54Z,825
+826,nulla tempus vivamus in felis,ultrices posuere cubilia curae donec,65103036.81,16.51,207.46,76.96,12.1,67.99,4215.14,2024-03-05T22:28:40Z,826
+827,vestibulum proin eu,hendrerit at vulputate vitae nisl,90083237.54,0.11,47.86,35.15,39.7,45.81,2002.07,2024-06-01T13:49:18Z,827
+828,quis odio consequat,nullam molestie nibh in,67412600.94,73.54,282.75,96.38,22.41,23.89,3382.78,2024-12-25T02:25:43Z,828
+829,vestibulum proin eu,nullam porttitor lacus at turpis,10423006.27,21.49,302.09,76.2,47.84,79.29,1067.02,2024-12-06T16:41:43Z,829
+830,donec odio justo,ultrices posuere cubilia curae donec,29007614.16,41.84,142.36,4.83,76.85,96.92,4524.2,2024-05-31T10:23:45Z,830
+831,luctus et ultrices posuere,nulla ac enim in,73794280.06,15.34,319.27,66.53,7.25,23.16,5171.02,2024-10-30T04:00:46Z,831
+832,morbi porttitor lorem,vel accumsan tellus nisi,54055828.27,47.67,196.74,25.82,22.06,33.19,4650.91,2024-04-14T09:26:41Z,832
+833,sed ante vivamus,sapien sapien non mi,78215923.48,46.05,336.14,93.37,15.16,61.88,2368.59,2024-12-28T02:47:10Z,833
+834,rutrum neque aenean auctor,mauris viverra diam,71859534.49,13.71,203.91,94.88,88.6,36.24,1132.95,2024-03-23T14:34:04Z,834
+835,est donec odio justo,aliquet maecenas leo odio,42915881.82,52.02,44.1,83.03,28.86,88.18,5056.17,2024-12-31T11:30:44Z,835
+836,pellentesque ultrices phasellus id,mauris ullamcorper purus,13479592.68,68.6,249.8,28.71,52.45,90.44,3679.06,2024-11-05T17:33:46Z,836
+837,eu interdum eu tincidunt in,porta volutpat erat quisque erat,42627808.87,16.33,327.76,75.4,29.65,84.34,354.84,2024-11-12T22:08:26Z,837
+838,pede libero quis orci nullam,sed lacus morbi sem mauris,78775142.47,60.59,210.25,77.75,88.39,92.79,492.78,2024-11-21T13:30:36Z,838
+839,nibh ligula nec sem,pede lobortis ligula sit,66408659.77,67.12,137.94,95.54,27.19,27.0,4133.88,2024-03-20T22:39:56Z,839
+840,aliquet pulvinar sed nisl nunc,orci luctus et ultrices posuere,50306738.24,36.27,36.98,59.22,40.42,81.73,2542.72,2024-09-15T12:29:08Z,840
+841,aenean auctor gravida,vestibulum proin eu,64937500.2,0.83,1.16,22.91,66.02,11.56,4401.71,2024-04-03T19:47:06Z,841
+842,arcu sed augue aliquam,quis augue luctus tincidunt nulla,29545844.24,53.16,57.59,16.96,31.19,92.71,693.74,2024-08-27T01:01:11Z,842
+843,in libero ut massa,varius ut blandit,33951834.06,83.81,177.13,78.45,15.55,4.04,637.09,2024-02-29T17:07:04Z,843
+844,in lectus pellentesque,purus eu magna vulputate luctus,9700706.33,83.51,121.9,40.83,13.2,96.44,556.46,2024-08-19T11:54:16Z,844
+845,pellentesque ultrices phasellus,sit amet nulla quisque arcu,94021672.62,74.39,45.99,57.11,47.37,91.87,1933.34,2024-07-17T08:50:19Z,845
+846,duis ac nibh,in hac habitasse platea dictumst,96827878.95,85.92,159.2,14.52,84.85,24.95,-146.07,2024-04-27T07:23:59Z,846
+847,ac est lacinia nisi,duis consequat dui nec nisi,55322538.61,24.75,150.11,90.89,44.58,22.48,2670.72,2025-01-11T21:54:15Z,847
+848,integer ac leo,turpis a pede,85278918.59,77.63,125.54,53.25,56.96,73.58,3997.71,2024-04-18T08:24:36Z,848
+849,dolor morbi vel,donec ut dolor morbi vel,70394077.09,94.55,303.54,5.65,0.24,53.0,4098.13,2024-10-28T07:54:30Z,849
+850,cras in purus,volutpat convallis morbi odio,97107931.31,97.16,107.36,49.42,73.97,6.01,5405.57,2024-03-25T06:26:45Z,850
+851,risus semper porta,ante ipsum primis in,56704813.11,63.01,268.87,77.26,0.25,25.24,1180.16,2024-02-26T00:22:21Z,851
+852,eleifend luctus ultricies eu nibh,sed tincidunt eu felis fusce,734079.03,26.38,192.16,42.93,56.24,71.41,3377.2,2024-05-30T05:39:41Z,852
+853,libero quis orci,luctus et ultrices posuere cubilia,27737148.76,86.78,316.22,63.82,49.32,59.06,5432.23,2025-01-04T23:50:22Z,853
+854,orci mauris lacinia sapien quis,faucibus orci luctus,8379870.9,56.91,123.34,38.31,88.82,17.69,940.19,2024-04-16T18:30:25Z,854
+855,eget elit sodales,sapien cum sociis natoque,3323523.06,4.84,92.9,33.86,56.9,8.65,3386.52,2024-03-22T00:34:50Z,855
+856,vestibulum rutrum rutrum neque,accumsan tortor quis turpis sed,53736996.52,66.43,321.15,31.25,97.26,82.46,3518.77,2024-10-10T18:04:57Z,856
+857,ipsum integer a nibh in,at velit vivamus vel,78221212.58,97.2,298.95,47.27,7.5,84.09,593.15,2025-01-19T03:17:33Z,857
+858,mattis odio donec vitae nisi,lorem ipsum dolor sit,88183951.66,38.84,298.97,22.57,22.06,99.08,1772.18,2024-06-18T13:47:20Z,858
+859,luctus et ultrices posuere cubilia,dui vel sem,24465039.95,38.79,212.97,96.81,76.1,95.96,3076.77,2024-11-16T12:04:43Z,859
+860,mi in porttitor pede,malesuada in imperdiet et commodo,24062876.48,14.45,311.26,19.61,43.11,56.13,5474.24,2024-04-24T21:32:46Z,860
+861,cras in purus eu magna,ipsum primis in faucibus,16655982.89,35.58,270.73,0.53,31.81,43.95,745.97,2024-02-12T23:08:21Z,861
+862,nunc rhoncus dui vel,nulla ultrices aliquet maecenas leo,8105547.0,80.13,198.08,93.13,83.38,73.85,176.32,2025-01-12T02:56:13Z,862
+863,et magnis dis parturient montes,ligula nec sem,72244105.54,16.11,270.45,39.12,53.05,43.63,2524.22,2024-12-28T07:53:09Z,863
+864,sed accumsan felis ut,ultricies eu nibh quisque id,82704198.41,94.15,165.88,10.33,8.32,26.35,-38.49,2024-06-22T00:36:30Z,864
+865,morbi vel lectus,vel augue vestibulum rutrum rutrum,82897457.78,7.73,210.93,56.1,86.3,60.03,2633.79,2024-10-03T23:04:31Z,865
+866,in ante vestibulum,sit amet eros suspendisse accumsan,22421358.23,72.17,244.53,64.32,60.06,7.79,5236.24,2024-07-09T04:08:45Z,866
+867,mi pede malesuada in imperdiet,ultrices enim lorem,6242453.87,62.37,99.06,43.37,58.69,11.87,1188.72,2024-05-15T16:09:13Z,867
+868,congue elementum in hac habitasse,sodales scelerisque mauris sit amet,42184778.14,90.44,248.4,50.36,87.54,15.36,5573.91,2024-12-27T06:02:16Z,868
+869,ipsum dolor sit amet consectetuer,lacinia erat vestibulum sed magna,61492706.66,88.64,261.31,31.58,40.31,3.19,5387.56,2024-08-27T18:59:40Z,869
+870,faucibus accumsan odio,eget orci vehicula,75794838.18,51.62,120.81,67.17,80.64,97.01,2077.91,2024-08-11T15:37:39Z,870
+871,sit amet consectetuer adipiscing elit,praesent id massa,33238767.03,73.28,218.07,88.78,52.83,42.57,3859.32,2024-05-17T11:13:04Z,871
+872,diam neque vestibulum eget vulputate,odio justo sollicitudin ut,52727966.62,17.41,326.72,95.43,89.65,89.73,297.89,2024-06-24T04:14:17Z,872
+873,in hac habitasse platea dictumst,aliquam sit amet,96447681.71,17.86,118.35,80.6,85.63,96.95,4969.31,2024-11-02T13:28:52Z,873
+874,felis fusce posuere,elementum nullam varius nulla,5587156.67,50.92,336.23,89.92,85.2,97.46,1380.97,2024-10-22T08:55:04Z,874
+875,orci luctus et,integer a nibh in quis,76872619.21,95.19,61.96,69.88,42.31,1.33,5286.87,2024-02-11T08:51:37Z,875
+876,turpis elementum ligula vehicula,ut nunc vestibulum,98686764.69,26.8,65.59,86.6,29.5,96.66,3026.96,2025-01-14T16:09:28Z,876
+877,congue vivamus metus arcu,congue diam id,83214604.6,92.74,250.47,85.18,68.13,18.86,4545.66,2024-02-15T04:16:23Z,877
+878,tempor convallis nulla neque,platea dictumst morbi,86305066.29,99.79,2.85,34.84,89.64,38.99,2251.54,2024-08-17T03:14:41Z,878
+879,id ligula suspendisse ornare,curabitur at ipsum,64408125.22,95.44,227.53,48.7,79.33,66.96,3506.99,2024-05-01T17:44:23Z,879
+880,ligula nec sem duis,sagittis sapien cum sociis natoque,14557277.98,47.02,68.25,32.33,62.97,74.98,3904.37,2024-04-14T05:40:08Z,880
+881,dapibus duis at,odio elementum eu interdum,1598387.88,92.18,236.3,78.3,99.13,17.45,1290.56,2025-02-02T15:49:49Z,881
+882,mauris enim leo,dapibus augue vel accumsan,29969256.26,41.89,173.58,11.17,77.13,88.48,5167.29,2024-07-30T23:36:22Z,882
+883,sed accumsan felis ut at,ipsum praesent blandit,83935676.24,99.07,90.36,18.13,16.23,90.04,5480.88,2024-10-31T06:50:10Z,883
+884,nec euismod scelerisque,suscipit nulla elit ac nulla,78997217.84,15.03,308.72,58.83,48.4,91.21,4664.57,2024-02-19T19:20:11Z,884
+885,convallis morbi odio,hac habitasse platea dictumst etiam,60866191.97,20.61,27.06,53.37,4.1,52.07,3276.22,2024-04-28T04:07:26Z,885
+886,congue diam id,potenti nullam porttitor lacus at,60317414.43,94.55,22.7,26.9,70.78,83.95,2428.19,2024-06-14T21:08:47Z,886
+887,vivamus in felis,turpis integer aliquet,60702795.78,24.0,163.72,27.7,17.73,62.67,4549.71,2024-11-22T15:25:51Z,887
+888,eros vestibulum ac,vivamus vel nulla eget,51342710.36,30.8,203.59,93.18,49.66,32.32,4595.02,2024-11-30T09:33:57Z,888
+889,tortor id nulla,at lorem integer tincidunt ante,34592291.36,33.68,52.9,52.43,92.76,66.65,4879.19,2024-04-27T20:40:13Z,889
+890,ac nulla sed vel enim,tortor sollicitudin mi,87685490.71,67.38,336.84,40.67,69.02,99.98,1824.0,2024-05-01T16:29:16Z,890
+891,nec nisi vulputate nonummy,rutrum nulla tellus,73983834.45,23.83,21.03,14.55,76.56,50.79,2320.63,2024-11-09T22:19:09Z,891
+892,justo morbi ut,vehicula condimentum curabitur in,43871967.83,5.45,338.12,57.58,37.75,65.49,3414.98,2024-05-21T13:37:21Z,892
+893,sapien urna pretium,interdum mauris ullamcorper purus sit,97871149.7,70.92,210.41,8.1,43.59,27.39,3714.68,2024-07-03T17:34:50Z,893
+894,convallis nunc proin at,dapibus augue vel accumsan tellus,50151881.17,43.5,213.5,4.14,79.8,14.88,2491.02,2025-02-01T06:31:12Z,894
+895,nibh ligula nec sem,donec diam neque,44224558.83,59.84,111.28,24.37,26.7,94.79,4842.73,2024-12-02T20:35:13Z,895
+896,suspendisse accumsan tortor quis turpis,risus praesent lectus vestibulum,45717343.5,33.6,94.92,34.04,3.57,15.94,3792.24,2024-05-24T20:28:05Z,896
+897,ut volutpat sapien arcu,sed sagittis nam,26232578.97,97.8,58.09,39.53,21.0,97.56,5041.84,2024-03-28T08:45:09Z,897
+898,tortor eu pede,est et tempus semper est,96916312.88,5.38,77.67,55.52,79.1,63.91,3379.98,2024-09-15T01:01:59Z,898
+899,ut ultrices vel augue vestibulum,turpis nec euismod,48737737.4,80.41,164.83,52.75,33.99,0.49,1852.29,2024-02-20T15:45:52Z,899
+900,egestas metus aenean fermentum donec,velit donec diam neque,55689200.1,56.59,20.76,50.89,57.28,9.6,4749.1,2025-01-01T01:21:50Z,900
+901,elit sodales scelerisque,massa tempor convallis,6130311.84,87.23,243.66,24.79,73.9,62.77,3975.51,2024-12-21T16:06:25Z,901
+902,ut mauris eget massa tempor,nisl nunc rhoncus dui vel,61350555.41,99.69,172.64,96.38,41.69,50.92,2327.86,2024-07-28T08:10:47Z,902
+903,duis mattis egestas,pulvinar nulla pede,80358842.84,33.93,287.65,21.55,85.04,2.97,914.53,2024-03-03T01:31:17Z,903
+904,elit proin interdum mauris non,adipiscing elit proin risus,46359927.96,14.46,147.65,90.21,56.56,57.47,765.86,2024-08-29T15:33:23Z,904
+905,elementum nullam varius nulla,morbi non quam nec,14639822.01,49.0,91.82,87.96,70.63,69.39,4651.01,2024-05-21T06:12:55Z,905
+906,ut at dolor quis odio,enim sit amet nunc viverra,31162883.61,80.34,58.4,13.16,14.19,31.83,3789.89,2024-09-11T13:59:02Z,906
+907,porttitor pede justo,in sagittis dui vel,98228699.14,12.74,144.39,69.66,8.95,92.95,5326.28,2024-08-01T08:18:10Z,907
+908,luctus rutrum nulla,et eros vestibulum ac,96020507.16,9.93,236.61,62.94,0.66,75.27,465.32,2024-06-06T05:40:35Z,908
+909,aenean fermentum donec ut mauris,placerat praesent blandit nam nulla,98625570.93,96.86,314.35,78.57,7.5,98.89,5276.69,2024-05-13T00:11:27Z,909
+910,curabitur at ipsum,venenatis lacinia aenean sit amet,50507875.51,64.63,219.38,57.88,22.46,89.49,1468.86,2024-05-16T20:54:10Z,910
+911,nonummy maecenas tincidunt,non mauris morbi,21456569.35,49.79,163.86,0.69,10.05,36.14,4740.31,2025-01-12T09:19:38Z,911
+912,eu magna vulputate,sapien arcu sed augue,48611195.42,43.93,145.61,17.98,40.8,69.22,102.74,2024-10-15T12:44:29Z,912
+913,cras pellentesque volutpat dui maecenas,consequat dui nec nisi,4647953.04,73.86,19.37,60.32,59.43,6.87,2709.3,2024-08-04T20:52:44Z,913
+914,pede lobortis ligula sit,felis sed interdum,31412488.75,14.48,116.56,14.0,61.14,75.61,5529.39,2024-10-23T10:52:13Z,914
+915,cras pellentesque volutpat dui maecenas,commodo vulputate justo in blandit,84940615.96,66.93,327.75,11.68,96.11,27.17,4239.39,2025-01-21T05:52:11Z,915
+916,at vulputate vitae nisl aenean,donec ut mauris eget massa,80864043.03,5.17,98.78,14.29,62.94,92.93,3253.26,2025-01-18T06:17:10Z,916
+917,felis sed interdum venenatis,amet sem fusce,80914605.79,37.07,17.85,91.95,91.02,34.93,3139.01,2024-11-03T09:52:31Z,917
+918,ut ultrices vel,suspendisse potenti in,27835025.28,0.0,4.48,25.27,71.62,88.11,1949.6,2024-04-09T19:14:31Z,918
+919,pellentesque quisque porta volutpat,venenatis tristique fusce,6869773.25,27.52,268.91,87.04,48.98,75.62,-187.85,2025-02-09T21:19:14Z,919
+920,donec semper sapien a libero,ornare imperdiet sapien urna,23001788.33,54.11,108.96,56.31,22.65,30.67,2643.28,2025-02-04T12:39:40Z,920
+921,amet eros suspendisse,dui maecenas tristique,33393983.73,5.17,116.21,27.7,6.07,19.18,72.12,2024-12-18T15:08:30Z,921
+922,justo nec condimentum,vulputate nonummy maecenas,33093980.67,40.66,299.56,34.42,15.28,85.75,4931.85,2024-02-13T12:56:21Z,922
+923,libero ut massa,nunc viverra dapibus,488270.23,68.81,102.06,52.29,47.53,49.38,407.77,2025-02-08T13:24:26Z,923
+924,platea dictumst maecenas ut,luctus et ultrices posuere,26921325.36,41.55,49.43,17.86,69.19,78.72,3337.87,2024-05-16T17:48:16Z,924
+925,quam sollicitudin vitae consectetuer eget,id lobortis convallis tortor,83360806.19,26.5,303.56,0.18,73.08,39.19,4640.0,2025-01-11T22:54:20Z,925
+926,nulla tellus in sagittis dui,egestas metus aenean fermentum donec,49175756.78,19.89,279.78,34.95,93.31,64.26,3571.63,2024-11-27T19:57:44Z,926
+927,maecenas tristique est et tempus,tincidunt eget tempus vel,59469085.55,70.93,245.46,28.87,93.54,41.81,661.84,2024-02-21T21:49:51Z,927
+928,porttitor pede justo eu massa,vulputate justo in blandit ultrices,40464609.57,64.82,316.11,61.67,73.34,55.22,4777.76,2024-08-08T11:28:19Z,928
+929,morbi quis tortor id,lobortis est phasellus sit,38591705.14,4.78,167.97,57.4,99.23,72.13,5095.52,2024-03-22T09:42:31Z,929
+930,fusce posuere felis,fermentum donec ut mauris,37037133.26,55.23,184.75,11.87,51.1,66.46,4743.53,2024-07-30T03:54:55Z,930
+931,rutrum ac lobortis vel,ligula in lacus,1197688.34,49.18,233.46,24.41,9.9,99.62,1348.8,2025-01-03T14:54:27Z,931
+932,luctus tincidunt nulla mollis molestie,et magnis dis parturient montes,7926729.09,12.07,233.33,7.07,73.36,88.1,491.57,2024-10-08T14:42:01Z,932
+933,in libero ut,ornare consequat lectus,27215554.38,44.5,75.78,10.13,16.62,49.41,609.06,2024-10-29T10:02:09Z,933
+934,pede malesuada in,aliquet at feugiat non pretium,49052852.52,92.9,11.77,53.36,58.22,45.74,2360.12,2024-07-22T12:47:40Z,934
+935,nibh ligula nec sem,nam congue risus,7965670.62,17.29,258.32,43.61,61.33,32.59,1258.85,2024-11-24T04:57:17Z,935
+936,a libero nam,at nulla suspendisse,46130720.45,7.87,356.23,80.83,83.95,93.07,213.95,2025-01-29T05:46:04Z,936
+937,viverra pede ac,quam suspendisse potenti,16764103.11,73.69,92.38,83.8,98.93,1.85,1484.21,2024-11-06T06:48:44Z,937
+938,diam cras pellentesque volutpat dui,mi nulla ac enim,61536798.1,71.67,72.97,57.88,4.49,65.21,5484.71,2024-09-14T03:15:44Z,938
+939,metus aenean fermentum donec,quisque arcu libero rutrum,29107896.26,14.66,114.97,86.42,69.42,9.05,1026.28,2024-04-09T02:20:34Z,939
+940,tristique in tempus sit,vulputate ut ultrices vel,90864751.93,5.91,233.04,82.56,19.81,10.71,4168.25,2024-10-17T10:16:45Z,940
+941,massa id nisl venenatis lacinia,aliquam sit amet diam in,49448682.34,25.95,223.95,89.08,29.68,67.13,3195.13,2024-12-12T00:57:17Z,941
+942,rhoncus aliquam lacus morbi quis,interdum mauris ullamcorper,12321314.23,26.0,70.69,27.83,98.62,58.16,2833.19,2024-11-13T00:50:04Z,942
+943,erat volutpat in congue,tortor risus dapibus augue vel,42770689.62,57.4,257.58,26.6,65.92,93.75,1713.68,2024-03-20T23:59:57Z,943
+944,aliquet ultrices erat,consequat dui nec nisi volutpat,68030626.05,50.86,314.12,25.22,36.85,82.79,4472.51,2024-03-31T04:52:33Z,944
+945,ipsum aliquam non mauris morbi,neque aenean auctor,69205412.25,87.13,76.17,8.88,19.38,41.39,3080.14,2024-05-06T04:44:52Z,945
+946,mauris vulputate elementum,quis libero nullam sit amet,42205908.27,51.16,95.7,66.8,84.01,6.83,1764.28,2024-06-24T21:27:40Z,946
+947,erat volutpat in congue,consequat dui nec nisi volutpat,76527016.06,98.43,336.77,38.83,98.15,0.97,464.75,2025-02-01T09:33:32Z,947
+948,vulputate ut ultrices,dui vel nisl,4433683.53,2.78,338.01,95.38,41.95,82.83,2658.52,2024-04-03T12:32:15Z,948
+949,ultrices libero non,ac enim in,29479075.36,12.19,218.41,5.11,87.66,10.35,2080.8,2024-04-11T07:18:13Z,949
+950,massa tempor convallis,amet erat nulla tempus vivamus,44449306.98,8.29,349.92,59.17,67.63,94.92,2524.9,2024-09-19T01:43:13Z,950
+951,dis parturient montes nascetur,luctus et ultrices posuere cubilia,72761079.43,34.09,10.72,16.41,54.97,80.17,2782.45,2025-02-03T18:44:39Z,951
+952,eleifend quam a odio in,nulla suspendisse potenti cras,86110005.62,40.71,93.39,48.56,43.25,12.57,208.79,2024-10-02T01:44:38Z,952
+953,dictumst etiam faucibus cursus,nam nulla integer pede,77266975.41,83.36,227.49,70.16,47.9,62.16,2574.19,2024-05-17T00:53:08Z,953
+954,dapibus nulla suscipit ligula,morbi porttitor lorem id ligula,96476198.71,41.19,136.83,83.04,82.31,82.41,683.96,2024-04-29T17:43:01Z,954
+955,tempor turpis nec euismod,turpis adipiscing lorem vitae,88513321.78,40.81,37.6,83.94,91.79,48.72,3842.17,2024-10-20T22:31:40Z,955
+956,sapien varius ut,ante ipsum primis in faucibus,40187896.52,38.2,46.25,6.2,37.27,20.18,4044.85,2024-11-12T13:26:21Z,956
+957,dolor sit amet consectetuer,feugiat et eros vestibulum,40334707.91,43.5,173.45,26.7,71.71,10.64,51.91,2024-11-13T04:55:09Z,957
+958,varius integer ac leo pellentesque,nulla integer pede,33508044.77,81.19,8.08,8.19,6.82,45.93,1326.96,2024-12-09T20:02:02Z,958
+959,magna ac consequat metus sapien,nec sem duis,44934989.6,50.75,354.15,94.28,67.17,26.7,4716.23,2024-04-09T19:14:10Z,959
+960,praesent blandit nam nulla,mauris eget massa,83930603.17,32.49,94.67,80.75,11.17,52.96,548.24,2024-04-12T10:33:44Z,960
+961,vestibulum vestibulum ante ipsum primis,sapien arcu sed augue,78692912.54,69.98,107.31,42.64,6.91,86.31,2200.77,2024-10-13T22:46:38Z,961
+962,cursus vestibulum proin eu,semper sapien a libero,2530544.52,35.17,288.62,92.62,34.52,15.31,3761.51,2024-06-04T00:46:52Z,962
+963,praesent lectus vestibulum quam sapien,nulla tempus vivamus in felis,36334477.96,11.05,240.9,36.75,24.31,67.44,2494.25,2024-11-30T00:21:11Z,963
+964,parturient montes nascetur ridiculus mus,placerat ante nulla justo,50048278.76,12.43,323.76,84.09,83.91,31.52,4704.4,2024-09-03T15:56:57Z,964
+965,dictumst morbi vestibulum,sit amet diam,27817621.73,64.86,198.91,41.23,6.84,14.92,1216.15,2024-04-28T14:59:04Z,965
+966,neque sapien placerat ante nulla,pretium iaculis diam erat,60724746.83,37.86,175.87,72.96,89.98,84.98,3324.84,2024-03-09T20:24:41Z,966
+967,odio odio elementum,est phasellus sit amet,8678980.35,57.51,225.27,27.17,44.56,46.88,4595.31,2024-09-07T23:00:35Z,967
+968,interdum eu tincidunt in,mi in porttitor,2836412.5,87.54,147.46,23.78,82.4,4.03,74.79,2025-02-08T10:22:49Z,968
+969,sapien cum sociis,amet erat nulla tempus vivamus,58660159.67,63.03,3.51,40.26,93.53,38.8,2533.74,2024-12-26T17:04:46Z,969
+970,in ante vestibulum ante ipsum,platea dictumst maecenas ut massa,20495481.24,40.06,334.02,18.31,25.99,27.63,5411.81,2024-08-31T14:01:08Z,970
+971,sem mauris laoreet,elementum in hac habitasse platea,54899216.73,0.81,60.15,51.4,39.29,69.63,768.56,2024-08-05T03:43:58Z,971
+972,erat quisque erat eros viverra,est risus auctor sed tristique,30651288.56,70.75,47.84,92.82,95.69,33.84,4926.97,2024-09-30T17:50:57Z,972
+973,hac habitasse platea,adipiscing molestie hendrerit,99226769.36,26.69,282.41,52.45,75.81,55.98,525.54,2024-08-25T20:58:18Z,973
+974,diam vitae quam suspendisse,elementum ligula vehicula consequat morbi,71537719.09,76.39,269.15,63.79,61.03,6.57,2528.76,2024-06-05T18:30:20Z,974
+975,lorem integer tincidunt,penatibus et magnis dis,93709151.15,97.41,40.58,42.4,52.57,16.12,970.03,2025-01-28T13:01:53Z,975
+976,sociis natoque penatibus et,consequat in consequat ut,24375719.75,36.97,268.08,78.32,38.66,28.35,5503.06,2024-02-15T02:59:10Z,976
+977,massa volutpat convallis morbi odio,quis orci eget orci vehicula,80075202.24,93.13,201.48,92.7,65.35,55.2,282.72,2024-09-03T16:58:36Z,977
+978,ullamcorper augue a suscipit nulla,sit amet erat,56804778.04,57.1,260.21,95.73,55.8,96.89,271.77,2024-11-24T01:08:19Z,978
+979,neque aenean auctor gravida sem,posuere nonummy integer non,81986715.44,7.38,242.64,62.97,21.54,89.39,3846.06,2024-05-22T07:44:04Z,979
+980,nisl aenean lectus pellentesque,ipsum primis in faucibus orci,76060663.94,55.73,76.04,34.93,67.59,34.9,1259.42,2024-06-23T01:05:01Z,980
+981,nulla nunc purus phasellus in,amet nunc viverra,10180798.17,91.76,194.01,68.3,21.84,64.84,1676.89,2024-10-04T14:43:50Z,981
+982,duis at velit eu est,sit amet justo morbi ut,96766194.64,72.18,132.23,93.89,75.1,0.06,1279.07,2024-08-11T15:11:50Z,982
+983,turpis adipiscing lorem vitae,lacinia erat vestibulum sed magna,98217592.76,31.15,296.33,53.63,22.62,18.1,4595.87,2024-08-16T16:37:51Z,983
+984,eget eleifend luctus ultricies,eu sapien cursus,30729507.98,23.76,229.67,53.16,34.64,87.79,5420.17,2024-05-15T01:08:10Z,984
+985,dolor vel est,nullam sit amet,90655505.28,87.14,96.0,10.73,57.82,38.18,3941.99,2024-11-14T04:59:58Z,985
+986,ut tellus nulla ut,ut volutpat sapien arcu,85367512.64,71.53,96.95,72.29,97.44,9.26,4431.36,2024-10-12T06:08:47Z,986
+987,ultrices mattis odio donec vitae,rhoncus dui vel,69818637.86,30.56,98.18,96.5,89.36,64.58,2126.99,2025-02-07T04:29:42Z,987
+988,quam suspendisse potenti nullam porttitor,rutrum nulla tellus in,94153865.58,31.43,136.9,24.12,21.83,92.83,1168.56,2024-03-31T14:31:14Z,988
+989,primis in faucibus,erat quisque erat,34888339.47,93.12,299.53,81.68,62.19,37.7,188.25,2024-03-28T12:59:02Z,989
+990,vel nisl duis,pede ullamcorper augue,28705880.56,35.32,6.62,48.26,54.55,43.82,147.13,2024-12-24T21:15:59Z,990
+991,nunc viverra dapibus nulla,blandit mi in porttitor pede,53785754.33,59.93,140.44,14.17,35.99,95.65,4761.62,2024-07-28T17:16:09Z,991
+992,sodales scelerisque mauris sit amet,in felis donec semper,97174030.53,80.08,267.79,35.85,18.25,8.49,3226.88,2024-03-29T05:41:03Z,992
+993,porttitor lacus at turpis,eget orci vehicula condimentum,65321914.78,50.93,200.82,37.36,95.32,10.18,4110.41,2024-11-01T16:36:07Z,993
+994,nam congue risus semper porta,eget eleifend luctus ultricies,56333899.73,16.59,240.91,42.9,24.56,22.61,147.5,2024-08-11T02:27:00Z,994
+995,a suscipit nulla elit,faucibus cursus urna,42150156.05,14.77,34.96,53.67,55.99,60.61,3458.65,2025-01-04T00:06:29Z,995
+996,lacus purus aliquet at,in magna bibendum imperdiet nullam,62353316.99,83.06,186.44,80.97,52.97,85.79,4709.54,2024-10-04T12:54:23Z,996
+997,lectus in est risus,enim in tempor turpis,9612840.43,68.89,60.69,31.38,57.63,68.23,1306.59,2024-05-06T15:44:07Z,997
+998,ultrices posuere cubilia curae,aliquam lacus morbi,8285810.59,15.32,248.12,54.39,56.54,0.22,1723.69,2024-03-13T08:01:55Z,998
+999,sapien in sapien iaculis congue,in consequat ut nulla,93400608.87,4.19,17.08,81.77,72.17,22.16,205.49,2024-04-08T00:54:36Z,999
+1000,leo rhoncus sed,at diam nam tristique tortor,5216676.23,46.97,45.68,12.28,12.43,84.0,2626.07,2024-07-10T19:28:48Z,1000
