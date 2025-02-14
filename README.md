@@ -38,7 +38,7 @@ Step 4.a: Create services
  Step 4.b: Stop and remove Services
 
  ```bash
- # brings down services removes every volume, network and container created 
+ # brings down services removes every volume,v network and container created 
  docker-compose down -v
  ```
 
