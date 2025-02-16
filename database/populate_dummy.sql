@@ -15,3 +15,15 @@
 
 \copy batteries_measurement          from '/data/measurement.csv'       with (format csv, delimiter ',', header);
 \copy batteries_eis                  from '/data/eis.csv'               with (format csv, delimiter ',', header);
+
+-- update auto-inrementing id pointer to have the current value
+SELECT setval('batteries_chemical_id_seq', (SELECT MAX(id) FROM batteries_chemical));
+SELECT setval('batteries_material_id_seq', (SELECT MAX(id) FROM batteries_material));
+SELECT setval('batteries_safetyfeature_id_seq', (SELECT MAX(id) FROM batteries_safetyfeature));
+SELECT setval('batteries_manufacturer_id_seq', (SELECT MAX(id) FROM batteries_manufacturer));
+SELECT setval('batteries_battery_id_seq', (SELECT MAX(id) FROM batteries_battery));
+SELECT setval('batteries_module_id_seq', (SELECT MAX(id) FROM batteries_module));
+SELECT setval('batteries_cell_id_seq', (SELECT MAX(id) FROM batteries_cell));
+SELECT setval('batteries_cell_cell_chemistry_id_seq', (SELECT MAX(id) FROM batteries_cell_cell_chemistry));
+SELECT setval('batteries_measurement_id_seq', (SELECT MAX(id) FROM batteries_measurement));
+SELECT setval('batteries_eis_id_seq', (SELECT MAX(id) FROM batteries_eis));
