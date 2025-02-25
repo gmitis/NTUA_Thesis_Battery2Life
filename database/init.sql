@@ -6,8 +6,7 @@ ALTER SYSTEM SET max_wal_senders = 0;
 ALTER SYSTEM SET archive_mode = off;
 
 
--- DROP DATABASE adis;
-CREATE DATABASE adis;
+CREATE DATABASE b2l;
 
 
 
