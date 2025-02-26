@@ -2,6 +2,7 @@ services:
   api:
     build: ./battery2life
     container_name: api
+    restart: unless-stopped
     command: >
       sh -c " python manage.py makemigrations --noinput &&
               python manage.py migrate &&
@@ -24,12 +25,13 @@ services:
   db:
     image: postgres:17.0
     container_name: db
+    restart: unless-stopped
     ports:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
-      # - ./database/data:/data
+      - ./database/data:/data
       - ./database/dummy_data:/data
       - ./database/populate_dummy.sql:/populate_dummy.sql
     environment:
@@ -43,6 +45,7 @@ services:
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
+    restart: unless-stopped
     depends_on: 
       - db
     ports:
@@ -59,6 +62,7 @@ services:
   mosquitto-client:
     build: ./mosquitto-client
     container_name: mosquitto-client
+    restart: unless-stopped
     depends_on:
       - mosquitto
     environment:
