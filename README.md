@@ -128,14 +128,14 @@
 
 ### Explanation
 
-For the entire app, the ./directory, the most important files are:
-- docker-compose.yaml: this is the most important file and contains the definitions for all of the available services
+For the entire system, all the files inside the \texttt{./} directory, the most vital files are:
+- docker-compose.yaml: This is the most important file and contains the definitions for all of the available services in a format that makes them really easy to deploy.
 - .gitignore: the file states which files are to be ignored from git tracking their history 
 - create_necessary_files.sh: script the create the files necessary for logging since the logging files contain sensitive information and are not tracked by git.
 
 #### Django App
 
-The entire app resides on to ./battery2life directory.
+The entire API resides on to ./battery2life directory.
 The most important files are:
 - Dockerfile: This is the custom docker image we built to run the app
 - manage.py: This is the basic script that allows us to perform database management actions and create new apps
