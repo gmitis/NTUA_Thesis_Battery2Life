@@ -2,6 +2,7 @@
 
 # create necessary log files, essential before startup cause we map them with docker volumes
 touch mosquitto-client/mosquitto-client.log
+touch mosquitto/log/mosquitto.log
 
 touch battery2life/app.log
 
