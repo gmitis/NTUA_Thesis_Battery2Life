@@ -92,7 +92,7 @@ class Battery(models.Model):
         null=True, 
         related_name='batteries'
     )
-    manufacturer = models.OneToOneField(
+    manufacturer = models.ForeignKey(
         Manufacturer, 
         on_delete=models.CASCADE, 
         blank=True, 
@@ -150,6 +150,13 @@ class Module(models.Model):
     power_module_length = models.DecimalField(max_digits=6, decimal_places=2,  blank=True, null=True)
 
     battery = models.ForeignKey(Battery, blank=True, null=True, on_delete=models.CASCADE, related_name="modules")
+    manufacturer = models.ForeignKey(
+        Manufacturer, 
+        on_delete=models.CASCADE, 
+        blank=True, 
+        null=True, 
+        related_name="modules", 
+    )
 
     class Meta:
         verbose_name_plural = "Modules"
@@ -220,6 +227,13 @@ class Cell(models.Model):
 
     cell_chemistry = models.ManyToManyField(Chemical, blank=True, related_name='cells')
     module = models.ForeignKey(Module, blank=True, null=True, on_delete=models.CASCADE, related_name="cells")
+    manufacturer = models.ForeignKey(
+        Manufacturer, 
+        on_delete=models.CASCADE, 
+        blank=True, 
+        null=True, 
+        related_name="cells", 
+    )
 
     class Meta:
         verbose_name_plural = "Cells"
@@ -230,32 +244,32 @@ class Cell(models.Model):
 
 # Cell measurements - synchronous
 class Measurement(models.Model):
-    voltage = models.FloatField()
-    temperature = models.FloatField()
-    current = models.FloatField()
-    sot = models.FloatField()
-    phase = models.FloatField()
-    soc = models.FloatField()
-    added_at = models.DateTimeField(auto_now_add=True)
-    cell_id = models.ForeignKey(Cell, to_field='id', on_delete=models.CASCADE, related_name='measurements')
-    
+    voltage         = models.FloatField()
+    temperature     = models.FloatField()
+    current         = models.FloatField()
+    sot             = models.FloatField()
+    phase           = models.FloatField()
+    soc             = models.FloatField()
+    added_at        = models.DateTimeField(auto_now_add=True)
+    cell_id         = models.ForeignKey(Cell, to_field='id', on_delete=models.CASCADE, related_name='measurements')
+     
     def __str__(self) -> str:
         return f"{self.id}"
     
 
 # Equivalent Impedance Spectroscopy measurements - asynchronous
 class EIS(models.Model):
-    status = models.CharField(max_length=255)
-    event_id = models.CharField(max_length=255)
-    frequency = models.FloatField(validators=[MinValueValidator(0)])
-    amplitude = models.FloatField(validators=[MinValueValidator(0)])
-    phase = models.FloatField()
-    current_offset = models.FloatField()
-    v_start = models.FloatField()
-    v_end = models.FloatField()
-    temperature = models.FloatField(validators=[MinValueValidator(-273.15), MaxValueValidator(5600.0)])
-    added_at =models.DateTimeField(auto_now_add=True)
-    cell_id = models.ForeignKey(Cell, to_field='id', on_delete=models.CASCADE, related_name='eis')
+    status          = models.CharField(max_length=255)
+    event_id        = models.CharField(max_length=255)
+    frequency       = models.FloatField(validators=[MinValueValidator(0)])
+    amplitude       = models.FloatField(validators=[MinValueValidator(0)])
+    phase           = models.FloatField()
+    current_offset  = models.FloatField()
+    v_start         = models.FloatField()
+    v_end           = models.FloatField()
+    temperature     = models.FloatField(validators=[MinValueValidator(-273.15), MaxValueValidator(5600.0)])
+    added_at        = models.DateTimeField(auto_now_add=True)
+    cell_id         = models.ForeignKey(Cell, to_field='id', on_delete=models.CASCADE, related_name='eis')
     
     class Meta:
         verbose_name_plural="EIS"
