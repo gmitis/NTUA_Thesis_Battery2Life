@@ -1,0 +1,19 @@
+{
+  "name": "backend_diploma",
+  "version": "1.0.0",
+  "description": "[TBA.description]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://isense-gitlab.iccs.gr/battery2life/backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/k6": "^0.54.2"
+  }
+}

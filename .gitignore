@@ -2,12 +2,14 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
 # miscellaneous
+node_modules
 battery2life/app.log
 *.sh*
 *notes*
 *mosquitto.db
 *.log
 .vscode
+directory_structure.txt
 
 ### Django ###
 *.pot
