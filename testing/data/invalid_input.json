@@ -1,102 +1,1524 @@
 {
   "/api/batteries/": {
-    "GET": , 
-    "POST": {
-
-    }
+    "POST": [
+      {
+        "serial_number": 64,
+        "battery_name": "satvawuw",
+        "weight": 6671.295,
+        "capacity": 776000,
+        "original_power_capability": 776000,
+        "expected_endoflife": "2027-02-15",
+        "manufactured_date": "2023-02-15",
+        "height": 3025.14,
+        "width": 3,
+        "length": 8888,
+        "manufactured_city": "string",
+        "manufactured_street": "string",
+        "manufactured_number": 2147483647,
+        "manufactured_zipcode": "string"
+      },
+      {
+        "serial_number": "zl4xkln9",
+        "battery_name": "uwgviαzkongdfogdfsngoisdfghdpijjghdfsogudfshgpsidfugjsdfhgpudfgdfhsgipusdfjhipudfsjghdsfipugjhdfsiupgdfsjghdsfuijgkhdsfipugjdkfhgpifsdujghsdfiughdfiugfdspuidsiyeuwgviαzkongdfogdfsngoisdfghdpijjghdfsogudfshgpsidfugjsdfhgpudfgdfhsgipusdfjhipudfsjghdsfipugjhdfsiupgdfsjghdsfuijgkhdsfipugjdkfhgpifsdujghsdfiughdfiugfdspuidsiyeuwgviαzkongdfogdfsngoisdfghdpijjghdfsogudfshgpsidfugjsdfhgpudfgdfhsgipusdfjhipudfsjghdsfipugjhdfsiupgdfsjghdsfuijgkhdsfipugjdkfhgpifsdujghsdfiughdfiu",
+        "weight": 5000.754353,
+        "capacity": 650000,
+        "original_power_capability": 650000,
+        "expected_endoflife": "2028-06-20",
+        "manufactured_date": "2022-08-10",
+        "height": 2800.5,
+        "width": 5,
+        "length": 7500,
+        "manufactured_city": "New York",
+        "manufactured_street": "5th Avenue",
+        "manufactured_number": 120,
+        "manufactured_zipcode": "10001"
+      },
+      {
+        "serial_number": "0xj51ezc",
+        "battery_name": "a7efk27w",
+        "weight": 7200,
+        "capacity": 810000,
+        "original_power_capability": 810000,
+        "expected_endoflife": "20290912",
+        "manufactured_date": "25",
+        "height": 2805234532453245324524354325324523453240.5,
+        "width": 4,
+        "length": 9200,
+        "manufactured_city": "Berlin",
+        "manufactured_street": "Hauptstraße",
+        "manufactured_number": 305,
+        "manufactured_zipcode": "10117"
+      },
+      {
+        "serial_number": "in8kq57i",
+        "battery_name": "fhtzbrip",
+        "weight": 4500.3,
+        "capacity": 500000,
+        "original_power_capability": 500000,
+        "expected_endoflife": "2026-04-15",
+        "manufactured_date": "2021-11-05",
+        "height": 2750,
+        "width": 2,
+        "length": 6800,
+        "manufactured_city": "Tokyo",
+        "manufactured_street": "Shibuya Street",
+        "manufactured_number": 99423,
+        "manufactured_zipcode": "150-0002",
+        "material": 320952309
+      },
+      {
+        "serial_number": "vpsrt4l6",
+        "battery_name": "bck9kyp1",
+        "weight": 6100.9,
+        "capcity": 720000,
+        "original_power_capability": 720000,
+        "expected_endoflife": "2030-01-30",
+        "manufactured_date": "2024-01-01",
+        "height": 2900.8,
+        "width": 6,
+        "length": 8100,
+        "manufactured_city": "Paris",
+        "manufactured_street": "Rue de la Paix",
+        "manufactured_number": 75,
+        "manufactured_zipcode": "75001",
+        "manufacturer": "sdpnms"
+      }
+    ]
   },
   "/api/batteries/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
+    "GET": null,
+    "PUT": [
+      {
+        "serial_number": 64,
+        "battery_name": "satvawuw",
+        "weight": 6671.295,
+        "capacity": 776000,
+        "original_power_capability": 776000,
+        "expected_endoflife": "2027-02-15",
+        "manufactured_date": "2023-02-15",
+        "height": 3025.14,
+        "width": 3,
+        "length": 8888,
+        "manufactured_city": "string",
+        "manufactured_street": "string",
+        "manufactured_number": 2147483647,
+        "manufactured_zipcode": "string"
+      },
+      {
+        "serial_number": "zl4xkln9",
+        "battery_name": "uwgviαzkongdfogdfsngoisdfghdpijjghdfsogudfshgpsidfugjsdfhgpudfgdfhsgipusdfjhipudfsjghdsfipugjhdfsiupgdfsjghdsfuijgkhdsfipugjdkfhgpifsdujghsdfiughdfiugfdspuidsiyeuwgviαzkongdfogdfsngoisdfghdpijjghdfsogudfshgpsidfugjsdfhgpudfgdfhsgipusdfjhipudfsjghdsfipugjhdfsiupgdfsjghdsfuijgkhdsfipugjdkfhgpifsdujghsdfiughdfiugfdspuidsiyeuwgviαzkongdfogdfsngoisdfghdpijjghdfsogudfshgpsidfugjsdfhgpudfgdfhsgipusdfjhipudfsjghdsfipugjhdfsiupgdfsjghdsfuijgkhdsfipugjdkfhgpifsdujghsdfiughdfiu",
+        "weight": 5000.754353,
+        "capacity": 650000,
+        "original_power_capability": 650000,
+        "expected_endoflife": "2028-06-20",
+        "manufactured_date": "2022-08-10",
+        "height": 2800.5,
+        "width": 5,
+        "length": 7500,
+        "manufactured_city": "New York",
+        "manufactured_street": "5th Avenue",
+        "manufactured_number": 120,
+        "manufactured_zipcode": "10001"
+      },
+      {
+        "serial_number": "0xj51ezc",
+        "battery_name": "a7efk27w",
+        "weight": 7200,
+        "capacity": 810000,
+        "original_power_capability": 810000,
+        "expected_endoflife": "20290912",
+        "manufactured_date": "25",
+        "height": 2805234532453245324524354325324523453240.5,
+        "width": 4,
+        "length": 9200,
+        "manufactured_city": "Berlin",
+        "manufactured_street": "Hauptstraße",
+        "manufactured_number": 305,
+        "manufactured_zipcode": "10117"
+      },
+      {
+        "serial_number": "in8kq57i",
+        "battery_name": "fhtzbrip",
+        "weight": 4500.3,
+        "capacity": 500000,
+        "original_power_capability": 500000,
+        "expected_endoflife": "2026-04-15",
+        "manufactured_date": "2021-11-05",
+        "height": 2750,
+        "width": 2,
+        "length": 6800,
+        "manufactured_city": "Tokyo",
+        "manufactured_street": "Shibuya Street",
+        "manufactured_number": 99423,
+        "manufactured_zipcode": "150-0002",
+        "material": 320952309
+      },
+      {
+        "serial_number": "vpsrt4l6",
+        "battery_name": "bck9kyp1",
+        "weight": 6100.9,
+        "capcity": 720000,
+        "original_power_capability": 720000,
+        "expected_endoflife": "2030-01-30",
+        "manufactured_date": "2024-01-01",
+        "height": 2900.8,
+        "width": 6,
+        "length": 8100,
+        "manufactured_city": "Paris",
+        "manufactured_street": "Rue de la Paix",
+        "manufactured_number": 75,
+        "manufactured_zipcode": "75001",
+        "manufacturer": "sdpnms"
+      }
+    ],
+    "PATCH": [
+      {
+        "serial_number": "dao3jjmi",
+        "battery_name": "vqajjyei",
+        "weight": 6420.12
+      },
+      {
+        "battery_name": "u3ztzlpx",
+        "expected_endoflife": "202805-10",
+        "height": 2980.75
+      },
+      {
+        "serial_number": "fu3dz7wx",
+        "capacity": 7200000
+      },
+      {
+        "serial_number": "c5axt2qj",
+        "width": 5,
+        "manufacturer": 200,
+        "battery_name": "n9inbrba",
+        "manufactured_city": "London",
+        "original_power_capability": 7750500
+      },
+      {
+        "serial_number": "c5axt2qj",
+        "width": 5,
+        "manufacturer": 200,
+        "battery_name": "n9inbrba",
+        "manufactured_city": "London",
+        "original_power_capability": 7750500
+      },
+      {
+        "serial_number": "c5axt2qj",
+        "width": 5,
+        "manufacturer": 200,
+        "battery_name": "n9inbrba",
+        "manufactured_city": "London",
+        "original_power_capability": 7750500
+      }
+    ],
+    "DELETE": null
   },
-
-  "/api/cells/": {
-    "GET": , 
-    "POST": 
-  },
-  "/api/cells/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
-  },
-
-  "/api/chemical/": {
-    "GET": , 
-    "POST": 
-  },
-  "/api/chemical/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
-  },
-
-  "/api/eis/": {
-    "GET": , 
-    "POST": 
-  },
-  "/api/eis/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
-  },
-
-  "/api/manufacturers/": {
-    "GET": , 
-    "POST": 
-  },
-  "/api/manufacturers/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
-  },
-
-  "/api/material/": {
-    "GET": , 
-    "POST": 
-  },
-  "/api/material/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
-  },
-
-  "/api/measurements/": {
-    "GET": , 
-    "POST": 
-  },
-  "/api/measurements/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
-  },
-
   "/api/modules/": {
-    "GET": , 
-    "POST": 
+    "POST": [
+      {
+        "power_module_name": "r;kgjewbg;kerbgv;iausvbasdvbsda;kjvbdsa'kjasdbv;kasdjvbas;kdvbasd;kjvbasdvkjasdblijasdkvbasdvjklasbvkjsdvbsalikjbfiugkjvabrfivukjdbciadjfk;bvadf;ijkvbafisvjkjvhasvkhjrnmsdbvkuhdhvbsaudkhfvbasduyvgghhertherthrthrthertherhrthrethtrtrtherrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtkhjadsf",
+        "battery_module_name": "EcoPower 48V",
+        "battery_module_energy": 50.75,
+        "battery_usable_energy": 48.2,
+        "max_output_power": 25.5,
+        "peak_output_power": 30,
+        "nominal_voltage": 48,
+        "operating_voltage_range": 950,
+        "communication": "CAN Bus",
+        "power_module_weight": 150.25,
+        "battery_module_weight": 220.75,
+        "operating_temperature": 25.5,
+        "max_operating_altitude": 2000,
+        "noise_emission": 55,
+        "cell_technology": "LiFePO4",
+        "height": 1200,
+        "width": 800,
+        "length": 400,
+        "power_module_height": 1150,
+        "power_module_width": 780,
+        "power_module_length": 380,
+        "battery": 250,
+        "manufacturer": 150
+      },
+      {
+        "power_module_name": "MarineMaster 12V",
+        "battery_module_name": "AquaCell Pro",
+        "battery_module_energy": 5421452345243532453245234532453254354325342.25,
+        "battery_usable_energy": 4.8,
+        "max_output_power": 2.75,
+        "peak_output_power": 3.5,
+        "nominal_voltage": 12,
+        "operating_voltage_range": 300,
+        "communication": "RS-485",
+        "power_module_weight": 22.5,
+        "battery_module_weight": 65,
+        "operating_temperature": -10,
+        "max_operating_altitude": 3000,
+        "noise_emission": 40,
+        "cell_technology": "AGM",
+        "height": 700.5,
+        "width": 450.25,
+        "length": 200.75,
+        "power_module_height": 680,
+        "power_module_width": 430,
+        "power_module_length": 190,
+        "battery": 750,
+        "manufacturer": 920
+      },
+      {
+        "power_module_name": "IndustrialMax 1000",
+        "battery_module_name": "PowerCell 72V",
+        "battery_module_energy": 100,
+        "battery_usable_energy": 95.5,
+        "max_output_power": 50,
+        "peak_output_power": 60.254444,
+        "nominal_voltage": 72,
+        "operating_voltage_range": 1000,
+        "communication": "Modbus",
+        "power_module_weight": 450.75,
+        "battery_module_weight": 600,
+        "operating_temperature": 35,
+        "max_operating_altitude": 1500,
+        "noise_emission": 65.5,
+        "cell_technology": "NMC",
+        "height": 1500,
+        "width": 1000,
+        "length": 500,
+        "power_module_height": 1450,
+        "power_module_width": 980,
+        "power_module_length": 480,
+        "battery": 42,
+        "manufacturer": 876
+      },
+      {
+        "power_module_name": "HomeEnergy Plus",
+        "battery_module_name": "EcoStorage 24V",
+        "battery_module_energy": 10.2,
+        "battery_usable_energy": 9.75,
+        "max_output_power": 5,
+        "peak_output_power": 6.25,
+        "nominal_voltage": "karen",
+        "operating_voltage_range": 600,
+        "communication": "Wi-Fi",
+        "power_module_weight": 85,
+        "battery_module_weight": 120.5,
+        "operating_temperature": 20,
+        "max_operating_altitude": 2500,
+        "noise_emission": 45.75,
+        "cell_technology": "LFP",
+        "height": 900.25,
+        "width": 600.75,
+        "length": 300,
+        "power_module_height": 880,
+        "power_module_width": 580.5,
+        "power_module_length": 290,
+        "battery": 999,
+        "manufacturer": 23
+      },
+      {
+        "power_module_name": "UtilityScale X200",
+        "battery_module_name": "MegaBank 800V",
+        "battery_module_energy": 250,
+        "battery_usable_energy": 235.75,
+        "max_output_power": 125.5,
+        "peak_output_power": 150,
+        "nominal_voltage": 800,
+        "operating_voltage_range": -980,
+        "communication": "Ethernet/IP",
+        "power_module_weight": 1850.25,
+        "battery_module_weight": 2200.75,
+        "operating_temperature": 30.5,
+        "max_operating_altitude": 1800,
+        "noise_emission": 60.25,
+        "cell_technology": "LTO",
+        "height": 2200.5,
+        "width": 1200.75,
+        "length": 800,
+        "power_module_height": 2150,
+        "power_module_width": 1180,
+        "power_module_length": 780,
+        "battery": 567,
+        "manufacturer": 432
+      },
+      {
+        "power_module_name": "UtilityScale X200",
+        "battery_module_name": "MegaBank 800V",
+        "battery_module_energy": 250,
+        "battery_usable_energy": 235.75,
+        "max_output_power": 125.5,
+        "peak_output_power": 150,
+        "nominal_voltage": 800,
+        "operating_voltage_range": -980,
+        "communication": "Ethernet/IP",
+        "power_module_weight": 1850.25,
+        "battery_module_weight": 2200.75,
+        "operating_temperature": 30.5,
+        "max_operating_altitude": 1800,
+        "noise_emission": 60.25,
+        "cell_technology": "LTO",
+        "height": 2200.5,
+        "width": 1200.75,
+        "length": 800,
+        "power_module_height": 2150,
+        "power_module_width": 1180,
+        "power_module_length": 780,
+        "battery": -567,
+        "manufacturer": 0
+      }
+    ]
   },
   "/api/modules/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
+    "GET": null,
+    "PUT": [
+      {
+        "power_module_name": "r;kgjewbg;kerbgv;iausvbasdvbsda;kjvbdsa'kjasdbv;kasdjvbas;kdvbasd;kjvbasdvkjasdblijasdkvbasdvjklasbvkjsdvbsalikjbfiugkjvabrfivukjdbciadjfk;bvadf;ijkvbafisvjkjvhasvkhjrnmsdbvkuhdhvbsaudkhfvbasduyvgghhertherthrthrthertherhrthrethtrtrtherrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtkhjadsf",
+        "battery_module_name": "EcoPower 48V",
+        "battery_module_energy": 50.75,
+        "battery_usable_energy": 48.2,
+        "max_output_power": 25.5,
+        "peak_output_power": 30,
+        "nominal_voltage": 48,
+        "operating_voltage_range": 950,
+        "communication": "CAN Bus",
+        "power_module_weight": 150.25,
+        "battery_module_weight": 220.75,
+        "operating_temperature": 25.5,
+        "max_operating_altitude": 2000,
+        "noise_emission": 55,
+        "cell_technology": "LiFePO4",
+        "height": 1200,
+        "width": 800,
+        "length": 400,
+        "power_module_height": 1150,
+        "power_module_width": 780,
+        "power_module_length": 380,
+        "battery": 250,
+        "manufacturer": 150
+      },
+      {
+        "power_module_name": "MarineMaster 12V",
+        "battery_module_name": "AquaCell Pro",
+        "battery_module_energy": 5421452345243532453245234532453254354325342.25,
+        "battery_usable_energy": 4.8,
+        "max_output_power": 2.75,
+        "peak_output_power": 3.5,
+        "nominal_voltage": 12,
+        "operating_voltage_range": 300,
+        "communication": "RS-485",
+        "power_module_weight": 22.5,
+        "battery_module_weight": 65,
+        "operating_temperature": -10,
+        "max_operating_altitude": 3000,
+        "noise_emission": 40,
+        "cell_technology": "AGM",
+        "height": 700.5,
+        "width": 450.25,
+        "length": 200.75,
+        "power_module_height": 680,
+        "power_module_width": 430,
+        "power_module_length": 190,
+        "battery": 750,
+        "manufacturer": 920
+      },
+      {
+        "power_module_name": "IndustrialMax 1000",
+        "battery_module_name": "PowerCell 72V",
+        "battery_module_energy": 100,
+        "battery_usable_energy": 95.5,
+        "max_output_power": 50,
+        "peak_output_power": 60.254444,
+        "nominal_voltage": 72,
+        "operating_voltage_range": 1000,
+        "communication": "Modbus",
+        "power_module_weight": 450.75,
+        "battery_module_weight": 600,
+        "operating_temperature": 35,
+        "max_operating_altitude": 1500,
+        "noise_emission": 65.5,
+        "cell_technology": "NMC",
+        "height": 1500,
+        "width": 1000,
+        "length": 500,
+        "power_module_height": 1450,
+        "power_module_width": 980,
+        "power_module_length": 480,
+        "battery": 42,
+        "manufacturer": 876
+      },
+      {
+        "power_module_name": "HomeEnergy Plus",
+        "battery_module_name": "EcoStorage 24V",
+        "battery_module_energy": 10.2,
+        "battery_usable_energy": 9.75,
+        "max_output_power": 5,
+        "peak_output_power": 6.25,
+        "nominal_voltage": "karen",
+        "operating_voltage_range": 600,
+        "communication": "Wi-Fi",
+        "power_module_weight": 85,
+        "battery_module_weight": 120.5,
+        "operating_temperature": 20,
+        "max_operating_altitude": 2500,
+        "noise_emission": 45.75,
+        "cell_technology": "LFP",
+        "height": 900.25,
+        "width": 600.75,
+        "length": 300,
+        "power_module_height": 880,
+        "power_module_width": 580.5,
+        "power_module_length": 290,
+        "battery": 999,
+        "manufacturer": 23
+      },
+      {
+        "power_module_name": "UtilityScale X200",
+        "battery_module_name": "MegaBank 800V",
+        "battery_module_energy": 250,
+        "battery_usable_energy": 235.75,
+        "max_output_power": 125.5,
+        "peak_output_power": 150,
+        "nominal_voltage": 800,
+        "operating_voltage_range": -980,
+        "communication": "Ethernet/IP",
+        "power_module_weight": 1850.25,
+        "battery_module_weight": 2200.75,
+        "operating_temperature": 30.5,
+        "max_operating_altitude": 1800,
+        "noise_emission": 60.25,
+        "cell_technology": "LTO",
+        "height": 2200.5,
+        "width": 1200.75,
+        "length": 800,
+        "power_module_height": 2150,
+        "power_module_width": 1180,
+        "power_module_length": 780,
+        "battery": 567,
+        "manufacturer": 432
+      },
+      {
+        "power_module_name": "UtilityScale X200",
+        "battery_module_name": "MegaBank 800V",
+        "battery_module_energy": 250,
+        "battery_usable_energy": 235.75,
+        "max_output_power": 125.5,
+        "peak_output_power": 150,
+        "nominal_voltage": 800,
+        "operating_voltage_range": -980,
+        "communication": "Ethernet/IP",
+        "power_module_weight": 1850.25,
+        "battery_module_weight": 2200.75,
+        "operating_temperature": 30.5,
+        "max_operating_altitude": 1800,
+        "noise_emission": 60.25,
+        "cell_technology": "LTO",
+        "height": 2200.5,
+        "width": 1200.75,
+        "length": 800,
+        "power_module_height": 2150,
+        "power_module_width": 1180,
+        "power_module_length": 780,
+        "battery": -567,
+        "manufacturer": 0
+      }
+    ],
+    "PATCH": [
+      {
+        "power_module_name": 42,
+        "battery_module_name": 30000,
+        "battery_module_energy": 1.42,
+        "battery_usable_energy": 2.742325,
+        "noise_emission": 4,
+        "cell_technology": "LFfewfweP",
+        "height": 90.25,
+        "width": 60.75,
+        "length": 9
+      },
+      {
+        "battery_module_weight": 1.5,
+        "operating_temperature": 2,
+        "max_operating_altitude": 200,
+        "noise_emission": 4.75,
+        "cell_technology": "LFfsafgdfewfweP",
+        "height": 90.25,
+        "width": "mum",
+        "randomNonExistentField": "hey"
+      },
+      {
+        "power_module_name": "IndustvcxwsafzrialMax 1000",
+        "length": 500,
+        "power_module_height": 140,
+        "power_module_width": 90,
+        "power_module_length": 480,
+        "battery": -42,
+        "manufacturer": 87
+      },
+      {
+        "power_module_name": "HomeEngwfweegergy Plus",
+        "battery_module_name": "EcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24VEcoStefwergwegorage 24V",
+        "battery_module_energy": 10.42,
+        "battery_usable_energy": 9.75,
+        "max_output_power": 5,
+        "peak_output_power": 6.25,
+        "nominal_voltage": 244,
+        "operating_voltage_range": 600,
+        "communication": 54,
+        "power_module_weight": 8,
+        "battery_module_weight": 12.5,
+        "operating_temperature": 2,
+        "max_operating_altitude": 2500,
+        "noise_emission": 43.75,
+        "cell_technology": "LFfewfweP",
+        "height": 900.25,
+        "width": -600.75,
+        "length": 300
+      },
+      {
+        "power_module_height": 210,
+        "power_module_width": 110,
+        "power_module_length": 78,
+        "battery": 57,
+        "manufacturer": 43000
+      }
+    ],
+    "DELETE": null
   },
-
+  "/api/cells/": {
+    "GET": null,
+    "POST": [
+      {
+        "cell_name": "rye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwv",
+        "nominal_capacity": 100,
+        "nominal_energy": 320,
+        "nominal_cycles": 2000,
+        "gravimetric_energy_density": 150,
+        "volumetric_energy_density": 350,
+        "industry_standard": "LFP71173207",
+        "nominal_voltage": 3.2,
+        "operating_voltage": 3.7,
+        "ac_resistance": 0.05,
+        "max_self_discharge_rate": 2.5,
+        "nominal_soc_at_delivery": 50,
+        "cell_weight": 2.5,
+        "cell_charging_temperature": 45,
+        "cell_discharging_temperature": 55,
+        "height": 120.5,
+        "width": 80.25,
+        "length": 20.75,
+        "module": 250,
+        "manufacturer": 150
+      },
+      {
+        "cell_name": "4cgr7he4",
+        "nominal_capacity": "bsdikss",
+        "nominal_energy": 180,
+        "nominal_cycles": 1500,
+        "gravimetric_energy_density": 200,
+        "volumetric_energy_density": 400,
+        "industry_standard": "NMC18650",
+        "nominal_voltage": 3.6,
+        "operating_voltage": 4.2,
+        "ac_resistance": 0.03,
+        "max_self_discharge_rate": 3,
+        "nominal_soc_at_delivery": 60,
+        "cell_weight": 1.2,
+        "cell_charging_temperature": 50,
+        "cell_discharging_temperature": 60,
+        "height": 65,
+        "width": 18.5,
+        "length": 65,
+        "module": 500,
+        "manufacturer": 300
+      },
+      {
+        "cell_name": "upc3awdt",
+        "nominal_capacity": 20,
+        "nominal_energy": 50,
+        "nominal_cycles": 10000,
+        "gravimetric_energy_density": 80,
+        "volumetric_energy_density": 200,
+        "industry_standard": 42,
+        "nominal_voltage": 2.4,
+        "operating_voltage": 2.8,
+        "ac_resistance": 0.1,
+        "max_self_discharge_rate": 1.5,
+        "nominal_soc_at_delivery": 70,
+        "cell_weight": 0.8,
+        "cell_charging_temperature": 55,
+        "cell_discharging_temperature": 6,
+        "height": 26,
+        "width": 26,
+        "length": 65,
+        "module": 750,
+        "manufacturer": 450
+      },
+      {
+        "cell_name": "9niy37jc",
+        "nominal_capacity": 5,
+        "nominal_energy": 18,
+        "nominal_cycles": 500,
+        "gravimetric_energy_density": 250,
+        "volumetric_energy_density": 500,
+        "industry_standard": "LiPo-103450",
+        "nominal_voltage": 3.73231,
+        "operating_voltage": 4.2,
+        "ac_resistance": 0.02,
+        "max_self_discharge_rate": 5,
+        "nominal_soc_at_delivery": 40,
+        "cell_weight": 0.1,
+        "cell_charging_temperature": 40,
+        "cell_discharging_temperature": 50,
+        "height": 34,
+        "width": 10,
+        "length": 50,
+        "module": 100,
+        "manufacturer": 200
+      },
+      {
+        "cell_name": "h666s0m0",
+        "nominal_capacity": 10,
+        "nominal_energy": 12,
+        "nominal_cycles": 1000,
+        "gravimetric_energy_density": 100,
+        "volumetric_energy_density": 250,
+        "industry_standard": "NiMH-AA",
+        "nominal_voltage": 1.2,
+        "operating_voltage": 1232.5,
+        "ac_resistance": 0.15,
+        "max_self_discharge_rate": 10,
+        "nominal_soc_at_delivery": 80,
+        "cell_weight": 0.5,
+        "cell_charging_temperature": 30,
+        "cell_discharging_temperature": 40,
+        "height": 50,
+        "width": 14,
+        "length": 50,
+        "module": 900,
+        "manufacturer": 800
+      },
+      {
+        "cell_name": "h666s0m0",
+        "nominal_capacity": 10,
+        "nominal_energy": 12,
+        "nominal_cycles": 1000,
+        "gravimetric_energy_density": 100,
+        "volumetric_energy_density": 250,
+        "industry_standard": "NiMH-AA",
+        "nominal_voltage": 1.2,
+        "operating_voltage": 1232.5,
+        "ac_resistance": 0.15,
+        "max_self_discharge_rate": 10,
+        "nominal_soc_at_delivery": 80,
+        "cell_weight": 0.5,
+        "cell_charging_temperature": 30,
+        "cell_discharging_temperature": 40,
+        "height": 50,
+        "width": 14,
+        "length": 50,
+        "module": -900,
+        "manufacturer": 800000000
+      }
+    ]
+  },
+  "/api/cells/{id}/": {
+    "GET": null,
+    "PUT": [
+      {
+        "cell_name": "rye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwvrye8bgwv",
+        "nominal_capacity": 100,
+        "nominal_energy": 320,
+        "nominal_cycles": 2000,
+        "gravimetric_energy_density": 150,
+        "volumetric_energy_density": 350,
+        "industry_standard": "LFP71173207",
+        "nominal_voltage": 3.2,
+        "operating_voltage": 3.7,
+        "ac_resistance": 0.05,
+        "max_self_discharge_rate": 2.5,
+        "nominal_soc_at_delivery": 50,
+        "cell_weight": 2.5,
+        "cell_charging_temperature": 45,
+        "cell_discharging_temperature": 55,
+        "height": 120.5,
+        "width": 80.25,
+        "length": 20.75,
+        "module": 250,
+        "manufacturer": 150
+      },
+      {
+        "cell_name": "4cgr7he4",
+        "nominal_capacity": "bsdikss",
+        "nominal_energy": 180,
+        "nominal_cycles": 1500,
+        "gravimetric_energy_density": 200,
+        "volumetric_energy_density": 400,
+        "industry_standard": "NMC18650",
+        "nominal_voltage": 3.6,
+        "operating_voltage": 4.2,
+        "ac_resistance": 0.03,
+        "max_self_discharge_rate": 3,
+        "nominal_soc_at_delivery": 60,
+        "cell_weight": 1.2,
+        "cell_charging_temperature": 50,
+        "cell_discharging_temperature": 60,
+        "height": 65,
+        "width": 18.5,
+        "length": 65,
+        "module": 500,
+        "manufacturer": 300
+      },
+      {
+        "cell_name": "upc3awdt",
+        "nominal_capacity": 20,
+        "nominal_energy": 50,
+        "nominal_cycles": 10000,
+        "gravimetric_energy_density": 80,
+        "volumetric_energy_density": 200,
+        "industry_standard": 42,
+        "nominal_voltage": 2.4,
+        "operating_voltage": 2.8,
+        "ac_resistance": 0.1,
+        "max_self_discharge_rate": 1.5,
+        "nominal_soc_at_delivery": 70,
+        "cell_weight": 0.8,
+        "cell_charging_temperature": 55,
+        "cell_discharging_temperature": 6,
+        "height": 26,
+        "width": 26,
+        "length": 65,
+        "module": 750,
+        "manufacturer": 450
+      },
+      {
+        "cell_name": "9niy37jc",
+        "nominal_capacity": 5,
+        "nominal_energy": 18,
+        "nominal_cycles": 500,
+        "gravimetric_energy_density": 250,
+        "volumetric_energy_density": 500,
+        "industry_standard": "LiPo-103450",
+        "nominal_voltage": 3.73231,
+        "operating_voltage": 4.2,
+        "ac_resistance": 0.02,
+        "max_self_discharge_rate": 5,
+        "nominal_soc_at_delivery": 40,
+        "cell_weight": 0.1,
+        "cell_charging_temperature": 40,
+        "cell_discharging_temperature": 50,
+        "height": 34,
+        "width": 10,
+        "length": 50,
+        "module": 100,
+        "manufacturer": 200
+      },
+      {
+        "cell_name": "h666s0m0",
+        "nominal_capacity": 10,
+        "nominal_energy": 12,
+        "nominal_cycles": 1000,
+        "gravimetric_energy_density": 100,
+        "volumetric_energy_density": 250,
+        "industry_standard": "NiMH-AA",
+        "nominal_voltage": 1.2,
+        "operating_voltage": 1232.5,
+        "ac_resistance": 0.15,
+        "max_self_discharge_rate": 10,
+        "nominal_soc_at_delivery": 80,
+        "cell_weight": 0.5,
+        "cell_charging_temperature": 30,
+        "cell_discharging_temperature": 40,
+        "height": 50,
+        "width": 14,
+        "length": 50,
+        "module": 900,
+        "manufacturer": 800
+      },
+      {
+        "cell_name": "h666s0m0",
+        "nominal_capacity": 10,
+        "nominal_energy": 12,
+        "nominal_cycles": 1000,
+        "gravimetric_energy_density": 100,
+        "volumetric_energy_density": 250,
+        "industry_standard": "NiMH-AA",
+        "nominal_voltage": 1.2,
+        "operating_voltage": 1232.5,
+        "ac_resistance": 0.15,
+        "max_self_discharge_rate": 10,
+        "nominal_soc_at_delivery": 80,
+        "cell_weight": 0.5,
+        "cell_charging_temperature": 30,
+        "cell_discharging_temperature": 40,
+        "height": 50,
+        "width": 14,
+        "length": 50,
+        "module": -900,
+        "manufacturer": 800000000
+      }
+    ],
+    "PATCH": [
+      {
+        "cell_name": 422,
+        "nominal_capacity": 100
+      },
+      {
+        "cell_name": "locbcffk",
+        "nominal_capacity": 50,
+        "nominal_energy": 180,
+        "nominal_cycles": "fwfasdfs"
+      },
+      {
+        "gravimetric_energy_density": 20,
+        "volumetric_energy_density": 50,
+        "industry_standard": "LiPo450",
+        "nominal_voltage": 3.7,
+        "operating_voltage": 4000.2,
+        "ac_resistance": 0.02,
+        "max_self_discharge_rate": 5,
+        "nominal_soc_at_delivery": 40,
+        "cell_weight": 0.1,
+        "cell_charging_temperature": 4,
+        "cell_discharging_temperature": 5,
+        "height": 34,
+        "width": 10,
+        "length": 5,
+        "module": 10,
+        "manufacturer": 200
+      },
+      {
+        "cell_name": "cflfkmr9",
+        "module": -90,
+        "manufacturer": 80
+      }
+    ],
+    "DELETE": null
+  },
+  "/api/measurements/": {
+    "GET": null,
+    "POST": [
+      {
+        "cell_ids": [
+          0,
+          2,
+          87,
+          123
+        ],
+        "voltage": [
+          3.02,
+          "karen",
+          3.78,
+          4.02
+        ],
+        "temperature": [
+          5.3,
+          28.7,
+          "filed",
+          4.9
+        ],
+        "sot": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "phase": [
+          45,
+          3.5,
+          60.2,
+          110
+        ],
+        "current": [
+          2.5,
+          0,
+          1.1
+        ],
+        "soc": [
+          7.3,
+          5.6,
+          65.9,
+          92.4
+        ]
+      },
+      {
+        "cell_ids": [
+          10,
+          5,
+          200,
+          789
+        ],
+        "temperature": [
+          18.9,
+          0.2,
+          27.5,
+          19.8
+        ],
+        "sot": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "phase": [
+          10,
+          270.5,
+          90.1,
+          0
+        ],
+        "current": [
+          0,
+          1.2,
+          0,
+          4.5
+        ]
+      }
+    ]
+  },
+  "/api/measurements/{id}/": {
+    "GET": null,
+    "PUT": [
+      {
+        "cell_id": -5,
+        "voltage": 3.92,
+        "temperature": 25.3,
+        "sot": 1,
+        "phase": 45,
+        "current": 2.5,
+        "soc": 78.3
+      },
+      {
+        "cell_id": 42,
+        "voltage": "doll",
+        "temperature": 28.7,
+        "sot": 0,
+        "phase": 30.5,
+        "current": 0,
+        "soc": 85.6
+      },
+      {
+        "cell_id": 87,
+        "voltage": 3.78,
+        "sot": 1,
+        "phase": 60.2,
+        "current": 5.1,
+        "soc": 65.9
+      },
+      {
+        "cell_id": 123,
+        "voltage": 4.02,
+        "temperature": 24.9,
+        "sot": 1,
+        "phase": "killbill",
+        "current": 0,
+        "soc": 92.4
+      },
+      {
+        "voltage": 3.95,
+        "temperature": 31.6,
+        "sot": 1,
+        "phase": 90.1,
+        "current": 0,
+        "soc": 63.9
+      }
+    ],
+    "PATCH": [
+      {
+        "cell_id": "turle",
+        "current": 22.5,
+        "soc": 7.3
+      },
+      {
+        "sot": "none"
+      },
+      {
+        "cell_id": -1
+      },
+      {
+        "voltage": "rooster",
+        "temperature": 240.9
+      }
+    ],
+    "DELETE": null
+  },
+  "/api/eis/": {
+    "POST": [
+      {
+        "status": "successsuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccess",
+        "event_id": "207_1",
+        "cell_id": 1,
+        "frequency": 25.11886432,
+        "amplitude": 0.00033255133178403194,
+        "phase": 0.085914587975807,
+        "current_offset": 2,
+        "v_start": 3.5,
+        "v_end": 3.5,
+        "temperature": 25
+      },
+      {
+        "status": "success",
+        "event_id": "20successsuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccess8_2",
+        "cell_id": 2,
+        "frequency": 50.23772864,
+        "amplitude": 0.0004412345678901235,
+        "phase": 0.12345678901234566,
+        "current_offset": 1.5,
+        "v_start": 3.6,
+        "v_end": 3.7,
+        "temperature": 26.5
+      },
+      {
+        "status": "failure",
+        "event_id": "209_3",
+        "cell_id": 3,
+        "frequency": -75.35659296,
+        "amplitude": 0.00012345678901234567,
+        "phase": 0.23456789012345677,
+        "current_offset": 1,
+        "v_start": 3.4,
+        "v_end": 3.5,
+        "temperature": 24
+      },
+      {
+        "status": "success",
+        "event_id": "210_4",
+        "cell_id": 4,
+        "frequency": 100.47545728,
+        "amplitude": "john",
+        "phase": 0.3456789012345679,
+        "current_offset": 2.5,
+        "v_start": 3.7,
+        "v_end": 3.8,
+        "temperature": 27
+      },
+      {
+        "status": "success",
+        "event_id": "211_5",
+        "cell_id": -5,
+        "frequency": 125.5943216,
+        "amplitude": 0.000543210987654321,
+        "phase": 0.4567890123456789,
+        "current_offset": 1.8,
+        "v_start": 3.5,
+        "v_end": 3.6,
+        "temperature": 25.5
+      }
+    ]
+  },
+  "/api/eis/{id}/": {
+    "GET{": null,
+    "PUT": [
+      {
+        "status": "successsuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccess",
+        "event_id": "207_1",
+        "cell_id": 1,
+        "frequency": 25.11886432,
+        "amplitude": 0.00033255133178403194,
+        "phase": 0.085914587975807,
+        "current_offset": 2,
+        "v_start": 3.5,
+        "v_end": 3.5,
+        "temperature": 25
+      },
+      {
+        "status": "success",
+        "event_id": "20successsuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccess8_2",
+        "cell_id": 2,
+        "frequency": 50.23772864,
+        "amplitude": 0.0004412345678901235,
+        "phase": 0.12345678901234566,
+        "current_offset": 1.5,
+        "v_start": 3.6,
+        "v_end": 3.7,
+        "temperature": 26.5
+      },
+      {
+        "status": "failure",
+        "event_id": "209_3",
+        "cell_id": 3,
+        "frequency": -75.35659296,
+        "amplitude": 0.00012345678901234567,
+        "phase": 0.23456789012345677,
+        "current_offset": 1,
+        "v_start": 3.4,
+        "v_end": 3.5,
+        "temperature": 24
+      },
+      {
+        "status": "success",
+        "event_id": "210_4",
+        "cell_id": 4,
+        "frequency": 100.47545728,
+        "amplitude": "john",
+        "phase": 0.3456789012345679,
+        "current_offset": 2.5,
+        "v_start": 3.7,
+        "v_end": 3.8,
+        "temperature": 27
+      },
+      {
+        "status": "success",
+        "event_id": "211_5",
+        "cell_id": -5,
+        "frequency": 125.5943216,
+        "amplitude": 0.000543210987654321,
+        "phase": 0.4567890123456789,
+        "current_offset": 1.8,
+        "v_start": 3.5,
+        "v_end": 3.6,
+        "temperature": 25.5
+      }
+    ],
+    "PATCH": [
+      {
+        "cell_id": -6,
+        "frequency": 150.71318592,
+        "amplitude": 0.0006543210987654321
+      },
+      {
+        "status": 343,
+        "v_end": "msaks",
+        "temperature": 24.5
+      },
+      {
+        "amplitude": "hello",
+        "phase": 0.7890123456789012
+      },
+      {
+        "frequency": -226.06977888,
+        "amplitude": 0.0009876543210987653,
+        "v_end": 3.6,
+        "temperature": 25
+      },
+      {
+        "status": "success",
+        "event_id": "216_10",
+        "temperature": -232323210
+      }
+    ],
+    "DELETE": null
+  },
+  "/api/chemical/": {
+    "POST": [
+      {
+        "hazardus": "4474",
+        "extinguising_agent": "fe",
+        "chemical_name": "08agqiga"
+      },
+      {
+        "hazardus": false,
+        "extinguising_agent": "fdfd",
+        "chemical_name": "x5afls5f"
+      },
+      {
+        "hazardus": true,
+        "extinguising_agent": "fe",
+        "chemical_name": true
+      },
+      {
+        "hazardus": 8484,
+        "extinguising_agent": "fe",
+        "chemical_name": "69xcla0t"
+      },
+      {
+        "hazardus": false,
+        "extinguising_agent": null,
+        "chemical_name": "08agqiga"
+      }
+    ]
+  },
+  "/api/chemical/{id}/": {
+    "GET": null,
+    "PUT": [
+      {
+        "hazardus": "4474",
+        "extinguising_agent": "fe",
+        "chemical_name": "08agqiga"
+      },
+      {
+        "hazardus": false,
+        "extinguising_agent": "fdfd",
+        "chemical_name": "x5afls5f"
+      },
+      {
+        "hazardus": true,
+        "extinguising_agent": "fe",
+        "chemical_name": true
+      },
+      {
+        "hazardus": 8484,
+        "extinguising_agent": "fe",
+        "chemical_name": "69xcla0t"
+      },
+      {
+        "hazardus": false,
+        "extinguising_agent": null,
+        "chemical_name": "08agqiga"
+      }
+    ],
+    "PATCH": [
+      {
+        "hazardus": "yourmum"
+      },
+      {
+        "chemical_name": "08agqiga"
+      },
+      {
+        "hazardus": 42
+      },
+      {
+        "extinguising_agent": "ssfe"
+      },
+      {
+        "hazardus": "false"
+      }
+    ],
+    "DELETE": null
+  },
+  "/api/manufacturers/": {
+    "POST": [
+      {
+        "name": "jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7",
+        "email": "contact@acmechem.com",
+        "city": "New York",
+        "street": "Broadway Ave",
+        "number": 123,
+        "zipcode": 10001
+      },
+      {
+        "name": "haisqjif",
+        "email": "info@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.com",
+        "city": "London",
+        "street": "Baker Street",
+        "number": 221,
+        "zipcode": 56789
+      },
+      {
+        "name": "2tlmhrlp",
+        "email": "support@biogenix.com",
+        "city": "Berlin",
+        "street": "Friedrichstr",
+        "number": 78,
+        "zipcode": 10117
+      },
+      {
+        "name": "yiv2ne3t",
+        "email": "sales@chemtech.com",
+        "city": "Tokyo",
+        "street": "Shibuya Street",
+        "number": "vsdvsd35",
+        "zipcode": 1500042
+      },
+      {
+        "name": "abi5kj7b",
+        "email": "eco@chemind.com",
+        "city": "Paris",
+        "street": "Rue Lafayette",
+        "number": 12,
+        "zipcode": "cfsfsdf"
+      }
+    ]
+  },
+  "/api/manufacturers/{id}/": {
+    "GET": null,
+    "PUT": [
+      {
+        "name": "jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7jbwjook7",
+        "email": "contact@acmechem.com",
+        "city": "New York",
+        "street": "Broadway Ave",
+        "number": 123,
+        "zipcode": 10001
+      },
+      {
+        "name": "haisqjif",
+        "email": "info@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.cominfo@globalpharma.com",
+        "city": "London",
+        "street": "Baker Street",
+        "number": 221,
+        "zipcode": 56789
+      },
+      {
+        "name": "2tlmhrlp",
+        "email": "support@biogenix.com",
+        "city": "Berlin",
+        "street": "Friedrichstr",
+        "number": 78,
+        "zipcode": 10117
+      },
+      {
+        "name": "yiv2ne3t",
+        "email": "sales@chemtech.com",
+        "city": "Tokyo",
+        "street": "Shibuya Street",
+        "number": "vsdvsd35",
+        "zipcode": 1500042
+      },
+      {
+        "name": "abi5kj7b",
+        "email": "eco@chemind.com",
+        "city": "Paris",
+        "street": "Rue Lafayette",
+        "number": 12,
+        "zipcode": "cfsfsdf"
+      }
+    ],
+    "PATCH": [
+      {
+        "name": "rkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dtrkrre0dt"
+      },
+      {
+        "street": "Orchavsfdrd dsfdRoad",
+        "number": "fsdfd",
+        "zipcode": 288341
+      },
+      {
+        "name": "vdd41x5f",
+        "city": "Dubvfdsai",
+        "street": "Sheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed RoadSheikvfsdh Zayed Roadv"
+      },
+      {
+        "number": "yourmum",
+        "zipcode": 900258
+      },
+      {
+        "email": "resedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.comesedsfsarch@futuresynth.com",
+        "zipcode": 111202
+      }
+    ],
+    "DELETE": null
+  },
+  "/api/material/": {
+    "POST": [
+      {
+        "critical_material": "trxue",
+        "recycled_material": false,
+        "material": "Lithium"
+      },
+      {
+        "critical_material": false,
+        "recycled_material": "txrue",
+        "material": "Recycled Aluminum"
+      },
+      {
+        "critical_material": true,
+        "recycled_material": true,
+        "material": "Rare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth Elements"
+      },
+      {
+        "critical_material": "rfgegfer",
+        "recycled_material": false,
+        "material": "Glass"
+      },
+      {
+        "critical_material": true,
+        "recycled_material": "fsdvsdsdfsdfsdf",
+        "material": 42
+      }
+    ]
+  },
+  "/api/material/{id}/": {
+    "GET": null,
+    "PUT": [
+      {
+        "critical_material": "trxue",
+        "recycled_material": false,
+        "material": "Lithium"
+      },
+      {
+        "critical_material": false,
+        "recycled_material": "txrue",
+        "material": "Recycled Aluminum"
+      },
+      {
+        "critical_material": true,
+        "recycled_material": true,
+        "material": "Rare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth ElementsRare Earth Elements"
+      },
+      {
+        "critical_material": "rfgegfer",
+        "recycled_material": false,
+        "material": "Glass"
+      },
+      {
+        "critical_material": true,
+        "recycled_material": "fsdvsdsdfsdfsdf",
+        "material": 42
+      }
+    ],
+    "PATCH": [
+      {
+        "critical_material": 43
+      },
+      {
+        "material": "GraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsGraphitevdsv"
+      },
+      {
+        "recycled_material": "dsds",
+        "material": "Recycled Coxcxpper"
+      },
+      {
+        "critical_material": false,
+        "recycled_material": "cxcxcx"
+      },
+      {
+        "recycled_material": 42
+      }
+    ],
+    "DELETE": null
+  },
   "/api/safety_feature/": {
-    "GET": , 
-    "POST": 
+    "POST": [
+      {
+        "safety_feature": "txm"
+      },
+      {
+        "safety_feature": "opx"
+      },
+      {
+        "safety_feature": "xsc"
+      },
+      {
+        "safety_feature": "txm"
+      },
+      {
+        "safety_feature": "oxxxp"
+      }
+    ]
   },
   "/api/safety_feature/{id}/": {
-    "GET": , 
-    "PUT": , 
-    "PATCH": , 
-    "DELETE": 
-  },
+    "GET": null,
+    "PUT": [
+      {
+        "safety_feature": "txm"
+      },
+      {
+        "safety_feature": "opx"
+      },
+      {
+        "safety_feature": "xsc"
+      },
+      {
+        "safety_feature": "txm"
+      },
+      {
+        "safety_feature": "oxxxp"
+      }
+    ],
+    "PATCH": [
+      {
+        "safety_feature": "txm"
+      },
+      {
+        "safety_feature": "opx"
+      },
+      {
+        "safety_feature": "xsc"
+      },
+      {
+        "safety_feature": "txm"
+      },
+      {
+        "safety_feature": "oxxxp"
+      }
+    ],
+    "DELETE": null
+  }
 }
