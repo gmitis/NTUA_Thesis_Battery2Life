@@ -17,11 +17,11 @@ export const updateMetrics = (isValid, inputValidity) => {
     if (isValid && inputValidity) {
         TP.add(1);
     } else if (!isValid &&  inputValidity) {
-        TN.add(1);
+        FN.add(1);
     } else if ( isValid && !inputValidity) {
         FP.add(1);
     } else if (!isValid && !inputValidity) {
-        FN.add(1);
+        TN.add(1);
     }
 
     const TPV = TP._value;
