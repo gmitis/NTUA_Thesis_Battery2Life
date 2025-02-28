@@ -12,29 +12,34 @@ export const precision = new Rate("precision");
 export const sensitivity = new Rate("sensitivity");
 export const specificity = new Rate("specificity");
 
+let tpValue = 0;
+let tnValue = 0;
+let fpValue = 0;
+let fnValue = 0;
+
 // helper function
 export const updateMetrics = (isValid, inputValidity) => {
     if (isValid && inputValidity) {
         TP.add(1);
+        tpValue++;
     } else if (!isValid &&  inputValidity) {
         FN.add(1);
+        fnValue++;
     } else if ( isValid && !inputValidity) {
         FP.add(1);
+        fpValue++;
     } else if (!isValid && !inputValidity) {
         TN.add(1);
+        tnValue++;
     }
 
-    const TPV = TP._value;
-    const TNV = TN._value;
-    const FPV = FP._value;
-    const FNV = FN._value;
-    const total = TPV + TNV + FPV + FNV;
+    const total = tpValue + tnValue + fpValue + fnValue;
 
     if (total > 0) {
-        accuracy.add((TPV + TNV) / total);
-        misclassification.add((FPV + FNV) / total);
+        accuracy.add((tpValue + tnValue) / total);
+        misclassification.add((fpValue + fnValue) / total);
     }
-    if (TPV + FPV > 0) precision.add(TPV / (TPV + FPV));
-    if (TPV + FNV > 0) sensitivity.add(TPV / (TPV + FNV));
-    if (TNV + FPV > 0) specificity.add(TNV / (TNV + FPV));
+    if (tpValue + fpValue > 0) precision.add(tpValue / (tpValue + fpValue));
+    if (tpValue + fnValue > 0) sensitivity.add(tpValue / (tpValue + fnValue));
+    if (tnValue + fpValue > 0) specificity.add(tnValue / (tnValue + fpValue));
 };

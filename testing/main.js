@@ -14,6 +14,19 @@ export const options = {
     vus: 1,
     iterations: 1,
     duration: "3s",
+    summaryTrendStats: ["min", "med", "avg", "p(90)", "p(95)", "max"],
+    // Add thresholds for your metrics to ensure they appear in the summary
+    thresholds: {
+        FN: ["count>=0"],  // Force display even if 0
+        FP: ["count>=0"],  // Force display even if 0
+        TN: ["count>=0"],  // Force display even if 0
+        TP: ["count>=0"],  // Force display even if 0
+        accuracy: ["rate>=0"],
+        misclassification: ["rate>=0"],
+        precision: ["rate>=0"],
+        sensitivity: ["rate>=0"],
+        specificity: ["rate>=0"]
+    }
 };
 
 
@@ -69,6 +82,4 @@ export default function (data) {
         performTest(endpoint, params, vi, true, 5);
         performTest(endpoint, params, ivi, false, 5);
     }
-
-    sleep(1);
 }
