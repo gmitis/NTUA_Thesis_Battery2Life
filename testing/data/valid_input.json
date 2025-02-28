@@ -3,8 +3,8 @@
     "GET": null,
     "POST": [
       {
-        "serial_number": "yiqfqaur",
-        "battery_name": "2cmovxt8",
+        "serial_number": "q9n42wru",
+        "battery_name": "9rt562ax",
         "weight": 6671.295,
         "capacity": 776000,
         "original_power_capability": 776000,
@@ -19,8 +19,8 @@
         "manufactured_zipcode": "string"
       },
       {
-        "serial_number": "mclt0ejq",
-        "battery_name": "e1trd7ik",
+        "serial_number": "jiroqz1b",
+        "battery_name": "rzmeodi4",
         "weight": 5000.75,
         "capacity": 650000,
         "original_power_capability": 650000,
@@ -35,8 +35,8 @@
         "manufactured_zipcode": "10001"
       },
       {
-        "serial_number": "cbns1lov",
-        "battery_name": "n61xh0os",
+        "serial_number": "53u377sq",
+        "battery_name": "t5ihc5ze",
         "weight": 7200,
         "capacity": 810000,
         "original_power_capability": 810000,
@@ -51,8 +51,8 @@
         "manufactured_zipcode": "10117"
       },
       {
-        "serial_number": "acu0xeqk",
-        "battery_name": "eu80lble",
+        "serial_number": "g4xaoac1",
+        "battery_name": "krpjdtwq",
         "weight": 4500.3,
         "capacity": 500000,
         "original_power_capability": 500000,
@@ -67,8 +67,8 @@
         "manufactured_zipcode": "150-0002"
       },
       {
-        "serial_number": "0jdoyg6q",
-        "battery_name": "66ha21br",
+        "serial_number": "5o7q2a41",
+        "battery_name": "ktiyubg2",
         "weight": 6100.9,
         "capacity": 720000,
         "original_power_capability": 720000,
@@ -88,8 +88,8 @@
     "GET": null,
     "PUT": [
       {
-        "serial_number": "1fhxaw4f",
-        "battery_name": "2pco53vu",
+        "serial_number": "ralne7w8",
+        "battery_name": "9of3b4dg",
         "weight": 6400.85,
         "capacity": 7850000,
         "original_power_capability": 7850500,
@@ -104,8 +104,8 @@
         "manufactured_zipcode": "60611"
       },
       {
-        "serial_number": "swrrho5j",
-        "battery_name": "xspsy289",
+        "serial_number": "zvxfy04w",
+        "battery_name": "c38slf1w",
         "weight": 6050.4,
         "capacity": 7350000,
         "original_power_capability": 7350200,
@@ -120,8 +120,8 @@
         "manufactured_zipcode": "28013"
       },
       {
-        "serial_number": "hjqoonpq",
-        "battery_name": "rezj61zr",
+        "serial_number": "kssgkmp9",
+        "battery_name": "z4vjr75r",
         "weight": 5800.6,
         "capacity": 7100000,
         "original_power_capability": 7100500,
@@ -136,8 +136,8 @@
         "manufactured_zipcode": "06164"
       },
       {
-        "serial_number": "8336ebdh",
-        "battery_name": "fyk5k4gm",
+        "serial_number": "jblvkezh",
+        "battery_name": "m3kmp3sp",
         "weight": 6200.9,
         "capacity": 7650000,
         "original_power_capability": 7650100,
@@ -152,8 +152,8 @@
         "manufactured_zipcode": "2000"
       },
       {
-        "serial_number": "libg7ew4",
-        "battery_name": "2qitt5oz",
+        "serial_number": "gmso5jzc",
+        "battery_name": "kysj77xz",
         "weight": 6631.295,
         "capacity": 7760200,
         "original_power_capability": 7760300,
@@ -170,24 +170,24 @@
     ],
     "PATCH": [
       {
-        "serial_number": "lfnj5w2y",
-        "battery_name": "2ox0sa87",
+        "serial_number": "cbsouo68",
+        "battery_name": "xt36oxj2",
         "weight": 6420.12
       },
       {
-        "battery_name": "7ke2ws9t",
+        "battery_name": "6tn8duxj",
         "expected_endoflife": "2028-05-10",
         "height": 2980.75
       },
       {
-        "serial_number": "ngznuhg6",
+        "serial_number": "joam6yma",
         "capacity": 7200000
       },
       {
-        "serial_number": "3drhozkg",
+        "serial_number": "ti43lsiu",
         "width": 5,
         "manufacturer": 200,
-        "battery_name": "dk9uhwck",
+        "battery_name": "1vs1qqqn",
         "manufactured_city": "London",
         "original_power_capability": 7750500
       }
@@ -518,7 +518,7 @@
     "GET": null,
     "POST": [
       {
-        "cell_name": "ubohvliw",
+        "cell_name": "l5gipd09",
         "nominal_capacity": 100,
         "nominal_energy": 320,
         "nominal_cycles": 2000,
@@ -540,7 +540,7 @@
         "manufacturer": 150
       },
       {
-        "cell_name": "i6xldkmh",
+        "cell_name": "kinfwyzu",
         "nominal_capacity": 50,
         "nominal_energy": 180,
         "nominal_cycles": 1500,
@@ -562,7 +562,7 @@
         "manufacturer": 300
       },
       {
-        "cell_name": "67509j61",
+        "cell_name": "48u1mf1z",
         "nominal_capacity": 20,
         "nominal_energy": 50,
         "nominal_cycles": 10000,
@@ -584,7 +584,7 @@
         "manufacturer": 450
       },
       {
-        "cell_name": "7b8s455n",
+        "cell_name": "t5m4whep",
         "nominal_capacity": 5,
         "nominal_energy": 18,
         "nominal_cycles": 500,
@@ -606,7 +606,7 @@
         "manufacturer": 200
       },
       {
-        "cell_name": "ktbqmc8q",
+        "cell_name": "luu905zl",
         "nominal_capacity": 10,
         "nominal_energy": 12,
         "nominal_cycles": 1000,
@@ -633,7 +633,7 @@
     "GET": null,
     "PUT": [
       {
-        "cell_name": "x91om6oh",
+        "cell_name": "j1tr21vz",
         "nominal_capacity": 10,
         "nominal_energy": 30,
         "nominal_cycles": 200,
@@ -655,7 +655,7 @@
         "manufacturer": 15
       },
       {
-        "cell_name": "u76uww7x",
+        "cell_name": "yjcdm31c",
         "nominal_capacity": 5,
         "nominal_energy": 180,
         "nominal_cycles": 1500,
@@ -677,7 +677,7 @@
         "manufacturer": 30
       },
       {
-        "cell_name": "2yehyw28",
+        "cell_name": "u4jffiw9",
         "nominal_capacity": 20,
         "nominal_energy": 50,
         "nominal_cycles": 1000,
@@ -699,7 +699,7 @@
         "manufacturer": 450
       },
       {
-        "cell_name": "22bk74cm",
+        "cell_name": "afb732f9",
         "nominal_capacity": 5,
         "nominal_energy": 18,
         "nominal_cycles": 50,
@@ -719,7 +719,7 @@
         "length": 50
       },
       {
-        "cell_name": "izhqei6p",
+        "cell_name": "8bwvblbz",
         "nominal_capacity": 10,
         "nominal_energy": 12,
         "nominal_cycles": 1000,
@@ -742,7 +742,7 @@
     ],
     "PATCH": [
       {
-        "cell_name": "maskhfpa",
+        "cell_name": "dhfglp6a",
         "nominal_capacity": 100,
         "nominal_energy": 320,
         "nominal_cycles": 200,
@@ -758,7 +758,7 @@
         "manufacturer": 150
       },
       {
-        "cell_name": "62hzfcwy",
+        "cell_name": "37ve2942",
         "nominal_capacity": 50,
         "nominal_energy": 180,
         "nominal_cycles": 150,
@@ -776,7 +776,7 @@
         "manufacturer": 300
       },
       {
-        "cell_name": "lv26pee3",
+        "cell_name": "vdtom3ob",
         "nominal_capacity": 20,
         "nominal_energy": 50,
         "nominal_cycles": 10000,
@@ -814,7 +814,7 @@
         "manufacturer": 200
       },
       {
-        "cell_name": "xx3iripg",
+        "cell_name": "pwn8yp77",
         "module": 90,
         "manufacturer": 80
       }
@@ -1286,27 +1286,27 @@
       {
         "hazardus": true,
         "extinguising_agent": "fe",
-        "chemical_name": "qjl6ktiq"
+        "chemical_name": "b6gzqihd"
       },
       {
         "hazardus": false,
         "extinguising_agent": null,
-        "chemical_name": "8s1svb2o"
+        "chemical_name": "p3jme3zm"
       },
       {
         "hazardus": true,
         "extinguising_agent": "fe",
-        "chemical_name": "pakkuhs4"
+        "chemical_name": "gaahwrl8"
       },
       {
         "hazardus": true,
         "extinguising_agent": "fe",
-        "chemical_name": "064gnt4d"
+        "chemical_name": "p8f8rac5"
       },
       {
         "hazardus": false,
         "extinguising_agent": null,
-        "chemical_name": "3hlwql7a"
+        "chemical_name": "2jkf7lkj"
       }
     ]
   },
@@ -1316,27 +1316,27 @@
       {
         "hazardus": true,
         "extinguising_agent": "fe",
-        "chemical_name": "nfwaapfq"
+        "chemical_name": "pqy55x2w"
       },
       {
         "hazardus": true,
         "extinguising_agent": "fe",
-        "chemical_name": "nn2fui9o"
+        "chemical_name": "v22qtheg"
       },
       {
         "hazardus": false,
         "extinguising_agent": null,
-        "chemical_name": "yuzgfwmd"
+        "chemical_name": "lwuq9zcg"
       },
       {
         "hazardus": true,
         "extinguising_agent": "fe",
-        "chemical_name": "wxs4tyx4"
+        "chemical_name": "342p343i"
       },
       {
         "hazardus": true,
         "extinguising_agent": "fe",
-        "chemical_name": "bl6mgzp0"
+        "chemical_name": "iafnv60e"
       }
     ],
     "PATCH": [
@@ -1345,11 +1345,11 @@
         "extinguising_agent": null
       },
       {
-        "chemical_name": "akuxpb6p"
+        "chemical_name": "inuggwch"
       },
       {
         "hazardus": true,
-        "chemical_name": "rgnwq8kv"
+        "chemical_name": "ze5yojnk"
       },
       {
         "extinguising_agent": "fe"
@@ -1364,7 +1364,7 @@
     "GET": null,
     "POST": [
       {
-        "name": "fjahb7nb",
+        "name": "9iy4y06k",
         "email": "contact@acmechem.com",
         "city": "New York",
         "street": "Broadway Ave",
@@ -1372,7 +1372,7 @@
         "zipcode": 10001
       },
       {
-        "name": "iw2lbbjc",
+        "name": "jyzmlyds",
         "email": "info@globalpharma.com",
         "city": "London",
         "street": "Baker Street",
@@ -1380,7 +1380,7 @@
         "zipcode": 56789
       },
       {
-        "name": "7sf0o1zv",
+        "name": "wvzi3eo8",
         "email": "support@biogenix.com",
         "city": "Berlin",
         "street": "Friedrichstr",
@@ -1388,7 +1388,7 @@
         "zipcode": 10117
       },
       {
-        "name": "9bmv7485",
+        "name": "eh8kwr55",
         "email": "sales@chemtech.com",
         "city": "Tokyo",
         "street": "Shibuya Street",
@@ -1396,7 +1396,7 @@
         "zipcode": 1500042
       },
       {
-        "name": "3mjyiq4g",
+        "name": "vrny7q2h",
         "email": "eco@chemind.com",
         "city": "Paris",
         "street": "Rue Lafayette",
@@ -1409,7 +1409,7 @@
     "GET": null,
     "PUT": [
       {
-        "name": "u8wbkz68",
+        "name": "euv10c2x",
         "email": "contact@nanolab.com",
         "city": "San Francisco",
         "street": "Market Street",
@@ -1417,7 +1417,7 @@
         "zipcode": 94103
       },
       {
-        "name": "af8de3rh",
+        "name": "1jmjm1w0",
         "email": "info@zenithmaterials.com",
         "city": "Singapore",
         "street": "Orchard Road",
@@ -1425,7 +1425,7 @@
         "zipcode": 238841
       },
       {
-        "name": "nrqew2lj",
+        "name": "3todxvmf",
         "email": "hydro@chemistry.com",
         "city": "Dubai",
         "street": "Sheikh Zayed Road",
@@ -1433,7 +1433,7 @@
         "zipcode": 123456
       },
       {
-        "name": "n99fwkzi",
+        "name": "5xud87i3",
         "email": "admin@solarischem.com",
         "city": "Los Angeles",
         "street": "Sunset Blvd",
@@ -1441,7 +1441,7 @@
         "zipcode": 90028
       },
       {
-        "name": "qicfbxsr",
+        "name": "xkh9udw0",
         "email": "research@futuresynth.com",
         "city": "Stockholm",
         "street": "Gamla Stan",
@@ -1451,7 +1451,7 @@
     ],
     "PATCH": [
       {
-        "name": "it1rdtda"
+        "name": "77df4jdt"
       },
       {
         "street": "Orchavsfdrd dsfdRoad",
@@ -1459,7 +1459,7 @@
         "zipcode": 288341
       },
       {
-        "name": "fdkpfxhp",
+        "name": "vda1wgg1",
         "city": "Dubvfdsai",
         "street": "Sheikvfsdh Zayed Road"
       },

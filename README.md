@@ -9,12 +9,12 @@
 ## Table of Contents
 - [Project Description](#project-description)
 - [File Structure](#file-structure)
-<!-- - [System Description](#system-description) -->
 - [System Installation](#system-deployment)
 - [Usage](#usage)
 - [Tools Used](#tools-used)
 - [Contributors](#contributors)
 - [Licence](#license)
+<!-- - [System Description](#system-description) -->
 
 <br><br>
 
@@ -234,6 +234,19 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # verify the installation
 docker-compose --version
+```
+
+#### Install k6
+```bash
+# fetch the GPG key and concert it to binary
+curl -fsSL https://dl.k6.io/key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/k6-archive-keyring.gpg
+
+# add k6 to apt resources
+echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list
+
+# install k6
+sudo apt update
+sudo apt install k6
 ```
 
 <br>
