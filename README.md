@@ -313,6 +313,13 @@ docker-compose down [ {service_name1} {service_name2} ... {service_nameN} ]
 <br>
 
 ### Testing
+Execute the following commands
+```bash
+git checkout testing
+cd ./testing
+chmod +x run_tests.sh
+./run_tests.sh
+```
 
 #### API
 Step 1: Navigate to the API documentation
