@@ -1,7 +1,7 @@
-
 // fields from python ORM models that values need be unique
-export const valid_input = JSON.parse(open("../data/valid_input.json"));
-export const invalid_input = JSON.parse(open("../data/invalid_input.json"));
+const inputFile = __ENV.FILE_PATH;
+export const input = JSON.parse(open(inputFile));
+export const inputValidity = inputFile.includes("invalid") ? false : true;
 
 export const BASE_URL = "https://dev-battery2life.iccs.gr";
 

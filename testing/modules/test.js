@@ -1,27 +1,28 @@
 // TODO: 
 //      - make testing for /api/measurements/ idempotent (DELETE all)
 //      - revert automatic ids to pre testing levels
+//      - refactor code with more functions and less ifs
 
 import http from 'k6/http';
 import { check } from 'k6';
-import { updateMetrics } from "./metrics.js";
-import { getUniqueRandomNumber } from './helpers.js';
+import { updateMetrics } from './metrics.js';
 import { BASE_URL, endpoints } from "./config.js";
+import { getUniqueRandomNumber } from './helpers.js';
 
 let postIds = [];
 let urls = [];
 
 // input (endpoint uri, array http.methods)
 // output(object metrics: { accuracy:float,  misclassification:float, precision:float, sensitivity:float, specificity:float })
-export const performTest = (endpoint, params, input, inputValidity, inputLen) => {
+export const performTest = (endpoint, params, input, inputValidity) => {
     let methods = endpoints[endpoint];
     
     // for each method of the endpoint and each input of the method, check the output and update metrics
     if (!endpoint.includes("{id}/")) {
         for (let method of methods) {
-
             let url = `${BASE_URL}${endpoint}`;
-
+            params["tags"] = {endpoint, method};
+            
             if (method === "GET") {
                 if (!inputValidity) continue;
 
@@ -35,8 +36,8 @@ export const performTest = (endpoint, params, input, inputValidity, inputLen) =>
                     },
                 });
 
+                
                 updateMetrics(isValid, inputValidity);
-
             } else if (method === "POST") {
 
                 for (let body of input["POST"]) {
@@ -65,6 +66,7 @@ export const performTest = (endpoint, params, input, inputValidity, inputLen) =>
         }
     } else  {
         // generate urls with ids, to be used by the http.method requests
+        let originalEndpoint = endpoint;
         endpoint = endpoint.replace("{id}/", "");
         if (endpoint.includes("measurements") && inputValidity) {
             urls =  [...Array(5)].map(() => `${BASE_URL}${endpoint}${getUniqueRandomNumber(1, 1000)}/`);
@@ -78,9 +80,11 @@ export const performTest = (endpoint, params, input, inputValidity, inputLen) =>
         // for each allowed method of the given endpoint
         // perform requests for 5 inputs, validate output, update metrics
         for (let method of methods) {
+            params["tags"] = {endpoint: originalEndpoint, method};
 
             if (method === "GET") {
-                if (!inputValidity){
+                if (!inputValidity){    
+                    
                     urls =  [...Array(5)].map(() => `${BASE_URL}${endpoint}${Math.floor(Math.random() * 1000) + 1000000}/`);
                 }
  
@@ -95,6 +99,7 @@ export const performTest = (endpoint, params, input, inputValidity, inputLen) =>
                             return res_id == id;
                         }
                     });
+                    
                     updateMetrics(isValid, inputValidity);
                 }
 
@@ -102,6 +107,7 @@ export const performTest = (endpoint, params, input, inputValidity, inputLen) =>
                     urls =  [...Array(5)].map(() => `${BASE_URL}${endpoint}${Math.floor(Math.random() * 1000) + 1}/`);
                 }
 
+    
             } else if (method === "PUT") {
 
                 let i = 0;
@@ -114,10 +120,12 @@ export const performTest = (endpoint, params, input, inputValidity, inputLen) =>
                             return len > 1;
                         }
                     });
+
                     updateMetrics(isValid, inputValidity);
                     i++;
                 }
 
+    
             } else if (method === "PATCH")  {
 
                 let i = 0;
@@ -130,18 +138,21 @@ export const performTest = (endpoint, params, input, inputValidity, inputLen) =>
                             return len > 0;
                         },
                     });
+
                     updateMetrics(isValid, inputValidity);
                     i++;
                 }
 
             } else if (method === "DELETE") {
-                if (!inputValidity){
+                if (!inputValidity){    
+                    
                     urls =  [...Array(5)].map(() => `${BASE_URL}${endpoint}${Math.floor(Math.random() * 1000) + 1000000}/`);
                 }
 
                 for (let url of urls) {
                     let res = http.del(url, null, params);
                     let isValid = check(res, { "(DELETE/id): Status is 204": (r) => r.status === 204 });
+
                     updateMetrics(isValid, inputValidity);
                 }
 

@@ -3,24 +3,45 @@
 //      - create function that gets length and creates valid + invalid input.json, change performTest to have the necessary length required when called from main
 
 import http from "k6/http";
-import { sleep, check } from "k6";
+import { check } from "k6";
 import { performTest } from "./modules/test.js";
-import { BASE_URL, valid_input, invalid_input, endpoints } from "./modules/config.js";
+import { updateClassificationMetrics } from "./modules/metrics.js";
+import { BASE_URL, input, inputValidity, endpoints } from "./modules/config.js";
 
 
 // k6 configuration options
+// Add thresholds for your metrics to ensure they appear in the summary
 export const options = {
-    //   stages: [{ duration: "10s", target: 30 }],
-    vus: 1,
-    iterations: 1,
-    duration: "3s",
-    summaryTrendStats: ["min", "med", "avg", "p(90)", "p(95)", "max"],
-    // Add thresholds for your metrics to ensure they appear in the summary
+    scenarios: {
+        normal_load_test: {
+            executor: 'ramping-arrival-rate',
+            startRate: 1,
+            timeUnit: '1s',
+            preAllocatedVUs: 5,
+            maxVus: 5,
+            stages: [
+                { target: 1, duration: '1m'},
+                { target: 2, duration: '2m'},
+                { target: 5, duration: '1m'},
+                { target: 0, duration: '1m'},
+            ]
+        },
+        heavy_load_test: {
+            executor: 'ramping-vus',
+            startVUs: 0,
+            stages: [
+                { duration: '1m', target: 25 },  
+                { duration: '2.5m', target: 25 }, 
+            ],
+            gracefulRampDown: '30s',
+        },
+    },
+    summaryTrendStats: ["min", "med", "max", "avg", "p(90)", "p(95)", "p(99)"],    
     thresholds: {
-        FN: ["count>=0"],  // Force display even if 0
-        FP: ["count>=0"],  // Force display even if 0
-        TN: ["count>=0"],  // Force display even if 0
-        TP: ["count>=0"],  // Force display even if 0
+        FN: ["count>=0"],  
+        FP: ["count>=0"],  
+        TN: ["count>=0"],  
+        TP: ["count>=0"],  
         accuracy: ["rate>=0"],
         misclassification: ["rate>=0"],
         precision: ["rate>=0"],
@@ -44,7 +65,6 @@ export function setup() {
     check(res, {
         "check if status 200": (r) => r.status === 200,
     });
-
     if (res.status !== 200) {
         console.error("Authentication failed:", res.status, res.body);
         return null;
@@ -76,10 +96,11 @@ export default function (data) {
 
     // perform request for every endpoint
     for (let endpoint in endpoints) {
-        let vi = valid_input[endpoint];
-        let ivi = invalid_input[endpoint];
-
-        performTest(endpoint, params, vi, true, 5);
-        performTest(endpoint, params, ivi, false, 5);
+        let inp = input[endpoint];
+        
+        performTest(endpoint, params, inp, inputValidity);
     }
+
+    // produce accuracy, precision, missclassification, sensitivity, specificity metrics
+    updateClassificationMetrics();    
 }

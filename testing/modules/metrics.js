@@ -1,4 +1,4 @@
-import { Counter, Rate } from "k6/metrics";
+import { Counter, Rate, Trend } from "k6/metrics";
 
 // T: true, F: false, P: positive, N: negative
 export const TP = new Counter("TP");
@@ -6,16 +6,17 @@ export const TN = new Counter("TN");
 export const FP = new Counter("FP");
 export const FN = new Counter("FN");
 
-export const accuracy = new Rate("accuracy");
-export const misclassification = new Rate("misclassification");
-export const precision = new Rate("precision");
-export const sensitivity = new Rate("sensitivity");
-export const specificity = new Rate("specificity");
+export const accuracy           = new Rate("accuracy");
+export const precision          = new Rate("precision");
+export const sensitivity        = new Rate("sensitivity");
+export const specificity        = new Rate("specificity");
+export const misclassification  = new Rate("misclassification");
 
 let tpValue = 0;
 let tnValue = 0;
 let fpValue = 0;
 let fnValue = 0;
+
 
 // helper function
 export const updateMetrics = (isValid, inputValidity) => {
@@ -33,6 +34,9 @@ export const updateMetrics = (isValid, inputValidity) => {
         tnValue++;
     }
 
+};
+
+export function updateClassificationMetrics() {
     const total = tpValue + tnValue + fpValue + fnValue;
 
     if (total > 0) {
@@ -42,4 +46,4 @@ export const updateMetrics = (isValid, inputValidity) => {
     if (tpValue + fpValue > 0) precision.add(tpValue / (tpValue + fpValue));
     if (tpValue + fnValue > 0) sensitivity.add(tpValue / (tpValue + fnValue));
     if (tnValue + fpValue > 0) specificity.add(tnValue / (tnValue + fpValue));
-};
+}
